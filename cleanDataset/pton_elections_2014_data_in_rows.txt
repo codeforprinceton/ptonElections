@@ -1,1618 +1,1585 @@
-District	Machine	Count	Name	Type
-D1	M1	67 	Cory Booker	U.S. Senate
-D1	M2	142 	Cory Booker	U.S. Senate
-D1	M3	78 	Cory Booker	U.S. Senate
-D2	M1	83 	Cory Booker	U.S. Senate
-D2	M2	78 	Cory Booker	U.S. Senate
-D3	M1	71 	Cory Booker	U.S. Senate
-D3	M2	98 	Cory Booker	U.S. Senate
-D4	M1	84 	Cory Booker	U.S. Senate
-D4	M2	91 	Cory Booker	U.S. Senate
-D5	M1	118 	Cory Booker	U.S. Senate
-D5	M2	53 	Cory Booker	U.S. Senate
-D6	M1	126 	Cory Booker	U.S. Senate
-D6	M2	89 	Cory Booker	U.S. Senate
-D7	M1	85 	Cory Booker	U.S. Senate
-D7	M2	76 	Cory Booker	U.S. Senate
-D8	M1	46 	Cory Booker	U.S. Senate
-D8	M2	185 	Cory Booker	U.S. Senate
-D9	M1	126 	Cory Booker	U.S. Senate
-D9	M2	143 	Cory Booker	U.S. Senate
-D10	M1	87 	Cory Booker	U.S. Senate
-D10	M2	83 	Cory Booker	U.S. Senate
-D11	M1	91 	Cory Booker	U.S. Senate
-D11	M2	126 	Cory Booker	U.S. Senate
-D11	M3	174 	Cory Booker	U.S. Senate
-D12	M1	125 	Cory Booker	U.S. Senate
-D12	M2	84 	Cory Booker	U.S. Senate
-D13	M1	257 	Cory Booker	U.S. Senate
-D13	M2	175 	Cory Booker	U.S. Senate
-D14	M1	129 	Cory Booker	U.S. Senate
-D14	M2	98 	Cory Booker	U.S. Senate
-D15	M1	98 	Cory Booker	U.S. Senate
-D15	M2	117 	Cory Booker	U.S. Senate
-D16	M1	108 	Cory Booker	U.S. Senate
-D16	M2	139 	Cory Booker	U.S. Senate
-D17	M1	136 	Cory Booker	U.S. Senate
-D17	M2	54 	Cory Booker	U.S. Senate
-D18	M1	133 	Cory Booker	U.S. Senate
-D18	M2	103 	Cory Booker	U.S. Senate
-D19	M1	134 	Cory Booker	U.S. Senate
-D19	M2	56 	Cory Booker	U.S. Senate
-D20	M1	86 	Cory Booker	U.S. Senate
-D20	M2	172 	Cory Booker	U.S. Senate
-D21	M1	95 	Cory Booker	U.S. Senate
-D21	M2	104 	Cory Booker	U.S. Senate
-D22	M1	143 	Cory Booker	U.S. Senate
-D22	M2	80 	Cory Booker	U.S. Senate
-Sub	Sub	5026	Cory Booker	U.S. Senate
-Mail In	Mail In	566	Cory Booker	U.S. Senate
-Prov	Prov	43	Cory Booker	U.S. Senate
-D1	M1	26	Jeff Bell	U.S. Senate
-D1	M2	42	Jeff Bell	U.S. Senate
-D1	M3	38	Jeff Bell	U.S. Senate
-D2	M1	48	Jeff Bell	U.S. Senate
-D2	M2	37	Jeff Bell	U.S. Senate
-D3	M1	53	Jeff Bell	U.S. Senate
-D3	M2	52	Jeff Bell	U.S. Senate
-D4	M1	48	Jeff Bell	U.S. Senate
-D4	M2	43	Jeff Bell	U.S. Senate
-D5	M1	45	Jeff Bell	U.S. Senate
-D5	M2	20	Jeff Bell	U.S. Senate
-D6	M1	49	Jeff Bell	U.S. Senate
-D6	M2	18	Jeff Bell	U.S. Senate
-D7	M1	11	Jeff Bell	U.S. Senate
-D7	M2	10	Jeff Bell	U.S. Senate
-D8	M1	4	Jeff Bell	U.S. Senate
-D8	M2	18	Jeff Bell	U.S. Senate
-D9	M1	9	Jeff Bell	U.S. Senate
-D9	M2	8	Jeff Bell	U.S. Senate
-D10	M1	27	Jeff Bell	U.S. Senate
-D10	M2	14	Jeff Bell	U.S. Senate
-D11	M1	26	Jeff Bell	U.S. Senate
-D11	M2	134	Jeff Bell	U.S. Senate
-D11	M3	34	Jeff Bell	U.S. Senate
-D12	M1	19	Jeff Bell	U.S. Senate
-D12	M2	83	Jeff Bell	U.S. Senate
-D13	M1	38	Jeff Bell	U.S. Senate
-D13	M2	42	Jeff Bell	U.S. Senate
-D14	M1	32	Jeff Bell	U.S. Senate
-D14	M2	22	Jeff Bell	U.S. Senate
-D15	M1	28	Jeff Bell	U.S. Senate
-D15	M2	35	Jeff Bell	U.S. Senate
-D16	M1	22	Jeff Bell	U.S. Senate
-D16	M2	28	Jeff Bell	U.S. Senate
-D17	M1	34	Jeff Bell	U.S. Senate
-D17	M2	16	Jeff Bell	U.S. Senate
-D18	M1	33	Jeff Bell	U.S. Senate
-D18	M2	12	Jeff Bell	U.S. Senate
-D19	M1	16	Jeff Bell	U.S. Senate
-D19	M2	9	Jeff Bell	U.S. Senate
-D20	M1	17	Jeff Bell	U.S. Senate
-D20	M2	30	Jeff Bell	U.S. Senate
-D21	M1	19	Jeff Bell	U.S. Senate
-D21	M2	10	Jeff Bell	U.S. Senate
-D22	M1	48	Jeff Bell	U.S. Senate
-D22	M2	26	Jeff Bell	U.S. Senate
-Sub	Sub	1433	Jeff Bell	U.S. Senate
-Mail In	Mail In	126	Jeff Bell	U.S. Senate
-Prov	Prov	11	Jeff Bell	U.S. Senate
-D1	M1	0	Eugene Martin Lavergne	U.S. Senate
-D1	M2	0	Eugene Martin Lavergne	U.S. Senate
-D1	M3	0	Eugene Martin Lavergne	U.S. Senate
-D2	M1	1	Eugene Martin Lavergne	U.S. Senate
-D2	M2	0	Eugene Martin Lavergne	U.S. Senate
-D3	M1	0	Eugene Martin Lavergne	U.S. Senate
-D3	M2	0	Eugene Martin Lavergne	U.S. Senate
-D4	M1	0	Eugene Martin Lavergne	U.S. Senate
-D4	M2	0	Eugene Martin Lavergne	U.S. Senate
-D5	M1	0	Eugene Martin Lavergne	U.S. Senate
-D5	M2	0	Eugene Martin Lavergne	U.S. Senate
-D6	M1	0	Eugene Martin Lavergne	U.S. Senate
-D6	M2	0	Eugene Martin Lavergne	U.S. Senate
-D7	M1	0	Eugene Martin Lavergne	U.S. Senate
-D7	M2	1	Eugene Martin Lavergne	U.S. Senate
-D8	M1	0	Eugene Martin Lavergne	U.S. Senate
-D8	M2	0	Eugene Martin Lavergne	U.S. Senate
-D9	M1	0	Eugene Martin Lavergne	U.S. Senate
-D9	M2	1	Eugene Martin Lavergne	U.S. Senate
-D10	M1	0	Eugene Martin Lavergne	U.S. Senate
-D10	M2	0	Eugene Martin Lavergne	U.S. Senate
-D11	M1	0	Eugene Martin Lavergne	U.S. Senate
-D11	M2	0	Eugene Martin Lavergne	U.S. Senate
-D11	M3	1	Eugene Martin Lavergne	U.S. Senate
-D12	M1	1	Eugene Martin Lavergne	U.S. Senate
-D12	M2	0	Eugene Martin Lavergne	U.S. Senate
-D13	M1	1	Eugene Martin Lavergne	U.S. Senate
-D13	M2	0	Eugene Martin Lavergne	U.S. Senate
-D14	M1	2	Eugene Martin Lavergne	U.S. Senate
-D14	M2	0	Eugene Martin Lavergne	U.S. Senate
-D15	M1	0	Eugene Martin Lavergne	U.S. Senate
-D15	M2	0	Eugene Martin Lavergne	U.S. Senate
-D16	M1	1	Eugene Martin Lavergne	U.S. Senate
-D16	M2	1	Eugene Martin Lavergne	U.S. Senate
-D17	M1	0	Eugene Martin Lavergne	U.S. Senate
-D17	M2	0	Eugene Martin Lavergne	U.S. Senate
-D18	M1	1	Eugene Martin Lavergne	U.S. Senate
-D18	M2	0	Eugene Martin Lavergne	U.S. Senate
-D19	M1	0	Eugene Martin Lavergne	U.S. Senate
-D19	M2	0	Eugene Martin Lavergne	U.S. Senate
-D20	M1	0	Eugene Martin Lavergne	U.S. Senate
-D20	M2	1	Eugene Martin Lavergne	U.S. Senate
-D21	M1	0	Eugene Martin Lavergne	U.S. Senate
-D21	M2	0	Eugene Martin Lavergne	U.S. Senate
-D22	M1	0	Eugene Martin Lavergne	U.S. Senate
-D22	M2	1	Eugene Martin Lavergne	U.S. Senate
-Sub	Sub	13	Eugene Martin Lavergne	U.S. Senate
-Mail In	Mail In	2	Eugene Martin Lavergne	U.S. Senate
-Prov	Prov	0	Eugene Martin Lavergne	U.S. Senate
-D1	M1	0	Hank Schroeder	U.S. Senate
-D1	M2	0	Hank Schroeder	U.S. Senate
-D1	M3	1	Hank Schroeder	U.S. Senate
-D2	M1	0	Hank Schroeder	U.S. Senate
-D2	M2	0	Hank Schroeder	U.S. Senate
-D3	M1	0	Hank Schroeder	U.S. Senate
-D3	M2	0	Hank Schroeder	U.S. Senate
-D4	M1	0	Hank Schroeder	U.S. Senate
-D4	M2	0	Hank Schroeder	U.S. Senate
-D5	M1	0	Hank Schroeder	U.S. Senate
-D5	M2	1	Hank Schroeder	U.S. Senate
-D6	M1	0	Hank Schroeder	U.S. Senate
-D6	M2	0	Hank Schroeder	U.S. Senate
-D7	M1	0	Hank Schroeder	U.S. Senate
-D7	M2	0	Hank Schroeder	U.S. Senate
-D8	M1	0	Hank Schroeder	U.S. Senate
-D8	M2	1	Hank Schroeder	U.S. Senate
-D9	M1	0	Hank Schroeder	U.S. Senate
-D9	M2	0	Hank Schroeder	U.S. Senate
-D10	M1	0	Hank Schroeder	U.S. Senate
-D10	M2	0	Hank Schroeder	U.S. Senate
-D11	M1	1	Hank Schroeder	U.S. Senate
-D11	M2	0	Hank Schroeder	U.S. Senate
-D11	M3	0	Hank Schroeder	U.S. Senate
-D12	M1	0	Hank Schroeder	U.S. Senate
-D12	M2	0	Hank Schroeder	U.S. Senate
-D13	M1	0	Hank Schroeder	U.S. Senate
-D13	M2	0	Hank Schroeder	U.S. Senate
-D14	M1	0	Hank Schroeder	U.S. Senate
-D14	M2	0	Hank Schroeder	U.S. Senate
-D15	M1	0	Hank Schroeder	U.S. Senate
-D15	M2	0	Hank Schroeder	U.S. Senate
-D16	M1	0	Hank Schroeder	U.S. Senate
-D16	M2	0	Hank Schroeder	U.S. Senate
-D17	M1	0	Hank Schroeder	U.S. Senate
-D17	M2	1	Hank Schroeder	U.S. Senate
-D18	M1	1	Hank Schroeder	U.S. Senate
-D18	M2	0	Hank Schroeder	U.S. Senate
-D19	M1	0	Hank Schroeder	U.S. Senate
-D19	M2	0	Hank Schroeder	U.S. Senate
-D20	M1	2	Hank Schroeder	U.S. Senate
-D20	M2	0	Hank Schroeder	U.S. Senate
-D21	M1	1	Hank Schroeder	U.S. Senate
-D21	M2	0	Hank Schroeder	U.S. Senate
-D22	M1	1	Hank Schroeder	U.S. Senate
-D22	M2	1	Hank Schroeder	U.S. Senate
-Sub	Sub	11	Hank Schroeder	U.S. Senate
-Mail In	Mail In	2	Hank Schroeder	U.S. Senate
-Prov	Prov	0	Hank Schroeder	U.S. Senate
-D1	M1	0 	Jeff Boss	U.S. Senate
-D1	M2	0 	Jeff Boss	U.S. Senate
-D1	M3	0 	Jeff Boss	U.S. Senate
-D2	M1	0 	Jeff Boss	U.S. Senate
-D2	M2	0 	Jeff Boss	U.S. Senate
-D3	M1	1 	Jeff Boss	U.S. Senate
-D3	M2	0 	Jeff Boss	U.S. Senate
-D4	M1	0 	Jeff Boss	U.S. Senate
-D4	M2	1 	Jeff Boss	U.S. Senate
-D5	M1	1 	Jeff Boss	U.S. Senate
-D5	M2	0 	Jeff Boss	U.S. Senate
-D6	M1	0 	Jeff Boss	U.S. Senate
-D6	M2	1 	Jeff Boss	U.S. Senate
-D7	M1	0 	Jeff Boss	U.S. Senate
-D7	M2	0 	Jeff Boss	U.S. Senate
-D8	M1	0 	Jeff Boss	U.S. Senate
-D8	M2	0 	Jeff Boss	U.S. Senate
-D9	M1	1 	Jeff Boss	U.S. Senate
-D9	M2	0 	Jeff Boss	U.S. Senate
-D10	M1	0 	Jeff Boss	U.S. Senate
-D10	M2	0 	Jeff Boss	U.S. Senate
-D11	M1	0 	Jeff Boss	U.S. Senate
-D11	M2	0 	Jeff Boss	U.S. Senate
-D11	M3	1 	Jeff Boss	U.S. Senate
-D12	M1	0 	Jeff Boss	U.S. Senate
-D12	M2	0 	Jeff Boss	U.S. Senate
-D13	M1	0 	Jeff Boss	U.S. Senate
-D13	M2	1 	Jeff Boss	U.S. Senate
-D14	M1	0 	Jeff Boss	U.S. Senate
-D14	M2	0 	Jeff Boss	U.S. Senate
-D15	M1	1 	Jeff Boss	U.S. Senate
-D15	M2	0 	Jeff Boss	U.S. Senate
-D16	M1	0 	Jeff Boss	U.S. Senate
-D16	M2	0 	Jeff Boss	U.S. Senate
-D17	M1	0 	Jeff Boss	U.S. Senate
-D17	M2	0 	Jeff Boss	U.S. Senate
-D18	M1	0 	Jeff Boss	U.S. Senate
-D18	M2	0 	Jeff Boss	U.S. Senate
-D19	M1	0 	Jeff Boss	U.S. Senate
-D19	M2	0 	Jeff Boss	U.S. Senate
-D20	M1	0 	Jeff Boss	U.S. Senate
-D20	M2	0 	Jeff Boss	U.S. Senate
-D21	M1	0 	Jeff Boss	U.S. Senate
-D21	M2	0 	Jeff Boss	U.S. Senate
-D22	M1	0 	Jeff Boss	U.S. Senate
-D22	M2	0 	Jeff Boss	U.S. Senate
-Sub	Sub	8 	Jeff Boss	U.S. Senate
-Mail In	Mail In	0 	Jeff Boss	U.S. Senate
-Prov	Prov	0 	Jeff Boss	U.S. Senate
-D1	M1	0	Joseph Baratelli	U.S. Senate
-D1	M2	1	Joseph Baratelli	U.S. Senate
-D1	M3	2	Joseph Baratelli	U.S. Senate
-D2	M1	1	Joseph Baratelli	U.S. Senate
-D2	M2	1	Joseph Baratelli	U.S. Senate
-D3	M1	0	Joseph Baratelli	U.S. Senate
-D3	M2	5	Joseph Baratelli	U.S. Senate
-D4	M1	3	Joseph Baratelli	U.S. Senate
-D4	M2	0	Joseph Baratelli	U.S. Senate
-D5	M1	2	Joseph Baratelli	U.S. Senate
-D5	M2	2	Joseph Baratelli	U.S. Senate
-D6	M1	2	Joseph Baratelli	U.S. Senate
-D6	M2	1	Joseph Baratelli	U.S. Senate
-D7	M1	4	Joseph Baratelli	U.S. Senate
-D7	M2	1	Joseph Baratelli	U.S. Senate
-D8	M1	0	Joseph Baratelli	U.S. Senate
-D8	M2	3	Joseph Baratelli	U.S. Senate
-D9	M1	0	Joseph Baratelli	U.S. Senate
-D9	M2	1	Joseph Baratelli	U.S. Senate
-D10	M1	1	Joseph Baratelli	U.S. Senate
-D10	M2	2	Joseph Baratelli	U.S. Senate
-D11	M1	1	Joseph Baratelli	U.S. Senate
-D11	M2	1	Joseph Baratelli	U.S. Senate
-D11	M3	2	Joseph Baratelli	U.S. Senate
-D12	M1	0	Joseph Baratelli	U.S. Senate
-D12	M2	1	Joseph Baratelli	U.S. Senate
-D13	M1	0	Joseph Baratelli	U.S. Senate
-D13	M2	2	Joseph Baratelli	U.S. Senate
-D14	M1	1	Joseph Baratelli	U.S. Senate
-D14	M2	0	Joseph Baratelli	U.S. Senate
-D15	M1	0	Joseph Baratelli	U.S. Senate
-D15	M2	1	Joseph Baratelli	U.S. Senate
-D16	M1	0	Joseph Baratelli	U.S. Senate
-D16	M2	0	Joseph Baratelli	U.S. Senate
-D17	M1	2	Joseph Baratelli	U.S. Senate
-D17	M2	0	Joseph Baratelli	U.S. Senate
-D18	M1	1	Joseph Baratelli	U.S. Senate
-D18	M2	1	Joseph Baratelli	U.S. Senate
-D19	M1	0	Joseph Baratelli	U.S. Senate
-D19	M2	1	Joseph Baratelli	U.S. Senate
-D20	M1	1	Joseph Baratelli	U.S. Senate
-D20	M2	2	Joseph Baratelli	U.S. Senate
-D21	M1	0	Joseph Baratelli	U.S. Senate
-D21	M2	1	Joseph Baratelli	U.S. Senate
-D22	M1	0	Joseph Baratelli	U.S. Senate
-D22	M2	1	Joseph Baratelli	U.S. Senate
-Sub	Sub	51	Joseph Baratelli	U.S. Senate
-Mail In	Mail In	2	Joseph Baratelli	U.S. Senate
-Prov	Prov	1	Joseph Baratelli	U.S. Senate
-D1	M1	0	Antonio N. Sabas	U.S. Senate
-D1	M2	0	Antonio N. Sabas	U.S. Senate
-D1	M3	1	Antonio N. Sabas	U.S. Senate
-D2	M1	0	Antonio N. Sabas	U.S. Senate
-D2	M2	0	Antonio N. Sabas	U.S. Senate
-D3	M1	0	Antonio N. Sabas	U.S. Senate
-D3	M2	0	Antonio N. Sabas	U.S. Senate
-D4	M1	0	Antonio N. Sabas	U.S. Senate
-D4	M2	0	Antonio N. Sabas	U.S. Senate
-D5	M1	2	Antonio N. Sabas	U.S. Senate
-D5	M2	0	Antonio N. Sabas	U.S. Senate
-D6	M1	2	Antonio N. Sabas	U.S. Senate
-D6	M2	0	Antonio N. Sabas	U.S. Senate
-D7	M1	0	Antonio N. Sabas	U.S. Senate
-D7	M2	0	Antonio N. Sabas	U.S. Senate
-D8	M1	0	Antonio N. Sabas	U.S. Senate
-D8	M2	1	Antonio N. Sabas	U.S. Senate
-D9	M1	0	Antonio N. Sabas	U.S. Senate
-D9	M2	0	Antonio N. Sabas	U.S. Senate
-D10	M1	0	Antonio N. Sabas	U.S. Senate
-D10	M2	0	Antonio N. Sabas	U.S. Senate
-D11	M1	0	Antonio N. Sabas	U.S. Senate
-D11	M2	0	Antonio N. Sabas	U.S. Senate
-D11	M3	0	Antonio N. Sabas	U.S. Senate
-D12	M1	0	Antonio N. Sabas	U.S. Senate
-D12	M2	1	Antonio N. Sabas	U.S. Senate
-D13	M1	0	Antonio N. Sabas	U.S. Senate
-D13	M2	0	Antonio N. Sabas	U.S. Senate
-D14	M1	1	Antonio N. Sabas	U.S. Senate
-D14	M2	0	Antonio N. Sabas	U.S. Senate
-D15	M1	0	Antonio N. Sabas	U.S. Senate
-D15	M2	1	Antonio N. Sabas	U.S. Senate
-D16	M1	0	Antonio N. Sabas	U.S. Senate
-D16	M2	0	Antonio N. Sabas	U.S. Senate
-D17	M1	0	Antonio N. Sabas	U.S. Senate
-D17	M2	0	Antonio N. Sabas	U.S. Senate
-D18	M1	0	Antonio N. Sabas	U.S. Senate
-D18	M2	0	Antonio N. Sabas	U.S. Senate
-D19	M1	0	Antonio N. Sabas	U.S. Senate
-D19	M2	0	Antonio N. Sabas	U.S. Senate
-D20	M1	0	Antonio N. Sabas	U.S. Senate
-D20	M2	1	Antonio N. Sabas	U.S. Senate
-D21	M1	0	Antonio N. Sabas	U.S. Senate
-D21	M2	1	Antonio N. Sabas	U.S. Senate
-D22	M1	2	Antonio N. Sabas	U.S. Senate
-D22	M2	0	Antonio N. Sabas	U.S. Senate
-Sub	Sub	13	Antonio N. Sabas	U.S. Senate
-Mail In	Mail In	1	Antonio N. Sabas	U.S. Senate
-Prov	Prov	0	Antonio N. Sabas	U.S. Senate
-D1	M1	67 	Bonnie Watson Coleman	Representative 12th dist
-D1	M2	131 	Bonnie Watson Coleman	Representative 12th dist
-D1	M3	75 	Bonnie Watson Coleman	Representative 12th dist
-D2	M1	76 	Bonnie Watson Coleman	Representative 12th dist
-D2	M2	73 	Bonnie Watson Coleman	Representative 12th dist
-D3	M1	61 	Bonnie Watson Coleman	Representative 12th dist
-D3	M2	88 	Bonnie Watson Coleman	Representative 12th dist
-D4	M1	80 	Bonnie Watson Coleman	Representative 12th dist
-D4	M2	78 	Bonnie Watson Coleman	Representative 12th dist
-D5	M1	117 	Bonnie Watson Coleman	Representative 12th dist
-D5	M2	51 	Bonnie Watson Coleman	Representative 12th dist
-D6	M1	118 	Bonnie Watson Coleman	Representative 12th dist
-D6	M2	79 	Bonnie Watson Coleman	Representative 12th dist
-D7	M1	76 	Bonnie Watson Coleman	Representative 12th dist
-D7	M2	71 	Bonnie Watson Coleman	Representative 12th dist
-D8	M1	45 	Bonnie Watson Coleman	Representative 12th dist
-D8	M2	180 	Bonnie Watson Coleman	Representative 12th dist
-D9	M1	126 	Bonnie Watson Coleman	Representative 12th dist
-D9	M2	142 	Bonnie Watson Coleman	Representative 12th dist
-D10	M1	80 	Bonnie Watson Coleman	Representative 12th dist
-D10	M2	82 	Bonnie Watson Coleman	Representative 12th dist
-D11	M1	90 	Bonnie Watson Coleman	Representative 12th dist
-D11	M2	125 	Bonnie Watson Coleman	Representative 12th dist
-D11	M3	169 	Bonnie Watson Coleman	Representative 12th dist
-D12	M1	119 	Bonnie Watson Coleman	Representative 12th dist
-D12	M2	76 	Bonnie Watson Coleman	Representative 12th dist
-D13	M1	237 	Bonnie Watson Coleman	Representative 12th dist
-D13	M2	161 	Bonnie Watson Coleman	Representative 12th dist
-D14	M1	124 	Bonnie Watson Coleman	Representative 12th dist
-D14	M2	89 	Bonnie Watson Coleman	Representative 12th dist
-D15	M1	96 	Bonnie Watson Coleman	Representative 12th dist
-D15	M2	113 	Bonnie Watson Coleman	Representative 12th dist
-D16	M1	101 	Bonnie Watson Coleman	Representative 12th dist
-D16	M2	133 	Bonnie Watson Coleman	Representative 12th dist
-D17	M1	126 	Bonnie Watson Coleman	Representative 12th dist
-D17	M2	55 	Bonnie Watson Coleman	Representative 12th dist
-D18	M1	134 	Bonnie Watson Coleman	Representative 12th dist
-D18	M2	100 	Bonnie Watson Coleman	Representative 12th dist
-D19	M1	126 	Bonnie Watson Coleman	Representative 12th dist
-D19	M2	50 	Bonnie Watson Coleman	Representative 12th dist
-D20	M1	88 	Bonnie Watson Coleman	Representative 12th dist
-D20	M2	167 	Bonnie Watson Coleman	Representative 12th dist
-D21	M1	97 	Bonnie Watson Coleman	Representative 12th dist
-D21	M2	101 	Bonnie Watson Coleman	Representative 12th dist
-D22	M1	135 	Bonnie Watson Coleman	Representative 12th dist
-D22	M2	72 	Bonnie Watson Coleman	Representative 12th dist
-Sub	Sub	4780 	Bonnie Watson Coleman	Representative 12th dist
-Mail In	Mail In	534 	Bonnie Watson Coleman	Representative 12th dist
-Prov	Prov	38 	Bonnie Watson Coleman	Representative 12th dist
-D1	M1	28	Alieta Eck	Representative 12th dist
-D1	M2	46	Alieta Eck	Representative 12th dist
-D1	M3	41	Alieta Eck	Representative 12th dist
-D2	M1	56	Alieta Eck	Representative 12th dist
-D2	M2	41	Alieta Eck	Representative 12th dist
-D3	M1	62	Alieta Eck	Representative 12th dist
-D3	M2	63	Alieta Eck	Representative 12th dist
-D4	M1	56	Alieta Eck	Representative 12th dist
-D4	M2	52	Alieta Eck	Representative 12th dist
-D5	M1	45	Alieta Eck	Representative 12th dist
-D5	M2	21	Alieta Eck	Representative 12th dist
-D6	M1	53	Alieta Eck	Representative 12th dist
-D6	M2	26	Alieta Eck	Representative 12th dist
-D7	M1	17	Alieta Eck	Representative 12th dist
-D7	M2	12	Alieta Eck	Representative 12th dist
-D8	M1	4	Alieta Eck	Representative 12th dist
-D8	M2	20	Alieta Eck	Representative 12th dist
-D9	M1	9	Alieta Eck	Representative 12th dist
-D9	M2	9	Alieta Eck	Representative 12th dist
-D10	M1	27	Alieta Eck	Representative 12th dist
-D10	M2	15	Alieta Eck	Representative 12th dist
-D11	M1	28	Alieta Eck	Representative 12th dist
-D11	M2	33	Alieta Eck	Representative 12th dist
-D11	M3	39	Alieta Eck	Representative 12th dist
-D12	M1	24	Alieta Eck	Representative 12th dist
-D12	M2	16	Alieta Eck	Representative 12th dist
-D13	M1	44	Alieta Eck	Representative 12th dist
-D13	M2	49	Alieta Eck	Representative 12th dist
-D14	M1	38	Alieta Eck	Representative 12th dist
-D14	M2	27	Alieta Eck	Representative 12th dist
-D15	M1	30	Alieta Eck	Representative 12th dist
-D15	M2	35	Alieta Eck	Representative 12th dist
-D16	M1	25	Alieta Eck	Representative 12th dist
-D16	M2	32	Alieta Eck	Representative 12th dist
-D17	M1	44	Alieta Eck	Representative 12th dist
-D17	M2	17	Alieta Eck	Representative 12th dist
-D18	M1	35	Alieta Eck	Representative 12th dist
-D18	M2	13	Alieta Eck	Representative 12th dist
-D19	M1	18	Alieta Eck	Representative 12th dist
-D19	M2	12	Alieta Eck	Representative 12th dist
-D20	M1	15	Alieta Eck	Representative 12th dist
-D20	M2	34	Alieta Eck	Representative 12th dist
-D21	M1	20	Alieta Eck	Representative 12th dist
-D21	M2	13	Alieta Eck	Representative 12th dist
-D22	M1	54	Alieta Eck	Representative 12th dist
-D22	M2	32	Alieta Eck	Representative 12th dist
-Sub	Sub	1430	Alieta Eck	Representative 12th dist
-Mail In	Mail In	141	Alieta Eck	Representative 12th dist
-Prov	Prov	14	Alieta Eck	Representative 12th dist
-D1	M1	0	Allen J. Cannon	Representative 12th dist
-D1	M2	1	Allen J. Cannon	Representative 12th dist
-D1	M3	0	Allen J. Cannon	Representative 12th dist
-D2	M1	0	Allen J. Cannon	Representative 12th dist
-D2	M2	0	Allen J. Cannon	Representative 12th dist
-D3	M1	0	Allen J. Cannon	Representative 12th dist
-D3	M2	0	Allen J. Cannon	Representative 12th dist
-D4	M1	0	Allen J. Cannon	Representative 12th dist
-D4	M2	0	Allen J. Cannon	Representative 12th dist
-D5	M1	1	Allen J. Cannon	Representative 12th dist
-D5	M2	0	Allen J. Cannon	Representative 12th dist
-D6	M1	1	Allen J. Cannon	Representative 12th dist
-D6	M2	1	Allen J. Cannon	Representative 12th dist
-D7	M1	0	Allen J. Cannon	Representative 12th dist
-D7	M2	0	Allen J. Cannon	Representative 12th dist
-D8	M1	0	Allen J. Cannon	Representative 12th dist
-D8	M2	0	Allen J. Cannon	Representative 12th dist
-D9	M1	1	Allen J. Cannon	Representative 12th dist
-D9	M2	0	Allen J. Cannon	Representative 12th dist
-D10	M1	0	Allen J. Cannon	Representative 12th dist
-D10	M2	0	Allen J. Cannon	Representative 12th dist
-D11	M1	2	Allen J. Cannon	Representative 12th dist
-D11	M2	0	Allen J. Cannon	Representative 12th dist
-D11	M3	0	Allen J. Cannon	Representative 12th dist
-D12	M1	0	Allen J. Cannon	Representative 12th dist
-D12	M2	0	Allen J. Cannon	Representative 12th dist
-D13	M1	0	Allen J. Cannon	Representative 12th dist
-D13	M2	0	Allen J. Cannon	Representative 12th dist
-D14	M1	1	Allen J. Cannon	Representative 12th dist
-D14	M2	0	Allen J. Cannon	Representative 12th dist
-D15	M1	0	Allen J. Cannon	Representative 12th dist
-D15	M2	1	Allen J. Cannon	Representative 12th dist
-D16	M1	2	Allen J. Cannon	Representative 12th dist
-D16	M2	1	Allen J. Cannon	Representative 12th dist
-D17	M1	0	Allen J. Cannon	Representative 12th dist
-D17	M2	0	Allen J. Cannon	Representative 12th dist
-D18	M1	1	Allen J. Cannon	Representative 12th dist
-D18	M2	0	Allen J. Cannon	Representative 12th dist
-D19	M1	1	Allen J. Cannon	Representative 12th dist
-D19	M2	0	Allen J. Cannon	Representative 12th dist
-D20	M1	0	Allen J. Cannon	Representative 12th dist
-D20	M2	0	Allen J. Cannon	Representative 12th dist
-D21	M1	0	Allen J. Cannon	Representative 12th dist
-D21	M2	0	Allen J. Cannon	Representative 12th dist
-D22	M1	2	Allen J. Cannon	Representative 12th dist
-D22	M2	1	Allen J. Cannon	Representative 12th dist
-Sub	Sub	17	Allen J. Cannon	Representative 12th dist
-Mail In	Mail In	3	Allen J. Cannon	Representative 12th dist
-Prov	Prov	0	Allen J. Cannon	Representative 12th dist
-D1	M1	0	Jack Freudenheim	Representative 12th dist
-D1	M2	0	Jack Freudenheim	Representative 12th dist
-D1	M3	0	Jack Freudenheim	Representative 12th dist
-D2	M1	1	Jack Freudenheim	Representative 12th dist
-D2	M2	1	Jack Freudenheim	Representative 12th dist
-D3	M1	0	Jack Freudenheim	Representative 12th dist
-D3	M2	2	Jack Freudenheim	Representative 12th dist
-D4	M1	0	Jack Freudenheim	Representative 12th dist
-D4	M2	0	Jack Freudenheim	Representative 12th dist
-D5	M1	0	Jack Freudenheim	Representative 12th dist
-D5	M2	0	Jack Freudenheim	Representative 12th dist
-D6	M1	0	Jack Freudenheim	Representative 12th dist
-D6	M2	0	Jack Freudenheim	Representative 12th dist
-D7	M1	0	Jack Freudenheim	Representative 12th dist
-D7	M2	0	Jack Freudenheim	Representative 12th dist
-D8	M1	1	Jack Freudenheim	Representative 12th dist
-D8	M2	0	Jack Freudenheim	Representative 12th dist
-D9	M1	0	Jack Freudenheim	Representative 12th dist
-D9	M2	0	Jack Freudenheim	Representative 12th dist
-D10	M1	0	Jack Freudenheim	Representative 12th dist
-D10	M2	0	Jack Freudenheim	Representative 12th dist
-D11	M1	1	Jack Freudenheim	Representative 12th dist
-D11	M2	1	Jack Freudenheim	Representative 12th dist
-D11	M3	2	Jack Freudenheim	Representative 12th dist
-D12	M1	0	Jack Freudenheim	Representative 12th dist
-D12	M2	0	Jack Freudenheim	Representative 12th dist
-D13	M1	0	Jack Freudenheim	Representative 12th dist
-D13	M2	1	Jack Freudenheim	Representative 12th dist
-D14	M1	0	Jack Freudenheim	Representative 12th dist
-D14	M2	0	Jack Freudenheim	Representative 12th dist
-D15	M1	1	Jack Freudenheim	Representative 12th dist
-D15	M2	1	Jack Freudenheim	Representative 12th dist
-D16	M1	0	Jack Freudenheim	Representative 12th dist
-D16	M2	0	Jack Freudenheim	Representative 12th dist
-D17	M1	0	Jack Freudenheim	Representative 12th dist
-D17	M2	0	Jack Freudenheim	Representative 12th dist
-D18	M1	1	Jack Freudenheim	Representative 12th dist
-D18	M2	1	Jack Freudenheim	Representative 12th dist
-D19	M1	1	Jack Freudenheim	Representative 12th dist
-D19	M2	0	Jack Freudenheim	Representative 12th dist
-D20	M1	0	Jack Freudenheim	Representative 12th dist
-D20	M2	0	Jack Freudenheim	Representative 12th dist
-D21	M1	0	Jack Freudenheim	Representative 12th dist
-D21	M2	0	Jack Freudenheim	Representative 12th dist
-D22	M1	0	Jack Freudenheim	Representative 12th dist
-D22	M2	0	Jack Freudenheim	Representative 12th dist
-Sub	Sub	15	Jack Freudenheim	Representative 12th dist
-Mail In	Mail In	0	Jack Freudenheim	Representative 12th dist
-Prov	Prov	1	Jack Freudenheim	Representative 12th dist
-D1	M1	0	Kenneth J. Cody	Representative 12th dist
-D1	M2	0	Kenneth J. Cody	Representative 12th dist
-D1	M3	0	Kenneth J. Cody	Representative 12th dist
-D2	M1	1	Kenneth J. Cody	Representative 12th dist
-D2	M2	0	Kenneth J. Cody	Representative 12th dist
-D3	M1	0	Kenneth J. Cody	Representative 12th dist
-D3	M2	0	Kenneth J. Cody	Representative 12th dist
-D4	M1	0	Kenneth J. Cody	Representative 12th dist
-D4	M2	0	Kenneth J. Cody	Representative 12th dist
-D5	M1	1	Kenneth J. Cody	Representative 12th dist
-D5	M2	0	Kenneth J. Cody	Representative 12th dist
-D6	M1	0	Kenneth J. Cody	Representative 12th dist
-D6	M2	1	Kenneth J. Cody	Representative 12th dist
-D7	M1	0	Kenneth J. Cody	Representative 12th dist
-D7	M2	0	Kenneth J. Cody	Representative 12th dist
-D8	M1	0	Kenneth J. Cody	Representative 12th dist
-D8	M2	0	Kenneth J. Cody	Representative 12th dist
-D9	M1	0	Kenneth J. Cody	Representative 12th dist
-D9	M2	0	Kenneth J. Cody	Representative 12th dist
-D10	M1	1	Kenneth J. Cody	Representative 12th dist
-D10	M2	0	Kenneth J. Cody	Representative 12th dist
-D11	M1	1	Kenneth J. Cody	Representative 12th dist
-D11	M2	0	Kenneth J. Cody	Representative 12th dist
-D11	M3	1	Kenneth J. Cody	Representative 12th dist
-D12	M1	0	Kenneth J. Cody	Representative 12th dist
-D12	M2	0	Kenneth J. Cody	Representative 12th dist
-D13	M1	0	Kenneth J. Cody	Representative 12th dist
-D13	M2	1	Kenneth J. Cody	Representative 12th dist
-D14	M1	0	Kenneth J. Cody	Representative 12th dist
-D14	M2	0	Kenneth J. Cody	Representative 12th dist
-D15	M1	0	Kenneth J. Cody	Representative 12th dist
-D15	M2	0	Kenneth J. Cody	Representative 12th dist
-D16	M1	0	Kenneth J. Cody	Representative 12th dist
-D16	M2	0	Kenneth J. Cody	Representative 12th dist
-D17	M1	0	Kenneth J. Cody	Representative 12th dist
-D17	M2	0	Kenneth J. Cody	Representative 12th dist
-D18	M1	0	Kenneth J. Cody	Representative 12th dist
-D18	M2	0	Kenneth J. Cody	Representative 12th dist
-D19	M1	0	Kenneth J. Cody	Representative 12th dist
-D19	M2	0	Kenneth J. Cody	Representative 12th dist
-D20	M1	0	Kenneth J. Cody	Representative 12th dist
-D20	M2	0	Kenneth J. Cody	Representative 12th dist
-D21	M1	0	Kenneth J. Cody	Representative 12th dist
-D21	M2	0	Kenneth J. Cody	Representative 12th dist
-D22	M1	0	Kenneth J. Cody	Representative 12th dist
-D22	M2	0	Kenneth J. Cody	Representative 12th dist
-Sub	Sub	7	Kenneth J. Cody	Representative 12th dist
-Mail In	Mail In	2	Kenneth J. Cody	Representative 12th dist
-Prov	Prov	1	Kenneth J. Cody	Representative 12th dist
-D1	M1	0	Don Dezarn	Representative 12th dist
-D1	M2	2	Don Dezarn	Representative 12th dist
-D1	M3	4	Don Dezarn	Representative 12th dist
-D2	M1	1	Don Dezarn	Representative 12th dist
-D2	M2	0	Don Dezarn	Representative 12th dist
-D3	M1	1	Don Dezarn	Representative 12th dist
-D3	M2	0	Don Dezarn	Representative 12th dist
-D4	M1	0	Don Dezarn	Representative 12th dist
-D4	M2	0	Don Dezarn	Representative 12th dist
-D5	M1	1	Don Dezarn	Representative 12th dist
-D5	M2	1	Don Dezarn	Representative 12th dist
-D6	M1	1	Don Dezarn	Representative 12th dist
-D6	M2	0	Don Dezarn	Representative 12th dist
-D7	M1	4	Don Dezarn	Representative 12th dist
-D7	M2	3	Don Dezarn	Representative 12th dist
-D8	M1	1	Don Dezarn	Representative 12th dist
-D8	M2	3	Don Dezarn	Representative 12th dist
-D9	M1	0	Don Dezarn	Representative 12th dist
-D9	M2	2	Don Dezarn	Representative 12th dist
-D10	M1	2	Don Dezarn	Representative 12th dist
-D10	M2	1	Don Dezarn	Representative 12th dist
-D11	M1	1	Don Dezarn	Representative 12th dist
-D11	M2	0	Don Dezarn	Representative 12th dist
-D11	M3	2	Don Dezarn	Representative 12th dist
-D12	M1	1	Don Dezarn	Representative 12th dist
-D12	M2	2	Don Dezarn	Representative 12th dist
-D13	M1	0	Don Dezarn	Representative 12th dist
-D13	M2	0	Don Dezarn	Representative 12th dist
-D14	M1	1	Don Dezarn	Representative 12th dist
-D14	M2	1	Don Dezarn	Representative 12th dist
-D15	M1	0	Don Dezarn	Representative 12th dist
-D15	M2	0	Don Dezarn	Representative 12th dist
-D16	M1	0	Don Dezarn	Representative 12th dist
-D16	M2	1	Don Dezarn	Representative 12th dist
-D17	M1	0	Don Dezarn	Representative 12th dist
-D17	M2	0	Don Dezarn	Representative 12th dist
-D18	M1	1	Don Dezarn	Representative 12th dist
-D18	M2	3	Don Dezarn	Representative 12th dist
-D19	M1	1	Don Dezarn	Representative 12th dist
-D19	M2	0	Don Dezarn	Representative 12th dist
-D20	M1	1	Don Dezarn	Representative 12th dist
-D20	M2	1	Don Dezarn	Representative 12th dist
-D21	M1	0	Don Dezarn	Representative 12th dist
-D21	M2	1	Don Dezarn	Representative 12th dist
-D22	M1	2	Don Dezarn	Representative 12th dist
-D22	M2	1	Don Dezarn	Representative 12th dist
-Sub	Sub	47	Don Dezarn	Representative 12th dist
-Mail In	Mail In	6	Don Dezarn	Representative 12th dist
-Prov	Prov	0	Don Dezarn	Representative 12th dist
-D1	M1	0	Steven Welzer	Representative 12th dist
-D1	M2	1	Steven Welzer	Representative 12th dist
-D1	M3	0	Steven Welzer	Representative 12th dist
-D2	M1	0	Steven Welzer	Representative 12th dist
-D2	M2	0	Steven Welzer	Representative 12th dist
-D3	M1	2	Steven Welzer	Representative 12th dist
-D3	M2	2	Steven Welzer	Representative 12th dist
-D4	M1	0	Steven Welzer	Representative 12th dist
-D4	M2	1	Steven Welzer	Representative 12th dist
-D5	M1	2	Steven Welzer	Representative 12th dist
-D5	M2	2	Steven Welzer	Representative 12th dist
-D6	M1	3	Steven Welzer	Representative 12th dist
-D6	M2	0	Steven Welzer	Representative 12th dist
-D7	M1	5	Steven Welzer	Representative 12th dist
-D7	M2	4	Steven Welzer	Representative 12th dist
-D8	M1	0	Steven Welzer	Representative 12th dist
-D8	M2	6	Steven Welzer	Representative 12th dist
-D9	M1	0	Steven Welzer	Representative 12th dist
-D9	M2	2	Steven Welzer	Representative 12th dist
-D10	M1	1	Steven Welzer	Representative 12th dist
-D10	M2	0	Steven Welzer	Representative 12th dist
-D11	M1	0	Steven Welzer	Representative 12th dist
-D11	M2	3	Steven Welzer	Representative 12th dist
-D11	M3	3	Steven Welzer	Representative 12th dist
-D12	M1	0	Steven Welzer	Representative 12th dist
-D12	M2	3	Steven Welzer	Representative 12th dist
-D13	M1	3	Steven Welzer	Representative 12th dist
-D13	M2	3	Steven Welzer	Representative 12th dist
-D14	M1	0	Steven Welzer	Representative 12th dist
-D14	M2	2	Steven Welzer	Representative 12th dist
-D15	M1	0	Steven Welzer	Representative 12th dist
-D15	M2	1	Steven Welzer	Representative 12th dist
-D16	M1	1	Steven Welzer	Representative 12th dist
-D16	M2	3	Steven Welzer	Representative 12th dist
-D17	M1	0	Steven Welzer	Representative 12th dist
-D17	M2	1	Steven Welzer	Representative 12th dist
-D18	M1	1	Steven Welzer	Representative 12th dist
-D18	M2	0	Steven Welzer	Representative 12th dist
-D19	M1	4	Steven Welzer	Representative 12th dist
-D19	M2	2	Steven Welzer	Representative 12th dist
-D20	M1	1	Steven Welzer	Representative 12th dist
-D20	M2	2	Steven Welzer	Representative 12th dist
-D21	M1	0	Steven Welzer	Representative 12th dist
-D21	M2	1	Steven Welzer	Representative 12th dist
-D22	M1	1	Steven Welzer	Representative 12th dist
-D22	M2	1	Steven Welzer	Representative 12th dist
-Sub	Sub	67	Steven Welzer	Representative 12th dist
-Mail In	Mail In	9	Steven Welzer	Representative 12th dist
-Prov	Prov	0	Steven Welzer	Representative 12th dist
-D1	M1	55	"John A ""Jack"" Kemler"	Sheriff
-D1	M2	109	"John A ""Jack"" Kemler"	Sheriff
-D1	M3	69	"John A ""Jack"" Kemler"	Sheriff
-D2	M1	67	"John A ""Jack"" Kemler"	Sheriff
-D2	M2	63	"John A ""Jack"" Kemler"	Sheriff
-D3	M1	57	"John A ""Jack"" Kemler"	Sheriff
-D3	M2	77	"John A ""Jack"" Kemler"	Sheriff
-D4	M1	74	"John A ""Jack"" Kemler"	Sheriff
-D4	M2	75	"John A ""Jack"" Kemler"	Sheriff
-D5	M1	104	"John A ""Jack"" Kemler"	Sheriff
-D5	M2	45	"John A ""Jack"" Kemler"	Sheriff
-D6	M1	113	"John A ""Jack"" Kemler"	Sheriff
-D6	M2	70	"John A ""Jack"" Kemler"	Sheriff
-D7	M1	78	"John A ""Jack"" Kemler"	Sheriff
-D7	M2	64	"John A ""Jack"" Kemler"	Sheriff
-D8	M1	40	"John A ""Jack"" Kemler"	Sheriff
-D8	M2	171	"John A ""Jack"" Kemler"	Sheriff
-D9	M1	116	"John A ""Jack"" Kemler"	Sheriff
-D9	M2	134	"John A ""Jack"" Kemler"	Sheriff
-D10	M1	78	"John A ""Jack"" Kemler"	Sheriff
-D10	M2	65	"John A ""Jack"" Kemler"	Sheriff
-D11	M1	85	"John A ""Jack"" Kemler"	Sheriff
-D11	M2	115	"John A ""Jack"" Kemler"	Sheriff
-D11	M3	149	"John A ""Jack"" Kemler"	Sheriff
-D12	M1	98	"John A ""Jack"" Kemler"	Sheriff
-D12	M2	72	"John A ""Jack"" Kemler"	Sheriff
-D13	M1	210	"John A ""Jack"" Kemler"	Sheriff
-D13	M2	137	"John A ""Jack"" Kemler"	Sheriff
-D14	M1	124	"John A ""Jack"" Kemler"	Sheriff
-D14	M2	80	"John A ""Jack"" Kemler"	Sheriff
-D15	M1	88	"John A ""Jack"" Kemler"	Sheriff
-D15	M2	99	"John A ""Jack"" Kemler"	Sheriff
-D16	M1	98	"John A ""Jack"" Kemler"	Sheriff
-D16	M2	120	"John A ""Jack"" Kemler"	Sheriff
-D17	M1	112	"John A ""Jack"" Kemler"	Sheriff
-D17	M2	46	"John A ""Jack"" Kemler"	Sheriff
-D18	M1	121	"John A ""Jack"" Kemler"	Sheriff
-D18	M2	90	"John A ""Jack"" Kemler"	Sheriff
-D19	M1	120	"John A ""Jack"" Kemler"	Sheriff
-D19	M2	48	"John A ""Jack"" Kemler"	Sheriff
-D20	M1	78	"John A ""Jack"" Kemler"	Sheriff
-D20	M2	158	"John A ""Jack"" Kemler"	Sheriff
-D21	M1	88	"John A ""Jack"" Kemler"	Sheriff
-D21	M2	91	"John A ""Jack"" Kemler"	Sheriff
-D22	M1	130	"John A ""Jack"" Kemler"	Sheriff
-D22	M2	71	"John A ""Jack"" Kemler"	Sheriff
-Sub	Sub	4352	"John A ""Jack"" Kemler"	Sheriff
-Mail In	Mail In	452	"John A ""Jack"" Kemler"	Sheriff
-Prov	Prov	35	"John A ""Jack"" Kemler"	Sheriff
-D1	M1	36	David C. Jones	Sheriff
-D1	M2	55	David C. Jones	Sheriff
-D1	M3	44	David C. Jones	Sheriff
-D2	M1	60	David C. Jones	Sheriff
-D2	M2	47	David C. Jones	Sheriff
-D3	M1	64	David C. Jones	Sheriff
-D3	M2	68	David C. Jones	Sheriff
-D4	M1	54	David C. Jones	Sheriff
-D4	M2	51	David C. Jones	Sheriff
-D5	M1	52	David C. Jones	Sheriff
-D5	M2	22	David C. Jones	Sheriff
-D6	M1	56	David C. Jones	Sheriff
-D6	M2	30	David C. Jones	Sheriff
-D7	M1	20	David C. Jones	Sheriff
-D7	M2	15	David C. Jones	Sheriff
-D8	M1	5	David C. Jones	Sheriff
-D8	M2	26	David C. Jones	Sheriff
-D9	M1	12	David C. Jones	Sheriff
-D9	M2	12	David C. Jones	Sheriff
-D10	M1	25	David C. Jones	Sheriff
-D10	M2	21	David C. Jones	Sheriff
-D11	M1	25	David C. Jones	Sheriff
-D11	M2	39	David C. Jones	Sheriff
-D11	M3	45	David C. Jones	Sheriff
-D12	M1	25	David C. Jones	Sheriff
-D12	M2	18	David C. Jones	Sheriff
-D13	M1	59	David C. Jones	Sheriff
-D13	M2	61	David C. Jones	Sheriff
-D14	M1	35	David C. Jones	Sheriff
-D14	M2	33	David C. Jones	Sheriff
-D15	M1	34	David C. Jones	Sheriff
-D15	M2	46	David C. Jones	Sheriff
-D16	M1	25	David C. Jones	Sheriff
-D16	M2	32	David C. Jones	Sheriff
-D17	M1	46	David C. Jones	Sheriff
-D17	M2	23	David C. Jones	Sheriff
-D18	M1	40	David C. Jones	Sheriff
-D18	M2	20	David C. Jones	Sheriff
-D19	M1	21	David C. Jones	Sheriff
-D19	M2	14	David C. Jones	Sheriff
-D20	M1	23	David C. Jones	Sheriff
-D20	M2	36	David C. Jones	Sheriff
-D21	M1	26	David C. Jones	Sheriff
-D21	M2	18	David C. Jones	Sheriff
-D22	M1	154	David C. Jones	Sheriff
-D22	M2	30	David C. Jones	Sheriff
-Sub	Sub	1703	David C. Jones	Sheriff
-Mail In	Mail In	152	David C. Jones	Sheriff
-Prov	Prov	13	David C. Jones	Sheriff
-D1	M1	58	Lucylle RS Walter	Freeholders
-D1	M2	115	Lucylle RS Walter	Freeholders
-D1	M3	67	Lucylle RS Walter	Freeholders
-D2	M1	67	Lucylle RS Walter	Freeholders
-D2	M2	64	Lucylle RS Walter	Freeholders
-D3	M1	56	Lucylle RS Walter	Freeholders
-D3	M2	81	Lucylle RS Walter	Freeholders
-D4	M1	74	Lucylle RS Walter	Freeholders
-D4	M2	73	Lucylle RS Walter	Freeholders
-D5	M1	106	Lucylle RS Walter	Freeholders
-D5	M2	46	Lucylle RS Walter	Freeholders
-D6	M1	113	Lucylle RS Walter	Freeholders
-D6	M2	71	Lucylle RS Walter	Freeholders
-D7	M1	79	Lucylle RS Walter	Freeholders
-D7	M2	64	Lucylle RS Walter	Freeholders
-D8	M1	42	Lucylle RS Walter	Freeholders
-D8	M2	168	Lucylle RS Walter	Freeholders
-D9	M1	113	Lucylle RS Walter	Freeholders
-D9	M2	131	Lucylle RS Walter	Freeholders
-D10	M1	78	Lucylle RS Walter	Freeholders
-D10	M2	66	Lucylle RS Walter	Freeholders
-D11	M1	86	Lucylle RS Walter	Freeholders
-D11	M2	117	Lucylle RS Walter	Freeholders
-D11	M3	152	Lucylle RS Walter	Freeholders
-D12	M1	96	Lucylle RS Walter	Freeholders
-D12	M2	75	Lucylle RS Walter	Freeholders
-D13	M1	222	Lucylle RS Walter	Freeholders
-D13	M2	144	Lucylle RS Walter	Freeholders
-D14	M1	128	Lucylle RS Walter	Freeholders
-D14	M2	81	Lucylle RS Walter	Freeholders
-D15	M1	89	Lucylle RS Walter	Freeholders
-D15	M2	103	Lucylle RS Walter	Freeholders
-D16	M1	97	Lucylle RS Walter	Freeholders
-D16	M2	118	Lucylle RS Walter	Freeholders
-D17	M1	114	Lucylle RS Walter	Freeholders
-D17	M2	49	Lucylle RS Walter	Freeholders
-D18	M1	123	Lucylle RS Walter	Freeholders
-D18	M2	92	Lucylle RS Walter	Freeholders
-D19	M1	116	Lucylle RS Walter	Freeholders
-D19	M2	50	Lucylle RS Walter	Freeholders
-D20	M1	81	Lucylle RS Walter	Freeholders
-D20	M2	153	Lucylle RS Walter	Freeholders
-D21	M1	91	Lucylle RS Walter	Freeholders
-D21	M2	91	Lucylle RS Walter	Freeholders
-D22	M1	132	Lucylle RS Walter	Freeholders
-D22	M2	67	Lucylle RS Walter	Freeholders
-Sub	Sub	4399	Lucylle RS Walter	Freeholders
-Mail In	Mail In	469	Lucylle RS Walter	Freeholders
-Prov	Prov	35	Lucylle RS Walter	Freeholders
-D1	M1	55	John A. Cimino	Freeholders
-D1	M2	110	John A. Cimino	Freeholders
-D1	M3	71	John A. Cimino	Freeholders
-D2	M1	68	John A. Cimino	Freeholders
-D2	M2	62	John A. Cimino	Freeholders
-D3	M1	57	John A. Cimino	Freeholders
-D3	M2	81	John A. Cimino	Freeholders
-D4	M1	72	John A. Cimino	Freeholders
-D4	M2	72	John A. Cimino	Freeholders
-D5	M1	107	John A. Cimino	Freeholders
-D5	M2	46	John A. Cimino	Freeholders
-D6	M1	112	John A. Cimino	Freeholders
-D6	M2	70	John A. Cimino	Freeholders
-D7	M1	80	John A. Cimino	Freeholders
-D7	M2	58	John A. Cimino	Freeholders
-D8	M1	40	John A. Cimino	Freeholders
-D8	M2	166	John A. Cimino	Freeholders
-D9	M1	119	John A. Cimino	Freeholders
-D9	M2	132	John A. Cimino	Freeholders
-D10	M1	82	John A. Cimino	Freeholders
-D10	M2	68	John A. Cimino	Freeholders
-D11	M1	86	John A. Cimino	Freeholders
-D11	M2	115	John A. Cimino	Freeholders
-D11	M3	150	John A. Cimino	Freeholders
-D12	M1	100	John A. Cimino	Freeholders
-D12	M2	75	John A. Cimino	Freeholders
-D13	M1	224	John A. Cimino	Freeholders
-D13	M2	140	John A. Cimino	Freeholders
-D14	M1	120	John A. Cimino	Freeholders
-D14	M2	80	John A. Cimino	Freeholders
-D15	M1	90	John A. Cimino	Freeholders
-D15	M2	103	John A. Cimino	Freeholders
-D16	M1	96	John A. Cimino	Freeholders
-D16	M2	117	John A. Cimino	Freeholders
-D17	M1	111	John A. Cimino	Freeholders
-D17	M2	48	John A. Cimino	Freeholders
-D18	M1	124	John A. Cimino	Freeholders
-D18	M2	90	John A. Cimino	Freeholders
-D19	M1	113	John A. Cimino	Freeholders
-D19	M2	49	John A. Cimino	Freeholders
-D20	M1	78	John A. Cimino	Freeholders
-D20	M2	150	John A. Cimino	Freeholders
-D21	M1	90	John A. Cimino	Freeholders
-D21	M2	92	John A. Cimino	Freeholders
-D22	M1	130	John A. Cimino	Freeholders
-D22	M2	67	John A. Cimino	Freeholders
-Sub	Sub	4366	John A. Cimino	Freeholders
-Mail In	Mail In	464	John A. Cimino	Freeholders
-Prov	Prov	32	John A. Cimino	Freeholders
-D1	M1	34	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D1	M2	51	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D1	M3	42	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D2	M1	59	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D2	M2	43	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D3	M1	65	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D3	M2	62	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D4	M1	55	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D4	M2	52	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D5	M1	52	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D5	M2	24	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D6	M1	54	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D6	M2	31	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D7	M1	17	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D7	M2	16	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D8	M1	5	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D8	M2	23	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D9	M1	14	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D9	M2	12	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D10	M1	23	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D10	M2	18	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D11	M1	24	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D11	M2	33	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D11	M3	44	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D12	M1	25	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D12	M2	17	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D13	M1	49	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D13	M2	53	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D14	M1	30	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D14	M2	34	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D15	M1	33	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D15	M2	41	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D16	M1	24	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D16	M2	31	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D17	M1	44	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D17	M2	18	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D18	M1	32	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D18	M2	14	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D19	M1	21	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D19	M2	11	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D20	M1	19	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D20	M2	36	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D21	M1	23	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D21	M2	17	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D22	M1	54	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D22	M2	29	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-Sub	Sub	1508	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-Mail In	Mail In	139	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-Prov	Prov	13	"Bhanu ""Sunny"" Kirpalani"	Freeholders
-D1	M1	35	Andrew P. Curcio	Freeholders
-D1	M2	50	Andrew P. Curcio	Freeholders
-D1	M3	43	Andrew P. Curcio	Freeholders
-D2	M1	58	Andrew P. Curcio	Freeholders
-D2	M2	45	Andrew P. Curcio	Freeholders
-D3	M1	62	Andrew P. Curcio	Freeholders
-D3	M2	66	Andrew P. Curcio	Freeholders
-D4	M1	52	Andrew P. Curcio	Freeholders
-D4	M2	55	Andrew P. Curcio	Freeholders
-D5	M1	42	Andrew P. Curcio	Freeholders
-D5	M2	21	Andrew P. Curcio	Freeholders
-D6	M1	55	Andrew P. Curcio	Freeholders
-D6	M2	26	Andrew P. Curcio	Freeholders
-D7	M1	16	Andrew P. Curcio	Freeholders
-D7	M2	15	Andrew P. Curcio	Freeholders
-D8	M1	5	Andrew P. Curcio	Freeholders
-D8	M2	21	Andrew P. Curcio	Freeholders
-D9	M1	10	Andrew P. Curcio	Freeholders
-D9	M2	14	Andrew P. Curcio	Freeholders
-D10	M1	27	Andrew P. Curcio	Freeholders
-D10	M2	19	Andrew P. Curcio	Freeholders
-D11	M1	28	Andrew P. Curcio	Freeholders
-D11	M2	33	Andrew P. Curcio	Freeholders
-D11	M3	40	Andrew P. Curcio	Freeholders
-D12	M1	65	Andrew P. Curcio	Freeholders
-D12	M2	17	Andrew P. Curcio	Freeholders
-D13	M1	48	Andrew P. Curcio	Freeholders
-D13	M2	51	Andrew P. Curcio	Freeholders
-D14	M1	35	Andrew P. Curcio	Freeholders
-D14	M2	30	Andrew P. Curcio	Freeholders
-D15	M1	31	Andrew P. Curcio	Freeholders
-D15	M2	42	Andrew P. Curcio	Freeholders
-D16	M1	24	Andrew P. Curcio	Freeholders
-D16	M2	32	Andrew P. Curcio	Freeholders
-D17	M1	45	Andrew P. Curcio	Freeholders
-D17	M2	18	Andrew P. Curcio	Freeholders
-D18	M1	34	Andrew P. Curcio	Freeholders
-D18	M2	17	Andrew P. Curcio	Freeholders
-D19	M1	21	Andrew P. Curcio	Freeholders
-D19	M2	13	Andrew P. Curcio	Freeholders
-D20	M1	20	Andrew P. Curcio	Freeholders
-D20	M2	38	Andrew P. Curcio	Freeholders
-D21	M1	21	Andrew P. Curcio	Freeholders
-D21	M2	18	Andrew P. Curcio	Freeholders
-D22	M1	54	Andrew P. Curcio	Freeholders
-D22	M2	29	Andrew P. Curcio	Freeholders
-Sub	Sub	1541	Andrew P. Curcio	Freeholders
-Mail In	Mail In	127	Andrew P. Curcio	Freeholders
-Prov	Prov	13	Andrew P. Curcio	Freeholders
-D1	M1	2	Steven J. Uccio	Freeholders
-D1	M2	5	Steven J. Uccio	Freeholders
-D1	M3	3	Steven J. Uccio	Freeholders
-D2	M1	2	Steven J. Uccio	Freeholders
-D2	M2	3	Steven J. Uccio	Freeholders
-D3	M1	0	Steven J. Uccio	Freeholders
-D3	M2	0	Steven J. Uccio	Freeholders
-D4	M1	1	Steven J. Uccio	Freeholders
-D4	M2	2	Steven J. Uccio	Freeholders
-D5	M1	2	Steven J. Uccio	Freeholders
-D5	M2	0	Steven J. Uccio	Freeholders
-D6	M1	3	Steven J. Uccio	Freeholders
-D6	M2	0	Steven J. Uccio	Freeholders
-D7	M1	4	Steven J. Uccio	Freeholders
-D7	M2	3	Steven J. Uccio	Freeholders
-D8	M1	1	Steven J. Uccio	Freeholders
-D8	M2	6	Steven J. Uccio	Freeholders
-D9	M1	0	Steven J. Uccio	Freeholders
-D9	M2	2	Steven J. Uccio	Freeholders
-D10	M1	2	Steven J. Uccio	Freeholders
-D10	M2	4	Steven J. Uccio	Freeholders
-D11	M1	1	Steven J. Uccio	Freeholders
-D11	M2	2	Steven J. Uccio	Freeholders
-D11	M3	5	Steven J. Uccio	Freeholders
-D12	M1	0	Steven J. Uccio	Freeholders
-D12	M2	1	Steven J. Uccio	Freeholders
-D13	M1	2	Steven J. Uccio	Freeholders
-D13	M2	3	Steven J. Uccio	Freeholders
-D14	M1	0	Steven J. Uccio	Freeholders
-D14	M2	0	Steven J. Uccio	Freeholders
-D15	M1	2	Steven J. Uccio	Freeholders
-D15	M2	4	Steven J. Uccio	Freeholders
-D16	M1	1	Steven J. Uccio	Freeholders
-D16	M2	2	Steven J. Uccio	Freeholders
-D17	M1	1	Steven J. Uccio	Freeholders
-D17	M2	0	Steven J. Uccio	Freeholders
-D18	M1	2	Steven J. Uccio	Freeholders
-D18	M2	1	Steven J. Uccio	Freeholders
-D19	M1	3	Steven J. Uccio	Freeholders
-D19	M2	1	Steven J. Uccio	Freeholders
-D20	M1	1	Steven J. Uccio	Freeholders
-D20	M2	5	Steven J. Uccio	Freeholders
-D21	M1	1	Steven J. Uccio	Freeholders
-D21	M2	1	Steven J. Uccio	Freeholders
-D22	M1	2	Steven J. Uccio	Freeholders
-D22	M2	0	Steven J. Uccio	Freeholders
-Sub	Sub	86	Steven J. Uccio	Freeholders
-Mail In	Mail In	20	Steven J. Uccio	Freeholders
-Prov	Prov	2	Steven J. Uccio	Freeholders
-D1	M1	67 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D1	M2	135 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D1	M3	76 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D2	M1	86 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D2	M2	82 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D3	M1	75 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D3	M2	92 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D4	M1	93 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D4	M2	86 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D5	M1	114 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D5	M2	53 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D6	M1	122 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D6	M2	73 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D7	M1	84 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D7	M2	75 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D8	M1	43 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D8	M2	177 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D9	M1	115 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D9	M2	132 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D10	M1	80 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D10	M2	70 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D11	M1	87 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D11	M2	112 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D11	M3	147 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D12	M1	104 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D12	M2	69 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D13	M1	241 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D13	M2	161 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D14	M1	129 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D14	M2	91 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D15	M1	102 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D15	M2	112 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D16	M1	97 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D16	M2	125 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D17	M1	127 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D17	M2	51 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D18	M1	123 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D18	M2	97 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D19	M1	124 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D19	M2	53 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D20	M1	82 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D20	M2	169 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D21	M1	97 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D21	M2	100 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D22	M1	143 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D22	M2	81 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-Sub	Sub	4754 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-Mail In	Mail In	498 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-Prov	Prov	42 	"Bernard ""Bernie"" P. Miller"	Princeton Council
-D1	M1	66 	Jo Butler	Princeton Council
-D1	M2	131 	Jo Butler	Princeton Council
-D1	M3	76 	Jo Butler	Princeton Council
-D2	M1	82 	Jo Butler	Princeton Council
-D2	M2	76 	Jo Butler	Princeton Council
-D3	M1	74 	Jo Butler	Princeton Council
-D3	M2	97 	Jo Butler	Princeton Council
-D4	M1	84 	Jo Butler	Princeton Council
-D4	M2	85 	Jo Butler	Princeton Council
-D5	M1	115 	Jo Butler	Princeton Council
-D5	M2	52 	Jo Butler	Princeton Council
-D6	M1	118 	Jo Butler	Princeton Council
-D6	M2	79 	Jo Butler	Princeton Council
-D7	M1	82 	Jo Butler	Princeton Council
-D7	M2	73 	Jo Butler	Princeton Council
-D8	M1	40 	Jo Butler	Princeton Council
-D8	M2	161 	Jo Butler	Princeton Council
-D9	M1	115 	Jo Butler	Princeton Council
-D9	M2	141 	Jo Butler	Princeton Council
-D10	M1	83 	Jo Butler	Princeton Council
-D10	M2	73 	Jo Butler	Princeton Council
-D11	M1	94 	Jo Butler	Princeton Council
-D11	M2	128 	Jo Butler	Princeton Council
-D11	M3	166 	Jo Butler	Princeton Council
-D12	M1	108 	Jo Butler	Princeton Council
-D12	M2	71 	Jo Butler	Princeton Council
-D13	M1	240 	Jo Butler	Princeton Council
-D13	M2	163 	Jo Butler	Princeton Council
-D14	M1	125 	Jo Butler	Princeton Council
-D14	M2	95 	Jo Butler	Princeton Council
-D15	M1	100 	Jo Butler	Princeton Council
-D15	M2	113 	Jo Butler	Princeton Council
-D16	M1	94 	Jo Butler	Princeton Council
-D16	M2	128 	Jo Butler	Princeton Council
-D17	M1	119 	Jo Butler	Princeton Council
-D17	M2	49 	Jo Butler	Princeton Council
-D18	M1	126 	Jo Butler	Princeton Council
-D18	M2	93 	Jo Butler	Princeton Council
-D19	M1	115 	Jo Butler	Princeton Council
-D19	M2	51 	Jo Butler	Princeton Council
-D20	M1	81 	Jo Butler	Princeton Council
-D20	M2	161 	Jo Butler	Princeton Council
-D21	M1	100 	Jo Butler	Princeton Council
-D21	M2	91 	Jo Butler	Princeton Council
-D22	M1	137 	Jo Butler	Princeton Council
-D22	M2	75 	Jo Butler	Princeton Council
-Sub	Sub	4726 	Jo Butler	Princeton Council
-Mail In	Mail In	495 	Jo Butler	Princeton Council
-Prov	Prov	38 	Jo Butler	Princeton Council
-D1	M1	24	Afsheen Shamsi	Princeton BOE
-D1	M2	48	Afsheen Shamsi	Princeton BOE
-D1	M3	33	Afsheen Shamsi	Princeton BOE
-D2	M1	40	Afsheen Shamsi	Princeton BOE
-D2	M2	31	Afsheen Shamsi	Princeton BOE
-D3	M1	39	Afsheen Shamsi	Princeton BOE
-D3	M2	42	Afsheen Shamsi	Princeton BOE
-D4	M1	39	Afsheen Shamsi	Princeton BOE
-D4	M2	39	Afsheen Shamsi	Princeton BOE
-D5	M1	54	Afsheen Shamsi	Princeton BOE
-D5	M2	18	Afsheen Shamsi	Princeton BOE
-D6	M1	57	Afsheen Shamsi	Princeton BOE
-D6	M2	32	Afsheen Shamsi	Princeton BOE
-D7	M1	39	Afsheen Shamsi	Princeton BOE
-D7	M2	33	Afsheen Shamsi	Princeton BOE
-D8	M1	24	Afsheen Shamsi	Princeton BOE
-D8	M2	88	Afsheen Shamsi	Princeton BOE
-D9	M1	51	Afsheen Shamsi	Princeton BOE
-D9	M2	55	Afsheen Shamsi	Princeton BOE
-D10	M1	42	Afsheen Shamsi	Princeton BOE
-D10	M2	33	Afsheen Shamsi	Princeton BOE
-D11	M1	48	Afsheen Shamsi	Princeton BOE
-D11	M2	54	Afsheen Shamsi	Princeton BOE
-D11	M3	77	Afsheen Shamsi	Princeton BOE
-D12	M1	57	Afsheen Shamsi	Princeton BOE
-D12	M2	41	Afsheen Shamsi	Princeton BOE
-D13	M1	112	Afsheen Shamsi	Princeton BOE
-D13	M2	83	Afsheen Shamsi	Princeton BOE
-D14	M1	47	Afsheen Shamsi	Princeton BOE
-D14	M2	33	Afsheen Shamsi	Princeton BOE
-D15	M1	54	Afsheen Shamsi	Princeton BOE
-D15	M2	51	Afsheen Shamsi	Princeton BOE
-D16	M1	48	Afsheen Shamsi	Princeton BOE
-D16	M2	60	Afsheen Shamsi	Princeton BOE
-D17	M1	63	Afsheen Shamsi	Princeton BOE
-D17	M2	26	Afsheen Shamsi	Princeton BOE
-D18	M1	67	Afsheen Shamsi	Princeton BOE
-D18	M2	57	Afsheen Shamsi	Princeton BOE
-D19	M1	71	Afsheen Shamsi	Princeton BOE
-D19	M2	33	Afsheen Shamsi	Princeton BOE
-D20	M1	31	Afsheen Shamsi	Princeton BOE
-D20	M2	77	Afsheen Shamsi	Princeton BOE
-D21	M1	58	Afsheen Shamsi	Princeton BOE
-D21	M2	54	Afsheen Shamsi	Princeton BOE
-D22	M1	55	Afsheen Shamsi	Princeton BOE
-D22	M2	30	Afsheen Shamsi	Princeton BOE
-Sub	Sub	2248	Afsheen Shamsi	Princeton BOE
-Mail In	Mail In	248	Afsheen Shamsi	Princeton BOE
-Prov	Prov	19	Afsheen Shamsi	Princeton BOE
-D1	M1	35	Connie Witter	Princeton BOE
-D1	M2	61	Connie Witter	Princeton BOE
-D1	M3	44	Connie Witter	Princeton BOE
-D2	M1	51	Connie Witter	Princeton BOE
-D2	M2	36	Connie Witter	Princeton BOE
-D3	M1	48	Connie Witter	Princeton BOE
-D3	M2	59	Connie Witter	Princeton BOE
-D4	M1	42	Connie Witter	Princeton BOE
-D4	M2	44	Connie Witter	Princeton BOE
-D5	M1	51	Connie Witter	Princeton BOE
-D5	M2	23	Connie Witter	Princeton BOE
-D6	M1	67	Connie Witter	Princeton BOE
-D6	M2	29	Connie Witter	Princeton BOE
-D7	M1	38	Connie Witter	Princeton BOE
-D7	M2	26	Connie Witter	Princeton BOE
-D8	M1	17	Connie Witter	Princeton BOE
-D8	M2	81	Connie Witter	Princeton BOE
-D9	M1	55	Connie Witter	Princeton BOE
-D9	M2	47	Connie Witter	Princeton BOE
-D10	M1	45	Connie Witter	Princeton BOE
-D10	M2	28	Connie Witter	Princeton BOE
-D11	M1	47	Connie Witter	Princeton BOE
-D11	M2	52	Connie Witter	Princeton BOE
-D11	M3	75	Connie Witter	Princeton BOE
-D12	M1	47	Connie Witter	Princeton BOE
-D12	M2	32	Connie Witter	Princeton BOE
-D13	M1	104	Connie Witter	Princeton BOE
-D13	M2	78	Connie Witter	Princeton BOE
-D14	M1	59	Connie Witter	Princeton BOE
-D14	M2	46	Connie Witter	Princeton BOE
-D15	M1	53	Connie Witter	Princeton BOE
-D15	M2	50	Connie Witter	Princeton BOE
-D16	M1	47	Connie Witter	Princeton BOE
-D16	M2	60	Connie Witter	Princeton BOE
-D17	M1	59	Connie Witter	Princeton BOE
-D17	M2	16	Connie Witter	Princeton BOE
-D18	M1	56	Connie Witter	Princeton BOE
-D18	M2	32	Connie Witter	Princeton BOE
-D19	M1	56	Connie Witter	Princeton BOE
-D19	M2	30	Connie Witter	Princeton BOE
-D20	M1	38	Connie Witter	Princeton BOE
-D20	M2	74	Connie Witter	Princeton BOE
-D21	M1	41	Connie Witter	Princeton BOE
-D21	M2	40	Connie Witter	Princeton BOE
-D22	M1	65	Connie Witter	Princeton BOE
-D22	M2	35	Connie Witter	Princeton BOE
-Sub	Sub	2219	Connie Witter	Princeton BOE
-Mail In	Mail In	277	Connie Witter	Princeton BOE
-Prov	Prov	21	Connie Witter	Princeton BOE
-D1	M1	37	Justin Doran	Princeton BOE
-D1	M2	66	Justin Doran	Princeton BOE
-D1	M3	40	Justin Doran	Princeton BOE
-D2	M1	54	Justin Doran	Princeton BOE
-D2	M2	42	Justin Doran	Princeton BOE
-D3	M1	51	Justin Doran	Princeton BOE
-D3	M2	64	Justin Doran	Princeton BOE
-D4	M1	47	Justin Doran	Princeton BOE
-D4	M2	45	Justin Doran	Princeton BOE
-D5	M1	69	Justin Doran	Princeton BOE
-D5	M2	26	Justin Doran	Princeton BOE
-D6	M1	64	Justin Doran	Princeton BOE
-D6	M2	33	Justin Doran	Princeton BOE
-D7	M1	21	Justin Doran	Princeton BOE
-D7	M2	31	Justin Doran	Princeton BOE
-D8	M1	17	Justin Doran	Princeton BOE
-D8	M2	73	Justin Doran	Princeton BOE
-D9	M1	47	Justin Doran	Princeton BOE
-D9	M2	40	Justin Doran	Princeton BOE
-D10	M1	40	Justin Doran	Princeton BOE
-D10	M2	31	Justin Doran	Princeton BOE
-D11	M1	52	Justin Doran	Princeton BOE
-D11	M2	54	Justin Doran	Princeton BOE
-D11	M3	69	Justin Doran	Princeton BOE
-D12	M1	45	Justin Doran	Princeton BOE
-D12	M2	34	Justin Doran	Princeton BOE
-D13	M1	120	Justin Doran	Princeton BOE
-D13	M2	83	Justin Doran	Princeton BOE
-D14	M1	66	Justin Doran	Princeton BOE
-D14	M2	41	Justin Doran	Princeton BOE
-D15	M1	62	Justin Doran	Princeton BOE
-D15	M2	59	Justin Doran	Princeton BOE
-D16	M1	51	Justin Doran	Princeton BOE
-D16	M2	58	Justin Doran	Princeton BOE
-D17	M1	66	Justin Doran	Princeton BOE
-D17	M2	31	Justin Doran	Princeton BOE
-D18	M1	62	Justin Doran	Princeton BOE
-D18	M2	47	Justin Doran	Princeton BOE
-D19	M1	51	Justin Doran	Princeton BOE
-D19	M2	24	Justin Doran	Princeton BOE
-D20	M1	37	Justin Doran	Princeton BOE
-D20	M2	76	Justin Doran	Princeton BOE
-D21	M1	38	Justin Doran	Princeton BOE
-D21	M2	48	Justin Doran	Princeton BOE
-D22	M1	64	Justin Doran	Princeton BOE
-D22	M2	41	Justin Doran	Princeton BOE
-Sub	Sub	2317	Justin Doran	Princeton BOE
-Mail In	Mail In	293	Justin Doran	Princeton BOE
-Prov	Prov	25	Justin Doran	Princeton BOE
-D1	M1	33	Fern M. Spruill	Princeton BOE
-D1	M2	57	Fern M. Spruill	Princeton BOE
-D1	M3	67	Fern M. Spruill	Princeton BOE
-D2	M1	44	Fern M. Spruill	Princeton BOE
-D2	M2	36	Fern M. Spruill	Princeton BOE
-D3	M1	47	Fern M. Spruill	Princeton BOE
-D3	M2	47	Fern M. Spruill	Princeton BOE
-D4	M1	45	Fern M. Spruill	Princeton BOE
-D4	M2	41	Fern M. Spruill	Princeton BOE
-D5	M1	62	Fern M. Spruill	Princeton BOE
-D5	M2	29	Fern M. Spruill	Princeton BOE
-D6	M1	69	Fern M. Spruill	Princeton BOE
-D6	M2	33	Fern M. Spruill	Princeton BOE
-D7	M1	36	Fern M. Spruill	Princeton BOE
-D7	M2	35	Fern M. Spruill	Princeton BOE
-D8	M1	32	Fern M. Spruill	Princeton BOE
-D8	M2	94	Fern M. Spruill	Princeton BOE
-D9	M1	70	Fern M. Spruill	Princeton BOE
-D9	M2	76	Fern M. Spruill	Princeton BOE
-D10	M1	45	Fern M. Spruill	Princeton BOE
-D10	M2	42	Fern M. Spruill	Princeton BOE
-D11	M1	62	Fern M. Spruill	Princeton BOE
-D11	M2	71	Fern M. Spruill	Princeton BOE
-D11	M3	105	Fern M. Spruill	Princeton BOE
-D12	M1	67	Fern M. Spruill	Princeton BOE
-D12	M2	47	Fern M. Spruill	Princeton BOE
-D13	M1	147	Fern M. Spruill	Princeton BOE
-D13	M2	97	Fern M. Spruill	Princeton BOE
-D14	M1	76	Fern M. Spruill	Princeton BOE
-D14	M2	55	Fern M. Spruill	Princeton BOE
-D15	M1	60	Fern M. Spruill	Princeton BOE
-D15	M2	63	Fern M. Spruill	Princeton BOE
-D16	M1	54	Fern M. Spruill	Princeton BOE
-D16	M2	66	Fern M. Spruill	Princeton BOE
-D17	M1	71	Fern M. Spruill	Princeton BOE
-D17	M2	31	Fern M. Spruill	Princeton BOE
-D18	M1	73	Fern M. Spruill	Princeton BOE
-D18	M2	57	Fern M. Spruill	Princeton BOE
-D19	M1	76	Fern M. Spruill	Princeton BOE
-D19	M2	34	Fern M. Spruill	Princeton BOE
-D20	M1	35	Fern M. Spruill	Princeton BOE
-D20	M2	92	Fern M. Spruill	Princeton BOE
-D21	M1	57	Fern M. Spruill	Princeton BOE
-D21	M2	59	Fern M. Spruill	Princeton BOE
-D22	M1	67	Fern M. Spruill	Princeton BOE
-D22	M2	44	Fern M. Spruill	Princeton BOE
-Sub	Sub	2706	Fern M. Spruill	Princeton BOE
-Mail In	Mail In	322	Fern M. Spruill	Princeton BOE
-Prov	Prov	18	Fern M. Spruill	Princeton BOE
-D1	M1	57	YES	NJ State Question 1
-D1	M2	101	YES	NJ State Question 1
-D1	M3	79	YES	NJ State Question 1
-D2	M1	81	YES	NJ State Question 1
-D2	M2	67	YES	NJ State Question 1
-D3	M1	74	YES	NJ State Question 1
-D3	M2	90	YES	NJ State Question 1
-D4	M1	72	YES	NJ State Question 1
-D4	M2	84	YES	NJ State Question 1
-D5	M1	105	YES	NJ State Question 1
-D5	M2	43	YES	NJ State Question 1
-D6	M1	113	YES	NJ State Question 1
-D6	M2	61	YES	NJ State Question 1
-D7	M1	40	YES	NJ State Question 1
-D7	M2	41	YES	NJ State Question 1
-D8	M1	26	YES	NJ State Question 1
-D8	M2	116	YES	NJ State Question 1
-D9	M1	57	YES	NJ State Question 1
-D9	M2	59	YES	NJ State Question 1
-D10	M1	64	YES	NJ State Question 1
-D10	M2	54	YES	NJ State Question 1
-D11	M1	77	YES	NJ State Question 1
-D11	M2	99	YES	NJ State Question 1
-D11	M3	119	YES	NJ State Question 1
-D12	M1	80	YES	NJ State Question 1
-D12	M2	48	YES	NJ State Question 1
-D13	M1	77	YES	NJ State Question 1
-D13	M2	112	YES	NJ State Question 1
-D14	M1	92	YES	NJ State Question 1
-D14	M2	69	YES	NJ State Question 1
-D15	M1	68	YES	NJ State Question 1
-D15	M2	90	YES	NJ State Question 1
-D16	M1	73	YES	NJ State Question 1
-D16	M2	101	YES	NJ State Question 1
-D17	M1	98	YES	NJ State Question 1
-D17	M2	37	YES	NJ State Question 1
-D18	M1	104	YES	NJ State Question 1
-D18	M2	70	YES	NJ State Question 1
-D19	M1	95	YES	NJ State Question 1
-D19	M2	46	YES	NJ State Question 1
-D20	M1	59	YES	NJ State Question 1
-D20	M2	105	YES	NJ State Question 1
-D21	M1	75	YES	NJ State Question 1
-D21	M2	65	YES	NJ State Question 1
-D22	M1	104	YES	NJ State Question 1
-D22	M2	63	YES	NJ State Question 1
-Sub	Sub	3510	YES	NJ State Question 1
-Mail In	Mail In	411	YES	NJ State Question 1
-Prov	Prov	29	YES	NJ State Question 1
-D1	M1	31	NO	NJ State Question 1
-D1	M2	64	NO	NJ State Question 1
-D1	M3	31	NO	NJ State Question 1
-D2	M1	46	NO	NJ State Question 1
-D2	M2	43	NO	NJ State Question 1
-D3	M1	41	NO	NJ State Question 1
-D3	M2	48	NO	NJ State Question 1
-D4	M1	56	NO	NJ State Question 1
-D4	M2	41	NO	NJ State Question 1
-D5	M1	53	NO	NJ State Question 1
-D5	M2	27	NO	NJ State Question 1
-D6	M1	52	NO	NJ State Question 1
-D6	M2	40	NO	NJ State Question 1
-D7	M1	54	NO	NJ State Question 1
-D7	M2	42	NO	NJ State Question 1
-D8	M1	21	NO	NJ State Question 1
-D8	M2	82	NO	NJ State Question 1
-D9	M1	54	NO	NJ State Question 1
-D9	M2	67	NO	NJ State Question 1
-D10	M1	44	NO	NJ State Question 1
-D10	M2	34	NO	NJ State Question 1
-D11	M1	42	NO	NJ State Question 1
-D11	M2	54	NO	NJ State Question 1
-D11	M3	75	NO	NJ State Question 1
-D12	M1	54	NO	NJ State Question 1
-D12	M2	41	NO	NJ State Question 1
-D13	M1	86	NO	NJ State Question 1
-D13	M2	89	NO	NJ State Question 1
-D14	M1	53	NO	NJ State Question 1
-D14	M2	34	NO	NJ State Question 1
-D15	M1	51	NO	NJ State Question 1
-D15	M2	60	NO	NJ State Question 1
-D16	M1	45	NO	NJ State Question 1
-D16	M2	57	NO	NJ State Question 1
-D17	M1	63	NO	NJ State Question 1
-D17	M2	29	NO	NJ State Question 1
-D18	M1	53	NO	NJ State Question 1
-D18	M2	40	NO	NJ State Question 1
-D19	M1	47	NO	NJ State Question 1
-D19	M2	16	NO	NJ State Question 1
-D20	M1	34	NO	NJ State Question 1
-D20	M2	82	NO	NJ State Question 1
-D21	M1	33	NO	NJ State Question 1
-D21	M2	42	NO	NJ State Question 1
-D22	M1	71	NO	NJ State Question 1
-D22	M2	42	NO	NJ State Question 1
-Sub	Sub	2264	NO	NJ State Question 1
-Mail In	Mail In	226	NO	NJ State Question 1
-Prov	Prov	16	NO	NJ State Question 1
-D1	M1	69	YES	NJ State Question 2
-D1	M2	138	YES	NJ State Question 2
-D1	M3	87	YES	NJ State Question 2
-D2	M1	99	YES	NJ State Question 2
-D2	M2	87	YES	NJ State Question 2
-D3	M1	89	YES	NJ State Question 2
-D3	M2	94	YES	NJ State Question 2
-D4	M1	89	YES	NJ State Question 2
-D4	M2	86	YES	NJ State Question 2
-D5	M1	123	YES	NJ State Question 2
-D5	M2	52	YES	NJ State Question 2
-D6	M1	140	YES	NJ State Question 2
-D6	M2	80	YES	NJ State Question 2
-D7	M1	83	YES	NJ State Question 2
-D7	M2	68	YES	NJ State Question 2
-D8	M1	43	YES	NJ State Question 2
-D8	M2	180	YES	NJ State Question 2
-D9	M1	92	YES	NJ State Question 2
-D9	M2	110	YES	NJ State Question 2
-D10	M1	93	YES	NJ State Question 2
-D10	M2	79	YES	NJ State Question 2
-D11	M1	106	YES	NJ State Question 2
-D11	M2	124	YES	NJ State Question 2
-D11	M3	173	YES	NJ State Question 2
-D12	M1	109	YES	NJ State Question 2
-D12	M2	73	YES	NJ State Question 2
-D13	M1	244	YES	NJ State Question 2
-D13	M2	171	YES	NJ State Question 2
-D14	M1	119	YES	NJ State Question 2
-D14	M2	89	YES	NJ State Question 2
-D15	M1	103	YES	NJ State Question 2
-D15	M2	121	YES	NJ State Question 2
-D16	M1	104	YES	NJ State Question 2
-D16	M2	137	YES	NJ State Question 2
-D17	M1	131	YES	NJ State Question 2
-D17	M2	53	YES	NJ State Question 2
-D18	M1	139	YES	NJ State Question 2
-D18	M2	93	YES	NJ State Question 2
-D19	M1	130	YES	NJ State Question 2
-D19	M2	53	YES	NJ State Question 2
-D20	M1	83	YES	NJ State Question 2
-D20	M2	160	YES	NJ State Question 2
-D21	M1	90	YES	NJ State Question 2
-D21	M2	93	YES	NJ State Question 2
-D22	M1	132	YES	NJ State Question 2
-D22	M2	80	YES	NJ State Question 2
-Sub	Sub	4891	YES	NJ State Question 2
-Mail In	Mail In	542	YES	NJ State Question 2
-Prov	Prov	37	YES	NJ State Question 2
-D1	M1	23	NO	NJ State Question 2
-D1	M2	35	NO	NJ State Question 2
-D1	M3	25	NO	NJ State Question 2
-D2	M1	32	NO	NJ State Question 2
-D2	M2	26	NO	NJ State Question 2
-D3	M1	29	NO	NJ State Question 2
-D3	M2	43	NO	NJ State Question 2
-D4	M1	43	NO	NJ State Question 2
-D4	M2	45	NO	NJ State Question 2
-D5	M1	41	NO	NJ State Question 2
-D5	M2	20	NO	NJ State Question 2
-D6	M1	28	NO	NJ State Question 2
-D6	M2	22	NO	NJ State Question 2
-D7	M1	15	NO	NJ State Question 2
-D7	M2	16	NO	NJ State Question 2
-D8	M1	7	NO	NJ State Question 2
-D8	M2	26	NO	NJ State Question 2
-D9	M1	22	NO	NJ State Question 2
-D9	M2	17	NO	NJ State Question 2
-D10	M1	16	NO	NJ State Question 2
-D10	M2	15	NO	NJ State Question 2
-D11	M1	14	NO	NJ State Question 2
-D11	M2	27	NO	NJ State Question 2
-D11	M3	30	NO	NJ State Question 2
-D12	M1	27	NO	NJ State Question 2
-D12	M2	17	NO	NJ State Question 2
-D13	M1	40	NO	NJ State Question 2
-D13	M2	42	NO	NJ State Question 2
-D14	M1	29	NO	NJ State Question 2
-D14	M2	16	NO	NJ State Question 2
-D15	M1	20	NO	NJ State Question 2
-D15	M2	28	NO	NJ State Question 2
-D16	M1	22	NO	NJ State Question 2
-D16	M2	26	NO	NJ State Question 2
-D17	M1	34	NO	NJ State Question 2
-D17	M2	14	NO	NJ State Question 2
-D18	M1	21	NO	NJ State Question 2
-D18	M2	19	NO	NJ State Question 2
-D19	M1	14	NO	NJ State Question 2
-D19	M2	10	NO	NJ State Question 2
-D20	M1	15	NO	NJ State Question 2
-D20	M2	29	NO	NJ State Question 2
-D21	M1	21	NO	NJ State Question 2
-D21	M2	18	NO	NJ State Question 2
-D22	M1	44	NO	NJ State Question 2
-D22	M2	30	NO	NJ State Question 2
-Sub	Sub	1153	NO	NJ State Question 2
-Mail In	Mail In	115	NO	NJ State Question 2
-Prov	Prov	11	NO	NJ State Question 2
-D1	M1	56 	YES	Mercer County Question
-D1	M2	100 	YES	Mercer County Question
-D1	M3	66 	YES	Mercer County Question
-D2	M1	87 	YES	Mercer County Question
-D2	M2	67 	YES	Mercer County Question
-D3	M1	56 	YES	Mercer County Question
-D3	M2	66 	YES	Mercer County Question
-D4	M1	74 	YES	Mercer County Question
-D4	M2	74 	YES	Mercer County Question
-D5	M1	111 	YES	Mercer County Question
-D5	M2	48 	YES	Mercer County Question
-D6	M1	107 	YES	Mercer County Question
-D6	M2	68 	YES	Mercer County Question
-D7	M1	71 	YES	Mercer County Question
-D7	M2	71 	YES	Mercer County Question
-D8	M1	39 	YES	Mercer County Question
-D8	M2	149 	YES	Mercer County Question
-D9	M1	62 	YES	Mercer County Question
-D9	M2	77 	YES	Mercer County Question
-D10	M1	64 	YES	Mercer County Question
-D10	M2	56 	YES	Mercer County Question
-D11	M1	78 	YES	Mercer County Question
-D11	M2	98 	YES	Mercer County Question
-D11	M3	136 	YES	Mercer County Question
-D12	M1	92 	YES	Mercer County Question
-D12	M2	66 	YES	Mercer County Question
-D13	M1	193 	YES	Mercer County Question
-D13	M2	142 	YES	Mercer County Question
-D14	M1	83 	YES	Mercer County Question
-D14	M2	65 	YES	Mercer County Question
-D15	M1	84 	YES	Mercer County Question
-D15	M2	97 	YES	Mercer County Question
-D16	M1	87 	YES	Mercer County Question
-D16	M2	111 	YES	Mercer County Question
-D17	M1	95 	YES	Mercer County Question
-D17	M2	37 	YES	Mercer County Question
-D18	M1	115 	YES	Mercer County Question
-D18	M2	76 	YES	Mercer County Question
-D19	M1	115 	YES	Mercer County Question
-D19	M2	46 	YES	Mercer County Question
-D20	M1	60 	YES	Mercer County Question
-D20	M2	135 	YES	Mercer County Question
-D21	M1	72 	YES	Mercer County Question
-D21	M2	73 	YES	Mercer County Question
-D22	M1	93 	YES	Mercer County Question
-D22	M2	48 	YES	Mercer County Question
-Sub	Sub	3866 	YES	Mercer County Question
-Mail In	Mail In	408 	YES	Mercer County Question
-Prov	Prov	35 	YES	Mercer County Question
-D1	M1	35 	NO	Mercer County Question
-D1	M2	71 	NO	Mercer County Question
-D1	M3	44 	NO	Mercer County Question
-D2	M1	41 	NO	Mercer County Question
-D2	M2	45 	NO	Mercer County Question
-D3	M1	63 	NO	Mercer County Question
-D3	M2	71 	NO	Mercer County Question
-D4	M1	56 	NO	Mercer County Question
-D4	M2	54 	NO	Mercer County Question
-D5	M1	49 	NO	Mercer County Question
-D5	M2	22 	NO	Mercer County Question
-D6	M1	60 	NO	Mercer County Question
-D6	M2	35 	NO	Mercer County Question
-D7	M1	29 	NO	Mercer County Question
-D7	M2	15 	NO	Mercer County Question
-D8	M1	10 	NO	Mercer County Question
-D8	M2	53 	NO	Mercer County Question
-D9	M1	48 	NO	Mercer County Question
-D9	M2	47 	NO	Mercer County Question
-D10	M1	46 	NO	Mercer County Question
-D10	M2	36 	NO	Mercer County Question
-D11	M1	40 	NO	Mercer County Question
-D11	M2	55 	NO	Mercer County Question
-D11	M3	65 	NO	Mercer County Question
-D12	M1	42 	NO	Mercer County Question
-D12	M2	26 	NO	Mercer County Question
-D13	M1	92 	NO	Mercer County Question
-D13	M2	72 	NO	Mercer County Question
-D14	M1	62 	NO	Mercer County Question
-D14	M2	39 	NO	Mercer County Question
-D15	M1	39 	NO	Mercer County Question
-D15	M2	55 	NO	Mercer County Question
-D16	M1	39 	NO	Mercer County Question
-D16	M2	55 	NO	Mercer County Question
-D17	M1	65 	NO	Mercer County Question
-D17	M2	31 	NO	Mercer County Question
-D18	M1	46 	NO	Mercer County Question
-D18	M2	34 	NO	Mercer County Question
-D19	M1	23 	NO	Mercer County Question
-D19	M2	16 	NO	Mercer County Question
-D20	M1	37 	NO	Mercer County Question
-D20	M2	57 	NO	Mercer County Question
-D21	M1	37 	NO	Mercer County Question
-D21	M2	34 	NO	Mercer County Question
-D22	M1	84 	NO	Mercer County Question
-D22	M2	56 	NO	Mercer County Question
-Sub	Sub	2131 	NO	Mercer County Question
-Mail In	Mail In	254 	NO	Mercer County Question
-Prov	Prov	12 	NO	Mercer County Question
+District	Machine	Count	Name	Type	Election
+D1	M1	67 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M2	142 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M3	78 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M1	83 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M2	78 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M1	71 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M2	98 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M1	84 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M2	91 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M1	118 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M2	53 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M1	126 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M2	89 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M1	85 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M2	76 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M1	46 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M2	185 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M1	126 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M2	143 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M1	87 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M2	83 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M1	91 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M2	126 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M3	174 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M1	125 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M2	84 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M1	257 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M2	175 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M1	129 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M2	98 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M1	98 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M2	117 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M1	108 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M2	139 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M1	136 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M2	54 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M1	133 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M2	103 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M1	134 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M2	56 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M1	86 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M2	172 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M1	95 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M2	104 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M1	143 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M2	80 	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	566	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Prov	Prov	43	Cory Booker	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M1	26	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M2	42	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M3	38	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M1	48	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M2	37	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M1	53	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M2	52	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M1	48	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M2	43	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M1	45	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M2	20	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M1	49	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M2	18	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M1	11	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M2	10	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M1	4	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M2	18	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M1	9	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M2	8	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M1	27	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M2	14	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M1	26	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M2	134	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M3	34	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M1	19	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M2	83	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M1	38	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M2	42	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M1	32	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M2	22	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M1	28	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M2	35	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M1	22	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M2	28	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M1	34	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M2	16	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M1	33	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M2	12	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M1	16	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M2	9	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M1	17	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M2	30	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M1	19	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M2	10	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M1	48	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M2	26	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	126	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Prov	Prov	11	Jeff Bell	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M3	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M1	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M2	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M2	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M3	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M1	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M1	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M1	2	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M1	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M2	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M1	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M2	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M2	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M1	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M2	1	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	2	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Prov	Prov	0	Eugene Martin Lavergne	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M3	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M2	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M2	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M1	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M3	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M2	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M1	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M1	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M1	2	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M1	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M2	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M1	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M2	1	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	2	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Prov	Prov	0	Hank Schroeder	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M3	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M1	1 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M2	1 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M1	1 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M2	1 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M1	1 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M3	1 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M2	1 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M1	1 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M1	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M2	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Prov	Prov	0 	Jeff Boss	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M3	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M1	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M2	5	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M1	3	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M2	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M1	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M2	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M1	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M1	4	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M2	3	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M1	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M2	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M1	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M3	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M2	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M1	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M2	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M2	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M1	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M2	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M1	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M1	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M2	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M1	0	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M2	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	2	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Prov	Prov	1	Joseph Baratelli	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M3	1	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D2	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D3	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D4	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M1	2	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D5	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M1	2	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D6	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D7	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D8	M2	1	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D9	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D10	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D11	M3	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D12	M2	1	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D13	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M1	1	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D14	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D15	M2	1	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D16	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D17	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D18	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D19	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D20	M2	1	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M1	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D21	M2	1	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M1	2	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D22	M2	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	1	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+Prov	Prov	0	Antonio N. Sabas	U.S. Senate	Princeton - ELECTION - November 4, 2014
+D1	M1	67 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M2	131 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M3	75 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M1	76 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M2	73 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M1	61 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M2	88 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M1	80 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M2	78 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M1	117 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M2	51 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M1	118 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M2	79 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M1	76 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M2	71 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M1	45 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M2	180 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M1	126 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M2	142 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M1	80 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M2	82 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M1	90 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M2	125 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M3	169 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M1	119 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M2	76 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M1	237 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M2	161 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M1	124 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M2	89 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M1	96 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M2	113 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M1	101 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M2	133 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M1	126 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M2	55 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M1	134 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M2	100 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M1	126 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M2	50 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M1	88 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M2	167 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M1	97 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M2	101 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M1	135 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M2	72 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	534 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Prov	Prov	38 	Bonnie Watson Coleman	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M1	28	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M2	46	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M3	41	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M1	56	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M2	41	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M1	62	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M2	63	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M1	56	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M2	52	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M1	45	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M2	21	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M1	53	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M2	26	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M1	17	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M2	12	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M1	4	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M2	20	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M1	9	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M2	9	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M1	27	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M2	15	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M1	28	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M2	33	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M3	39	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M1	24	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M2	16	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M1	44	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M2	49	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M1	38	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M2	27	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M1	30	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M2	35	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M1	25	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M2	32	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M1	44	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M2	17	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M1	35	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M2	13	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M1	18	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M2	12	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M1	15	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M2	34	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M1	20	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M2	13	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M1	54	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M2	32	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	141	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Prov	Prov	14	Alieta Eck	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M2	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M3	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M1	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M1	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M2	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M1	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M1	2	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M3	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M1	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M2	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M1	2	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M2	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M1	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M1	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M1	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M2	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M1	2	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M2	1	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	3	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Prov	Prov	0	Allen J. Cannon	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M3	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M1	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M2	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M2	2	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M1	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M1	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M2	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M3	2	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M2	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M1	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M2	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M1	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M2	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M1	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M1	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M2	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	0	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Prov	Prov	1	Jack Freudenheim	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M3	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M1	1	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M1	1	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M2	1	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M1	1	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M1	1	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M3	1	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M2	1	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M1	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M2	0	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	2	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Prov	Prov	1	Kenneth J. Cody	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M2	2	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M3	4	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M1	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M2	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M1	4	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M2	3	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M2	3	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M2	2	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M1	2	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M2	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M3	2	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M2	2	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M1	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M2	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M1	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M1	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M2	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M1	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M2	3	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M2	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M1	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M2	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M1	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M2	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M1	2	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M2	1	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	6	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Prov	Prov	0	Don Dezarn	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M2	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M3	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D2	M2	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M1	2	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D3	M2	2	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D4	M2	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M1	2	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D5	M2	2	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M1	3	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D6	M2	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M1	5	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D7	M2	4	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D8	M2	6	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D9	M2	2	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M1	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D10	M2	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M2	3	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D11	M3	3	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D12	M2	3	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M1	3	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D13	M2	3	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D14	M2	2	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D15	M2	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M1	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D16	M2	3	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D17	M2	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M1	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D18	M2	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M1	4	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D19	M2	2	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M1	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D20	M2	2	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M1	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D21	M2	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M1	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D22	M2	1	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	9	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+Prov	Prov	0	Steven Welzer	Representative 12th dist	Princeton - ELECTION - November 4, 2014
+D1	M1	55	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D1	M2	109	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D1	M3	69	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D2	M1	67	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D2	M2	63	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D3	M1	57	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D3	M2	77	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D4	M1	74	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D4	M2	75	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D5	M1	104	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D5	M2	45	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D6	M1	113	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D6	M2	70	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D7	M1	78	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D7	M2	64	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D8	M1	40	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D8	M2	171	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D9	M1	116	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D9	M2	134	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D10	M1	78	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D10	M2	65	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D11	M1	85	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D11	M2	115	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D11	M3	149	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D12	M1	98	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D12	M2	72	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D13	M1	210	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D13	M2	137	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D14	M1	124	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D14	M2	80	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D15	M1	88	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D15	M2	99	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D16	M1	98	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D16	M2	120	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D17	M1	112	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D17	M2	46	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D18	M1	121	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D18	M2	90	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D19	M1	120	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D19	M2	48	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D20	M1	78	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D20	M2	158	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D21	M1	88	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D21	M2	91	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D22	M1	130	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D22	M2	71	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	452	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+Prov	Prov	35	John A Jack Kemler	Sheriff	Princeton - ELECTION - November 4, 2014
+D1	M1	36	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D1	M2	55	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D1	M3	44	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D2	M1	60	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D2	M2	47	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D3	M1	64	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D3	M2	68	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D4	M1	54	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D4	M2	51	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D5	M1	52	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D5	M2	22	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D6	M1	56	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D6	M2	30	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D7	M1	20	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D7	M2	15	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D8	M1	5	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D8	M2	26	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D9	M1	12	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D9	M2	12	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D10	M1	25	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D10	M2	21	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D11	M1	25	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D11	M2	39	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D11	M3	45	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D12	M1	25	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D12	M2	18	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D13	M1	59	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D13	M2	61	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D14	M1	35	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D14	M2	33	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D15	M1	34	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D15	M2	46	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D16	M1	25	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D16	M2	32	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D17	M1	46	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D17	M2	23	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D18	M1	40	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D18	M2	20	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D19	M1	21	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D19	M2	14	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D20	M1	23	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D20	M2	36	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D21	M1	26	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D21	M2	18	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D22	M1	154	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D22	M2	30	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	152	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+Prov	Prov	13	David C. Jones	Sheriff	Princeton - ELECTION - November 4, 2014
+D1	M1	58	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M2	115	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M3	67	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M1	67	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M2	64	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M1	56	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M2	81	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M1	74	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M2	73	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M1	106	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M2	46	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M1	113	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M2	71	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M1	79	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M2	64	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M1	42	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M2	168	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M1	113	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M2	131	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M1	78	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M2	66	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M1	86	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M2	117	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M3	152	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M1	96	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M2	75	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M1	222	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M2	144	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M1	128	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M2	81	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M1	89	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M2	103	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M1	97	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M2	118	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M1	114	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M2	49	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M1	123	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M2	92	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M1	116	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M2	50	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M1	81	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M2	153	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M1	91	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M2	91	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M1	132	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M2	67	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	469	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+Prov	Prov	35	Lucylle RS Walter	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M1	55	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M2	110	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M3	71	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M1	68	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M2	62	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M1	57	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M2	81	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M1	72	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M2	72	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M1	107	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M2	46	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M1	112	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M2	70	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M1	80	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M2	58	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M1	40	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M2	166	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M1	119	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M2	132	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M1	82	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M2	68	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M1	86	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M2	115	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M3	150	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M1	100	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M2	75	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M1	224	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M2	140	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M1	120	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M2	80	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M1	90	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M2	103	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M1	96	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M2	117	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M1	111	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M2	48	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M1	124	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M2	90	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M1	113	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M2	49	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M1	78	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M2	150	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M1	90	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M2	92	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M1	130	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M2	67	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	464	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+Prov	Prov	32	John A. Cimino	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M1	34	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M2	51	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M3	42	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M1	59	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M2	43	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M1	65	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M2	62	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M1	55	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M2	52	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M1	52	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M2	24	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M1	54	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M2	31	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M1	17	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M2	16	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M1	5	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M2	23	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M1	14	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M2	12	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M1	23	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M2	18	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M1	24	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M2	33	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M3	44	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M1	25	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M2	17	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M1	49	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M2	53	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M1	30	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M2	34	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M1	33	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M2	41	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M1	24	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M2	31	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M1	44	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M2	18	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M1	32	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M2	14	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M1	21	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M2	11	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M1	19	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M2	36	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M1	23	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M2	17	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M1	54	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M2	29	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	139	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+Prov	Prov	13	Bhanu Sunny Kirpalani	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M1	35	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M2	50	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M3	43	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M1	58	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M2	45	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M1	62	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M2	66	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M1	52	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M2	55	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M1	42	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M2	21	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M1	55	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M2	26	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M1	16	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M2	15	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M1	5	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M2	21	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M1	10	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M2	14	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M1	27	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M2	19	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M1	28	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M2	33	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M3	40	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M1	65	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M2	17	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M1	48	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M2	51	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M1	35	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M2	30	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M1	31	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M2	42	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M1	24	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M2	32	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M1	45	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M2	18	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M1	34	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M2	17	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M1	21	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M2	13	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M1	20	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M2	38	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M1	21	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M2	18	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M1	54	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M2	29	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	127	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+Prov	Prov	13	Andrew P. Curcio	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M1	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M2	5	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M3	3	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M1	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D2	M2	3	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M1	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D3	M2	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M1	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D4	M2	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M1	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D5	M2	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M1	3	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D6	M2	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M1	4	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D7	M2	3	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M1	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D8	M2	6	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M1	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D9	M2	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M1	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D10	M2	4	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M1	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M2	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D11	M3	5	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M1	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D12	M2	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M1	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D13	M2	3	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M1	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D14	M2	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M1	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D15	M2	4	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M1	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D16	M2	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M1	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D17	M2	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M1	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D18	M2	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M1	3	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D19	M2	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M1	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D20	M2	5	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M1	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D21	M2	1	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M1	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D22	M2	0	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	20	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+Prov	Prov	2	Steven J. Uccio	Freeholders	Princeton - ELECTION - November 4, 2014
+D1	M1	67 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D1	M2	135 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D1	M3	76 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D2	M1	86 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D2	M2	82 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D3	M1	75 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D3	M2	92 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D4	M1	93 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D4	M2	86 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D5	M1	114 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D5	M2	53 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D6	M1	122 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D6	M2	73 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D7	M1	84 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D7	M2	75 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D8	M1	43 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D8	M2	177 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D9	M1	115 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D9	M2	132 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D10	M1	80 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D10	M2	70 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D11	M1	87 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D11	M2	112 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D11	M3	147 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D12	M1	104 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D12	M2	69 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D13	M1	241 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D13	M2	161 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D14	M1	129 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D14	M2	91 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D15	M1	102 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D15	M2	112 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D16	M1	97 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D16	M2	125 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D17	M1	127 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D17	M2	51 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D18	M1	123 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D18	M2	97 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D19	M1	124 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D19	M2	53 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D20	M1	82 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D20	M2	169 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D21	M1	97 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D21	M2	100 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D22	M1	143 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D22	M2	81 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	498 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+Prov	Prov	42 	Bernard Bernie P. Miller	Princeton Council	Princeton - ELECTION - November 4, 2014
+D1	M1	66 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D1	M2	131 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D1	M3	76 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D2	M1	82 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D2	M2	76 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D3	M1	74 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D3	M2	97 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D4	M1	84 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D4	M2	85 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D5	M1	115 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D5	M2	52 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D6	M1	118 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D6	M2	79 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D7	M1	82 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D7	M2	73 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D8	M1	40 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D8	M2	161 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D9	M1	115 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D9	M2	141 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D10	M1	83 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D10	M2	73 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D11	M1	94 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D11	M2	128 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D11	M3	166 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D12	M1	108 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D12	M2	71 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D13	M1	240 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D13	M2	163 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D14	M1	125 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D14	M2	95 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D15	M1	100 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D15	M2	113 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D16	M1	94 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D16	M2	128 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D17	M1	119 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D17	M2	49 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D18	M1	126 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D18	M2	93 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D19	M1	115 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D19	M2	51 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D20	M1	81 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D20	M2	161 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D21	M1	100 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D21	M2	91 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D22	M1	137 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D22	M2	75 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	495 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+Prov	Prov	38 	Jo Butler	Princeton Council	Princeton - ELECTION - November 4, 2014
+D1	M1	24	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M2	48	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M3	33	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D2	M1	40	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D2	M2	31	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D3	M1	39	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D3	M2	42	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D4	M1	39	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D4	M2	39	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D5	M1	54	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D5	M2	18	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D6	M1	57	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D6	M2	32	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D7	M1	39	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D7	M2	33	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D8	M1	24	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D8	M2	88	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D9	M1	51	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D9	M2	55	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D10	M1	42	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D10	M2	33	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M1	48	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M2	54	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M3	77	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D12	M1	57	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D12	M2	41	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D13	M1	112	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D13	M2	83	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D14	M1	47	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D14	M2	33	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D15	M1	54	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D15	M2	51	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D16	M1	48	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D16	M2	60	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D17	M1	63	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D17	M2	26	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D18	M1	67	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D18	M2	57	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D19	M1	71	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D19	M2	33	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D20	M1	31	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D20	M2	77	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D21	M1	58	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D21	M2	54	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D22	M1	55	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D22	M2	30	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	248	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+Prov	Prov	19	Afsheen Shamsi	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M1	35	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M2	61	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M3	44	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D2	M1	51	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D2	M2	36	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D3	M1	48	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D3	M2	59	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D4	M1	42	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D4	M2	44	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D5	M1	51	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D5	M2	23	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D6	M1	67	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D6	M2	29	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D7	M1	38	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D7	M2	26	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D8	M1	17	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D8	M2	81	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D9	M1	55	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D9	M2	47	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D10	M1	45	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D10	M2	28	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M1	47	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M2	52	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M3	75	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D12	M1	47	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D12	M2	32	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D13	M1	104	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D13	M2	78	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D14	M1	59	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D14	M2	46	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D15	M1	53	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D15	M2	50	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D16	M1	47	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D16	M2	60	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D17	M1	59	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D17	M2	16	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D18	M1	56	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D18	M2	32	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D19	M1	56	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D19	M2	30	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D20	M1	38	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D20	M2	74	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D21	M1	41	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D21	M2	40	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D22	M1	65	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D22	M2	35	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	277	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+Prov	Prov	21	Connie Witter	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M1	37	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M2	66	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M3	40	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D2	M1	54	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D2	M2	42	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D3	M1	51	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D3	M2	64	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D4	M1	47	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D4	M2	45	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D5	M1	69	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D5	M2	26	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D6	M1	64	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D6	M2	33	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D7	M1	21	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D7	M2	31	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D8	M1	17	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D8	M2	73	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D9	M1	47	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D9	M2	40	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D10	M1	40	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D10	M2	31	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M1	52	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M2	54	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M3	69	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D12	M1	45	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D12	M2	34	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D13	M1	120	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D13	M2	83	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D14	M1	66	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D14	M2	41	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D15	M1	62	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D15	M2	59	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D16	M1	51	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D16	M2	58	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D17	M1	66	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D17	M2	31	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D18	M1	62	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D18	M2	47	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D19	M1	51	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D19	M2	24	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D20	M1	37	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D20	M2	76	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D21	M1	38	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D21	M2	48	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D22	M1	64	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D22	M2	41	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	293	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+Prov	Prov	25	Justin Doran	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M1	33	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M2	57	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M3	67	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D2	M1	44	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D2	M2	36	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D3	M1	47	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D3	M2	47	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D4	M1	45	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D4	M2	41	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D5	M1	62	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D5	M2	29	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D6	M1	69	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D6	M2	33	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D7	M1	36	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D7	M2	35	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D8	M1	32	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D8	M2	94	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D9	M1	70	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D9	M2	76	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D10	M1	45	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D10	M2	42	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M1	62	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M2	71	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D11	M3	105	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D12	M1	67	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D12	M2	47	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D13	M1	147	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D13	M2	97	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D14	M1	76	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D14	M2	55	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D15	M1	60	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D15	M2	63	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D16	M1	54	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D16	M2	66	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D17	M1	71	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D17	M2	31	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D18	M1	73	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D18	M2	57	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D19	M1	76	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D19	M2	34	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D20	M1	35	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D20	M2	92	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D21	M1	57	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D21	M2	59	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D22	M1	67	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D22	M2	44	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	322	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+Prov	Prov	18	Fern M. Spruill	Princeton BOE	Princeton - ELECTION - November 4, 2014
+D1	M1	57	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D1	M2	101	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D1	M3	79	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D2	M1	81	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D2	M2	67	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D3	M1	74	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D3	M2	90	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D4	M1	72	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D4	M2	84	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D5	M1	105	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D5	M2	43	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D6	M1	113	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D6	M2	61	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D7	M1	40	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D7	M2	41	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D8	M1	26	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D8	M2	116	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D9	M1	57	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D9	M2	59	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D10	M1	64	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D10	M2	54	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D11	M1	77	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D11	M2	99	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D11	M3	119	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D12	M1	80	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D12	M2	48	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D13	M1	77	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D13	M2	112	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D14	M1	92	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D14	M2	69	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D15	M1	68	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D15	M2	90	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D16	M1	73	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D16	M2	101	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D17	M1	98	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D17	M2	37	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D18	M1	104	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D18	M2	70	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D19	M1	95	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D19	M2	46	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D20	M1	59	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D20	M2	105	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D21	M1	75	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D21	M2	65	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D22	M1	104	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D22	M2	63	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	411	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+Prov	Prov	29	YES	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D1	M1	31	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D1	M2	64	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D1	M3	31	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D2	M1	46	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D2	M2	43	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D3	M1	41	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D3	M2	48	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D4	M1	56	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D4	M2	41	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D5	M1	53	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D5	M2	27	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D6	M1	52	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D6	M2	40	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D7	M1	54	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D7	M2	42	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D8	M1	21	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D8	M2	82	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D9	M1	54	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D9	M2	67	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D10	M1	44	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D10	M2	34	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D11	M1	42	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D11	M2	54	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D11	M3	75	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D12	M1	54	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D12	M2	41	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D13	M1	86	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D13	M2	89	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D14	M1	53	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D14	M2	34	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D15	M1	51	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D15	M2	60	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D16	M1	45	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D16	M2	57	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D17	M1	63	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D17	M2	29	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D18	M1	53	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D18	M2	40	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D19	M1	47	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D19	M2	16	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D20	M1	34	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D20	M2	82	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D21	M1	33	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D21	M2	42	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D22	M1	71	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D22	M2	42	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	226	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+Prov	Prov	16	NO	NJ State Question 1	Princeton - ELECTION - November 4, 2014
+D1	M1	69	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D1	M2	138	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D1	M3	87	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D2	M1	99	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D2	M2	87	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D3	M1	89	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D3	M2	94	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D4	M1	89	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D4	M2	86	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D5	M1	123	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D5	M2	52	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D6	M1	140	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D6	M2	80	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D7	M1	83	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D7	M2	68	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D8	M1	43	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D8	M2	180	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D9	M1	92	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D9	M2	110	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D10	M1	93	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D10	M2	79	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D11	M1	106	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D11	M2	124	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D11	M3	173	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D12	M1	109	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D12	M2	73	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D13	M1	244	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D13	M2	171	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D14	M1	119	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D14	M2	89	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D15	M1	103	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D15	M2	121	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D16	M1	104	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D16	M2	137	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D17	M1	131	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D17	M2	53	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D18	M1	139	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D18	M2	93	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D19	M1	130	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D19	M2	53	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D20	M1	83	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D20	M2	160	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D21	M1	90	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D21	M2	93	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D22	M1	132	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D22	M2	80	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	542	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+Prov	Prov	37	YES	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D1	M1	23	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D1	M2	35	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D1	M3	25	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D2	M1	32	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D2	M2	26	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D3	M1	29	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D3	M2	43	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D4	M1	43	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D4	M2	45	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D5	M1	41	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D5	M2	20	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D6	M1	28	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D6	M2	22	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D7	M1	15	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D7	M2	16	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D8	M1	7	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D8	M2	26	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D9	M1	22	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D9	M2	17	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D10	M1	16	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D10	M2	15	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D11	M1	14	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D11	M2	27	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D11	M3	30	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D12	M1	27	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D12	M2	17	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D13	M1	40	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D13	M2	42	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D14	M1	29	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D14	M2	16	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D15	M1	20	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D15	M2	28	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D16	M1	22	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D16	M2	26	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D17	M1	34	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D17	M2	14	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D18	M1	21	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D18	M2	19	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D19	M1	14	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D19	M2	10	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D20	M1	15	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D20	M2	29	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D21	M1	21	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D21	M2	18	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D22	M1	44	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D22	M2	30	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	115	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+Prov	Prov	11	NO	NJ State Question 2	Princeton - ELECTION - November 4, 2014
+D1	M1	56 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D1	M2	100 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D1	M3	66 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D2	M1	87 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D2	M2	67 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D3	M1	56 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D3	M2	66 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D4	M1	74 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D4	M2	74 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D5	M1	111 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D5	M2	48 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D6	M1	107 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D6	M2	68 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D7	M1	71 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D7	M2	71 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D8	M1	39 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D8	M2	149 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D9	M1	62 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D9	M2	77 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D10	M1	64 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D10	M2	56 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D11	M1	78 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D11	M2	98 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D11	M3	136 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D12	M1	92 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D12	M2	66 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D13	M1	193 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D13	M2	142 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D14	M1	83 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D14	M2	65 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D15	M1	84 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D15	M2	97 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D16	M1	87 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D16	M2	111 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D17	M1	95 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D17	M2	37 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D18	M1	115 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D18	M2	76 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D19	M1	115 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D19	M2	46 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D20	M1	60 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D20	M2	135 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D21	M1	72 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D21	M2	73 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D22	M1	93 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D22	M2	48 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	408 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+Prov	Prov	35 	YES	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D1	M1	35 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D1	M2	71 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D1	M3	44 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D2	M1	41 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D2	M2	45 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D3	M1	63 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D3	M2	71 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D4	M1	56 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D4	M2	54 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D5	M1	49 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D5	M2	22 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D6	M1	60 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D6	M2	35 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D7	M1	29 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D7	M2	15 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D8	M1	10 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D8	M2	53 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D9	M1	48 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D9	M2	47 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D10	M1	46 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D10	M2	36 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D11	M1	40 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D11	M2	55 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D11	M3	65 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D12	M1	42 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D12	M2	26 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D13	M1	92 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D13	M2	72 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D14	M1	62 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D14	M2	39 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D15	M1	39 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D15	M2	55 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D16	M1	39 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D16	M2	55 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D17	M1	65 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D17	M2	31 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D18	M1	46 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D18	M2	34 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D19	M1	23 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D19	M2	16 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D20	M1	37 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D20	M2	57 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D21	M1	37 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D21	M2	34 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D22	M1	84 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+D22	M2	56 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+Mail In	Mail In	254 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
+Prov	Prov	12 	NO	Mercer County Question	Princeton - ELECTION - November 4, 2014
