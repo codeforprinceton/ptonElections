@@ -7,5 +7,5 @@ Create an app for district vote counters to quickly upload their counts to the m
 
 ## Tableau Public
 
-Data visualization and Tableau workbook file is available on:
+Data visualization and Tableau workbook file are available on:
 [Princeton Elections 2014 Unofficial Results](https://public.tableau.com/profile/code.for.princeton#!/vizhome/PrincetonMunicipalityMaptest_0/PerPersonShadedMap)
