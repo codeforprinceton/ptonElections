@@ -1,10 +1,10 @@
-<!--Copyright ©2015 Anouk Stein, MD-->
+<!--Copyright Â©2015 Anouk Stein, MD-->
 <?php
 
 global $variables; 
 
-$variables['username'] = ""; //insert database username
-$variables['password'] = ""; //insert database password
+$variables['username'] = "root"; //insert database username
+$variables['password'] = "mattmark123"; //insert database password
 $variables['database'] = "elections";
 
 //---------------------------------------------------------------------------------
@@ -31,6 +31,18 @@ function saveElectionResults($district, $machine_number, $candidateID, $votes){
     }
     //echo $query;
     $result = mysql_query($query) or die("Save saveElectionResults query failed".mysql_error());
+}
+//---------------------------------------------------------------------------------
+function getElectionResults($district, $machine_number, $candidateID){
+    
+    $table = "results";
+    $query = "SELECT * FROM $table WHERE district = $district AND machine = $machine_number AND candidateID = $candidateID";
+       // echo $query;
+    $result = mysql_query($query) or die(" Find saveElectionResults query Failed!".mysql_error());
+    //echo $query;
+    $votesArray = mysql_fetch_array($result);
+    $votes = $votesArray["votes"];
+    return $votes;
 }
 
 //-------------------------------------------------------------------------------------------------------------
