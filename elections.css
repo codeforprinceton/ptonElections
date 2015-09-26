@@ -1,2 +1,36 @@
-.highlight{font-size:20px; color: #122355}
+.highlight{font-size:16px;
+    color: #122355;
+    font-weight: bold;
+    }
 .lowlight{font-size:14px; color: #808080}
+
+.sidebar{background-color:#CC9933;
+    width:200px;
+    float:left;
+    padding: 5px;
+    }
+    
+.mainBox{
+    padding:10px;
+}
+    
+.buttons{
+    text-align: center;
+    width:600px;
+    
+}
+.category{
+    padding-left: 15px;
+}
+tr{
+    width:50%;
+}
+
+.big{
+    font-size: x-large;
+   
+}
+.title{
+    color: #606060;
+}
+button.link { background:none;border:none; }
