@@ -53,11 +53,11 @@ $info = explode(".", $q);
  }
  echo "</td></tr></table>";
  
- echo "<br><br><table class='buttons'><tr><td>";
- echo "<input type=submit name='output' value=' Save '>";
- echo "</td><td><input type=submit name='output' value=' Save and Download CSV '>";
- echo "</td><td><input type=submit name='output' value=' Save and Download Json '>";
- echo "</td></tr></table>";
+ //echo "<br><br><table class='buttons'><tr>";
+ ////echo "<td><input type=submit name='output' value=' Save '></td>";
+ //echo "<td><input type=submit name='output' value=' Download CSV '>";
+ //echo "</td><td><input type=submit name='output' value=' Download Json '>";
+ //echo "</td></tr></table>";
  
  
  

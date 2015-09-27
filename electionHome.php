@@ -2,26 +2,42 @@
 
 <html>
  <head>
-<link rel="stylesheet" type="text/css" href="./elections.css" />
   <title>Election</title>
-  <script src="elections.js"></script>
-  
+ <link rel="stylesheet" type="text/css" href="./elections.css" />
+ <script src="elections.js"></script>
  </head>
  <body style="text-align: center; background-color: #F3E2A9">
+  <table><tr><td id="main">
  <div class="sidebar">
-  <br><br><h2>Choose Districts and Machines:</h2>
-
+  <br>
+  <h2>Choose Districts and Machines:</h2>
+  
+  <!--<hr>
+  <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
+  <form action = './saveInputs.php' name='choices' method ='post'>
+ <input type=submit class='input' name='output' value=' Download CSV '><br>
+ <input type=submit class='input' name='output' value=' Download Json '>
+ </form>
+ <hr>-->
+  
 <?php
 include "SaveElection.php";
 connect();
 
-$number_of_districts = 22;
-$maximum_number_machines = 3;
+//$number_of_districts = 22;
+//$maximum_number_machines = 3;
 
 //TODO get machines and districts
 //data entered
-for ($d=1; $d<= $number_of_districts; $d++){
-    for ($m=1; $m<=$maximum_number_machines; $m++){
+//for ($d=1; $d<= $number_of_districts; $d++){
+//    for ($m=1; $m<=$maximum_number_machines; $m++){
+//Show overview
+
+
+     $machineArray = getArrayOfMachines();
+     foreach ($machineArray as $machineInfo){
+            $d = $machineInfo[0];
+            $m = $machineInfo[1];
        $districtMachineString = "$d.$m";
        echo"<button class='link' onclick='showInfo($districtMachineString)'>";
         if (dataEntered($d,$m) == true){
@@ -31,20 +47,51 @@ for ($d=1; $d<= $number_of_districts; $d++){
         }
         echo "District $d, Machine $m</div></button>";
     }
-}
+
 ?>
+  <hr>
+  <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
+  <form action = './saveInputs.php' name='choices' method ='post'>
+ <input type=submit class='input' name='output' value=' Download CSV '><br>
+ <input type=submit class='input' name='output' value=' Download Json '>
+ </form>
+ <hr>
+  
  </div>
+ 
+ </td><td id="main">
+ 
  <div class="mainBox">
     <br>
      <div id="input">
-      <center><h1 class="title">Enter Election Data</h1></center>
+      <center>
+       <!--
+       <img src="http://www.princetonnj.gov/images/masthead-bw-seal-702.jpg">-->
+      <br>
+      <h1 class="title">Enter Election Data</h1>
       Select a District and Machine to input Election data.
+      <br>
+       <br>
+        <br>
+<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fgreenbaywi.gov%2Fwp-content%2Fuploads%2F2013%2F05%2Felection-vote.jpg&f=1">
+     </center>
      </div>
-     <div id="info">Debug</div>
+     
+     <div id="info"></div>
         
  </div>
+ 
+ <!--<form action = './saveInputs.php' name='choices' method ='post'>
+ <br><br><table class='buttons'><tr>
+ <td><input type=submit name='output' value=' Download CSV '></td>
+ <td><input type=submit name='output' value=' Download Json '></td>
+ </tr></table>
+ </form>-->
+ 
+  </td>
+  </tr></table>
 <?php mysql_close(); ?>
 
-</form>
+
  </body>
 </html>

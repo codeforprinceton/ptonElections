@@ -17,13 +17,13 @@ for ($i=0; $i<$maxCount; $i++){
 saveElectionResults($_POST['district'], $_POST['machine'], $candidateID, $votes);
 }
 
-if ($_POST['output'] == " Save and Download CSV "){
+if ($_POST['output'] == " Download CSV "){
     $filename = "electionResults.csv";
     header('Content-type: application/csv');
     header('Content-Disposition: attachment; filename='.$filename);
     download();
 }
- if  ($_POST['output'] == " Save and Download Json "){
+ if  ($_POST['output'] == " Download Json "){
     $filename = "electionResults.json";
     header('Content-type: application/json');
     header('Content-Disposition: attachment; filename='.$filename);

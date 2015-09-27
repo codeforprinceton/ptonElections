@@ -43,14 +43,14 @@ return xmlHttp;
 
 function ajaxGetInfo(votes, candidateID)
   {
-   var a = GetXmlHttpObject();
+     xmlHttp = GetXmlHttpObject();
    var d = document.getElementById("district").value;
    var m = document.getElementById("machine").value;
    
    var info = d + "," + m + "," + candidateID + "," + votes;
    info = info.toString();
    
-   if(a!=null)
+   if(xmlHttp!=null)
    {
     var url = "save.php";    
     url=url+"?q="+info;
@@ -67,4 +67,20 @@ function stateChangedText()
     if (xmlHttp.readyState==4){ 
         document.getElementById("info").innerHTML = xmlHttp.responseText; 
     }
+}
+
+//----------------------//----------------------//----------------------//----------------------
+
+function showSpreadsheet(){
+     xmlHttp = GetXmlHttpObject();
+
+if(xmlHttp!=null)
+   {
+    var url = "spreadsheet.php";
+    //url=url+"?q="+"null";
+    xmlHttp.onreadystatechange=stateChanged;
+    xmlHttp.open("GET",url,true);
+    xmlHttp.send(null);
+   }
+   else document.getElementById('input').value = "Error retrieving data!";
 }

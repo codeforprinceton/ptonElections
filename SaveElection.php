@@ -45,6 +45,81 @@ function getElectionResults($district, $machine_number, $candidateID){
     return $votes;
 }
 
+//---------------------------------------------------------------------------------
+function createOverviewTable(){
+
+    $query = "SELECT * FROM categories";
+    $result = mysql_query($query) or die(" Find createOverviewTable query Failed!".mysql_error());
+
+    $text = "";
+    while ($category = mysql_fetch_array($result)){
+        $text .= createOverviewTableForCategory($category['category_id']);
+        $text .= "<br>";
+    }
+    return $text;
+}
+
+function createOverviewTableForCategory($category_id){
+    
+    $table = "categories";
+    $query = "SELECT * FROM $table WHERE category_id = $category_id";
+    $result = mysql_query($query) or die(" Find createOverviewTableForCategory query Failed!".mysql_error());
+    $category = mysql_fetch_array($result);
+    $text = "<table class='overviewOuter'>";
+    $text .= createDistrictMachineHeader($category['category_name']);
+    
+    //get each candidate
+    $candidates = getCandidates($category_id);
+    while ($candidate = mysql_fetch_array($candidates)){
+        $text .= "<tr><td class='overviewNoWrap'>{$candidate['candidate_name']}</td>";
+        
+
+//TODO get machines and districts
+//data entered
+        $machineArray = getArrayOfMachines();
+        foreach ($machineArray as $machineInfo){
+            $district = $machineInfo[0];
+            $machine = $machineInfo[1];
+            $text .= "<td  class='overview'>";
+            $text .= getElectionResults($district, $machine, $candidate['candidate_id']);
+            $text .= "</td>";
+        }
+        $text .= "</tr>";
+    }
+    //get votes for each cell
+    $text .= "</table>";
+    return $text;
+}
+
+function createDistrictMachineHeader($categoryName){
+    $header = "<tr><th  class='overview'>{$categoryName}</th>";
+    $machineArray = getArrayOfMachines();
+    foreach ($machineArray as $machineInfo){
+        $district = $machineInfo[0];
+        $machine = $machineInfo[1];
+        
+        $header .= "<th  class='overview'>";
+        $header .= "D{$district}  M{$machine}";
+        $header .= "</th>";
+    }
+    $header .= "</tr>";
+    return $header;
+}
+function getArrayOfMachines(){
+    
+    //TODO get from db
+    $number_of_districts = 22;
+$maximum_number_machines = 3;
+$machines = Array();
+for ($d=1; $d<= $number_of_districts; $d++){
+    for ($m=1; $m<=$maximum_number_machines; $m++){
+        $tmp = [$d,$m];
+        $machines[] = $tmp;
+    }
+}
+    return $machines;
+}
+
 //-------------------------------------------------------------------------------------------------------------
 function getCandidates($category_id)
 {
@@ -141,7 +216,8 @@ function download(){
 }
 //-------------------------------------------------------------------------------------------------------------
 function dataEntered($district, $machine){
-    $query ="select votes from results where district={$district} and machine={$machine} LIMIT 1";
+    //TODO check if all fields entered not just one
+    $query ="Select votes from results where district={$district} and machine={$machine} LIMIT 1";
     $result = mysql_query($query) or die("dataEntered failed".mysql_error());
     $rows = mysql_num_rows($result);
     

@@ -1,4 +1,5 @@
-.highlight{font-size:16px;
+.highlight{
+    font-size:16px;
     color: #122355;
     font-weight: bold;
     }
@@ -13,19 +14,22 @@
 .mainBox{
     padding:10px;
 }
+#main{
+    vertical-align: top;
+    text-align: center;
+}
+.input{
+    background: transparent;
+}
     
 .buttons{
     text-align: center;
-    width:600px;
+    
     
 }
 .category{
     padding-left: 15px;
 }
-tr{
-    width:50%;
-}
-
 .big{
     font-size: x-large;
    
@@ -33,4 +37,31 @@ tr{
 .title{
     color: #606060;
 }
-button.link { background:none;border:none; }
+button.link {
+    background:none;
+    border:none;
+    font-size:16px;
+    color: #122355;
+}
+
+.overviewOuter{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.overviewNoWrap{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    white-space: nowrap;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    min-width: 200px;
+}
+.overview{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+}
