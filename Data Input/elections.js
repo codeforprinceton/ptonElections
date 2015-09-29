@@ -77,10 +77,20 @@ function showSpreadsheet(){
 if(xmlHttp!=null)
    {
     var url = "spreadsheet.php";
-    //url=url+"?q="+"null";
     xmlHttp.onreadystatechange=stateChanged;
     xmlHttp.open("GET",url,true);
     xmlHttp.send(null);
    }
    else document.getElementById('input').value = "Error retrieving data!";
+}
+
+function saveAllForMap(){
+   xmlHttp = GetXmlHttpObject();
+   if(xmlHttp!=null){
+       var url = "spreadsheet.php";
+       xmlHttp.onreadystatechange=stateChanged;
+       xmlHttp.open("GET",url,true);
+       xmlHttp.send(null);
+   }else
+      document.getElementById('input').value = "Error retrieving data!";
 }

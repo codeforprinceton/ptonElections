@@ -12,27 +12,9 @@
   <br>
   <h2>Choose Districts and Machines:</h2>
   
-  <!--<hr>
-  <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
-  <form action = './saveInputs.php' name='choices' method ='post'>
- <input type=submit class='input' name='output' value=' Download CSV '><br>
- <input type=submit class='input' name='output' value=' Download Json '>
- </form>
- <hr>-->
-  
 <?php
 include "SaveElection.php";
 connect();
-
-//$number_of_districts = 22;
-//$maximum_number_machines = 3;
-
-//TODO get machines and districts
-//data entered
-//for ($d=1; $d<= $number_of_districts; $d++){
-//    for ($m=1; $m<=$maximum_number_machines; $m++){
-//Show overview
-
 
      $machineArray = getArrayOfMachines();
      foreach ($machineArray as $machineInfo){
@@ -51,6 +33,7 @@ connect();
 ?>
   <hr>
   <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
+  <button class='link' onclick='saveAllForMap()'>Save All</button>
   <form action = './saveInputs.php' name='choices' method ='post'>
  <input type=submit class='input' name='output' value=' Download CSV '><br>
  <input type=submit class='input' name='output' value=' Download Json '>

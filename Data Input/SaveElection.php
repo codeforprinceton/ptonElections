@@ -2,53 +2,78 @@
 <?php
 
 global $variables; 
-
+//Database
 $variables['username'] = "root"; //insert database username
 $variables['password'] = "mattmark123"; //insert database password
-$variables['database'] = "elections";
+$variables['database'] = "elections"; //database name
+//Tables
+$variables['resultsTableName'] = 'results';
+$variables['categoriesTableName'] = 'categories';
+$variables['candidatesTableName'] = 'candidates';
+//Columns
+$variables['votes_results'] = 'votes';
+$variables['district_results'] = 'district';
+$variables['machine_results'] = 'machine';
+$variables['candidateID_results'] = 'candidateID';
+$variables['category_id_categories'] = 'category_id';
+
 
 //---------------------------------------------------------------------------------
 function saveElectionResults($district, $machine_number, $candidateID, $votes){
+    global $variables;
     if (!$votes || !is_numeric($votes)){
         if (!is_numeric($votes) && $votes != ""){
             echo "Invalid data: " . $votes . " is not a number";
         }
         return;
     }
-    $votes = strip_tags($votes);   
-    $table = "results";
-    $query = "SELECT * FROM $table WHERE district = $district AND machine = $machine_number AND candidateID = $candidateID";
+    $votes = strip_tags($votes);
+    
+    $table = $variables['resultsTableName'];
+    $d = $variables['district_results'];
+    $m = $variables['machine_results'];
+    $c_id = $variables['candidateID_results'];
+    $v = $variables['votes_results'] = 'votes';
+    
+    $query = "SELECT * FROM $table WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";
        // echo $query;
     $result = mysql_query($query) or die(" Find saveElectionResults query Failed!".mysql_error());
     $rows = mysql_num_rows($result);
     
     if ($rows == 0){
-        $query = "INSERT INTO $table (district, machine, candidateID, votes) VALUES ($district, $machine_number, $candidateID, $votes)";
+        $query = "INSERT INTO $table ($d, $m, $c_id, $v) VALUES ($district, $machine_number, $candidateID, $votes)";
     }else{
         $query = "UPDATE $table SET ";
-        $query .= "votes = $votes ";
-        $query .= "WHERE district = $district AND machine = $machine_number AND candidateID = $candidateID";  											
+        $query .= "$v = $votes ";
+        $query .= "WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";  											
     }
     //echo $query;
     $result = mysql_query($query) or die("Save saveElectionResults query failed".mysql_error());
 }
 //---------------------------------------------------------------------------------
 function getElectionResults($district, $machine_number, $candidateID){
+    global $variables;
+    $table = $variables['resultsTableName'];
     
-    $table = "results";
-    $query = "SELECT * FROM $table WHERE district = $district AND machine = $machine_number AND candidateID = $candidateID";
+    $d = $variables['district_results'];
+    $m = $variables['machine_results'];
+    $c_id = $variables['candidateID_results'];
+    $v = $variables['votes_results'] = 'votes';
+    
+    $query = "SELECT * FROM $table WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";
        // echo $query;
     $result = mysql_query($query) or die(" Find saveElectionResults query Failed!".mysql_error());
     //echo $query;
     $votesArray = mysql_fetch_array($result);
-    $votes = $votesArray["votes"];
+    $votes = $votesArray['{$v}'];
     return $votes;
 }
 
 //---------------------------------------------------------------------------------
 function createOverviewTable(){
-
-    $query = "SELECT * FROM categories";
+    global $variables;
+    $table = $variables['categoriesTableName'];
+    $query = "SELECT * FROM $table";
     $result = mysql_query($query) or die(" Find createOverviewTable query Failed!".mysql_error());
 
     $text = "";
@@ -60,9 +85,9 @@ function createOverviewTable(){
 }
 
 function createOverviewTableForCategory($category_id){
-    
-    $table = "categories";
-    $query = "SELECT * FROM $table WHERE category_id = $category_id";
+    global $variables;
+    $table = $variables['categoriesTableName'];
+    $query = "SELECT * FROM $table WHERE {$variables['category_id_categories']} = $category_id";
     $result = mysql_query($query) or die(" Find createOverviewTableForCategory query Failed!".mysql_error());
     $category = mysql_fetch_array($result);
     $text = "<table class='overviewOuter'>";
@@ -123,7 +148,10 @@ for ($d=1; $d<= $number_of_districts; $d++){
 //-------------------------------------------------------------------------------------------------------------
 function getCandidates($category_id)
 {
-    $query = "SELECT * FROM `candidates` WHERE `category_id`  = {$category_id}"; 
+    global $variables;
+    $table = $variables['candidatesTableName'];
+    
+    $query = "SELECT * FROM $table WHERE {$variables['category_id_categories']}  = {$category_id}"; 
     $result = mysql_query($query) or die("Student getCandidates Failed!");
     return $result;
 }
@@ -139,8 +167,10 @@ function getCandidates($category_id)
 
 //-------------------------------------------------------------------------------------------------------------
 function getCategories(){
-    $query = "SELECT * FROM categories";   //echo $query;
-    $result = mysql_query($query) or die(" getCategories query Failed!"); 
+    global $variables;
+    $table = $variables['categoriesTableName'];
+    $query = "SELECT * FROM $table";
+    $result = mysql_query($query) or die(" getCategories query Failed!" . mysql_error()); 
 
     return $result;
 }
@@ -157,7 +187,7 @@ function getResultsOutputCsv(){
     
     $output = "";
     $query = getJoinQuery();
-    $sql = mysql_query($query) or die(" Join query Failed!");
+    $sql = mysql_query($query) or die(" Join query Failed!".mysql_error());
     $columns_total = mysql_num_fields($sql);
 
     // Get The Field Name
@@ -187,7 +217,7 @@ function getResultsOutputJsn(){
     
     $output = "{";
     $query = getJoinQuery();
-    $sql = mysql_query($query) or die(" Join query Failed!"); ;
+    $sql = mysql_query($query) or die(" Join query Failed!".mysql_error()); ;
     $columns_total = mysql_num_fields($sql);
 
     // Get Records from the table
@@ -202,22 +232,34 @@ function getResultsOutputJsn(){
 
 }
 //-------------------------------------------------------------------------------------------------------------
-function download(){
-    $output = getResultsOutputCsv();
-// Download the file
-    $handle = fopen("/Users/Anouk/testdata/election_results.csv", "w");
-    if($handle){
-        fwrite($handle, $output);
-        fclose($handle);
-    }
-    echo $output;
-    exit;
+function download($type){
+    $year = 2015; //TODO getElectionYear
+    $output = "";
+    
+    if ($type == 'csv'){
+        $output .= getResultsOutputCsv();
+    }elseif($type == 'json'){
+        $output .= getResultsOutputJsn();
 
+    $file = fopen("./ptonElections_".  $year. "." . $type,"w");
+    if($file){
+        fwrite($file, $output);
+        fclose($file);
+    }
+    
+    return $output;
 }
+
 //-------------------------------------------------------------------------------------------------------------
 function dataEntered($district, $machine){
     //TODO check if all fields entered not just one
-    $query ="Select votes from results where district={$district} and machine={$machine} LIMIT 1";
+    global $variables;
+    $table = $variables['resultsTableName'];
+    $votes = $variables['votes_results'];
+    $d = $variables['district_results'];
+    $m = $variables['machine_results'];
+    
+    $query ="Select $votes from $table where $d = {$district} and $m = {$machine} LIMIT 1";
     $result = mysql_query($query) or die("dataEntered failed".mysql_error());
     $rows = mysql_num_rows($result);
     
