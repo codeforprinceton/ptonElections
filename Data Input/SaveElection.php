@@ -65,7 +65,7 @@ function getElectionResults($district, $machine_number, $candidateID){
     $result = mysql_query($query) or die(" Find saveElectionResults query Failed!".mysql_error());
     //echo $query;
     $votesArray = mysql_fetch_array($result);
-    $votes = $votesArray['{$v}'];
+    $votes = $votesArray[$v];
     return $votes;
 }
 
@@ -240,6 +240,7 @@ function download($type){
         $output .= getResultsOutputCsv();
     }elseif($type == 'json'){
         $output .= getResultsOutputJsn();
+    }
 
     $file = fopen("./ptonElections_".  $year. "." . $type,"w");
     if($file){

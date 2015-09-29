@@ -87,7 +87,7 @@ if(xmlHttp!=null)
 function saveAllForMap(){
    xmlHttp = GetXmlHttpObject();
    if(xmlHttp!=null){
-       var url = "spreadsheet.php";
+       var url = "saveAllForMap.php";
        xmlHttp.onreadystatechange=stateChanged;
        xmlHttp.open("GET",url,true);
        xmlHttp.send(null);
