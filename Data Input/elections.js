@@ -10,7 +10,7 @@ if (xmlHttp==null)
   return;
   }
 var url = "elections.php";    
-url=url+"?q="+str;
+url=url+"?q="+str+"-showVoteInput";
 url=url+"&sid="+Math.random(); 
 xmlHttp.onreadystatechange=stateChanged;
 xmlHttp.open("GET",url,true);
@@ -52,8 +52,8 @@ function ajaxGetInfo(votes, candidateID)
    
    if(xmlHttp!=null)
    {
-    var url = "save.php";    
-    url=url+"?q="+info;
+    var url = "elections.php";    
+    url=url+"?q="+info+"-saveVote";
     url=url+"&sid="+Math.random(); 
     xmlHttp.onreadystatechange=stateChangedText;
     xmlHttp.open("GET",url,true);
@@ -76,7 +76,8 @@ function showSpreadsheet(){
 
 if(xmlHttp!=null)
    {
-    var url = "spreadsheet.php";
+    var url = "elections.php";
+    url=url+"?q="+"0-showSpreadsheet";
     xmlHttp.onreadystatechange=stateChanged;
     xmlHttp.open("GET",url,true);
     xmlHttp.send(null);
@@ -87,7 +88,8 @@ if(xmlHttp!=null)
 function saveAllForMap(){
    xmlHttp = GetXmlHttpObject();
    if(xmlHttp!=null){
-       var url = "saveAllForMap.php";
+       var url = "elections.php";
+       url=url+"?q="+"0-saveAllForMap";
        xmlHttp.onreadystatechange=stateChanged;
        xmlHttp.open("GET",url,true);
        xmlHttp.send(null);

@@ -1,7 +1,8 @@
 <!--Copyright ©2015 Anouk Stein, MD-->
 <?php
 
-global $variables; 
+global $variables;
+$variables['pathForCSVandJson'] = "/Users/Guest/tmp";
 //Database
 $variables['username'] = "root"; //insert database username
 $variables['password'] = "mattmark123"; //insert database password
@@ -70,6 +71,7 @@ function getElectionResults($district, $machine_number, $candidateID){
 }
 
 //---------------------------------------------------------------------------------
+//Spreadsheet
 function createOverviewTable(){
     global $variables;
     $table = $variables['categoriesTableName'];
@@ -183,7 +185,7 @@ function getJoinQuery(){
 //-------------------------------------------------------------------------------------------------------------
 
 function getResultsOutputCsv(){
-     connect();
+     //connect();
     
     $output = "";
     $query = getJoinQuery();
@@ -207,13 +209,13 @@ function getResultsOutputCsv(){
         $output .="\n";
     }
     
-    mysql_close();
+    //mysql_close();
     return $output;
 }
 
 //-------------------------------------------------------------------------------------------------------------
 function getResultsOutputJsn(){
-     connect();
+    // connect();
     
     $output = "{";
     $query = getJoinQuery();
@@ -228,12 +230,15 @@ function getResultsOutputJsn(){
     $output.= "}";
     echo stripcslashes(json_encode($output));
 
-    mysql_close();
+    //mysql_close();
 
 }
 //-------------------------------------------------------------------------------------------------------------
 function download($type){
+    global $variables;
     $year = 2015; //TODO getElectionYear
+    $path = $variables['pathForCSVandJson'];
+    
     $output = "";
     
     if ($type == 'csv'){
@@ -242,12 +247,11 @@ function download($type){
         $output .= getResultsOutputJsn();
     }
 
-    $file = fopen("./ptonElections_".  $year. "." . $type,"w");
+    $file = fopen($path . "/ptonElections_".  $year. "." . $type,"w");
     if($file){
         fwrite($file, $output);
         fclose($file);
     }
-    
     return $output;
 }
 
@@ -260,14 +264,30 @@ function dataEntered($district, $machine){
     $d = $variables['district_results'];
     $m = $variables['machine_results'];
     
-    $query ="Select $votes from $table where $d = {$district} and $m = {$machine} LIMIT 1";
+    $query ="Select $votes from $table where $d = {$district} and $m = {$machine}";
     $result = mysql_query($query) or die("dataEntered failed".mysql_error());
     $rows = mysql_num_rows($result);
     
-    if ($rows > 0)
+    $categoryCount = getTotalCandidateCount();
+    
+    //echo "Rows = $rows and count = $categoryCount";
+    if ($rows >= $categoryCount)
         return true;
     else
         return false;
+}
+
+function getTotalCandidateCount(){
+    global $variables;
+    //getCandidates
+    $categoryResult = getCategories();
+    $count = 0;
+    while ($category = mysql_fetch_array($categoryResult)){
+        $id = $category[$variables['category_id_categories']];
+        $result = getCandidates($id);
+        $count += mysql_numrows($result);
+    }
+    return $count;
 }
 
 ?>

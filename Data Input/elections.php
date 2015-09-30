@@ -1,11 +1,31 @@
 <?php
 //Copyright ©2015 Anouk Stein, M.D. 
-$q=$_GET["q"];
+$getq=$_GET["q"];
+
 include "SaveElection.php";
+echo '<script src="elections.js"></script>';
 connect();
 
-echo '<script src="elections.js"></script>';
+$parseQ = explode("-",$getq);
+$q = $parseQ[0];
+$functionName = $parseQ[1];
 
+switch ($functionName){
+  case "showVoteInput":
+    showVoteInput($q);
+    break;
+  case "saveVote":
+    saveVote($q);
+    break;
+  case "saveAllForMap";
+    saveAllForMap();
+    break;
+  case "showSpreadsheet";
+    showSpreadsheet();
+    break;
+}
+
+function showVoteInput($q){
 $info = explode(".", $q);
   $district = $info[0];  
   $machine = $info[1]; 
@@ -53,13 +73,27 @@ $info = explode(".", $q);
  }
  echo "</td></tr></table>";
  
- //echo "<br><br><table class='buttons'><tr>";
- ////echo "<td><input type=submit name='output' value=' Save '></td>";
- //echo "<td><input type=submit name='output' value=' Download CSV '>";
- //echo "</td><td><input type=submit name='output' value=' Download Json '>";
- //echo "</td></tr></table>";
- 
- 
- 
+}
+ //---------------------------------------------------------------------------------
+ function saveVote($q){
+  $info = explode(",", $q);
+  $d = $info[0];
+  $m = $info[1];
+  $c = $info[2];
+  $v = $info[3];
+
+  saveElectionResults($d,$m,$c,$v);
+ }
+ //---------------------------------------------------------------------------------
+ function saveAllForMap(){
+  //Can also save as json depending on which is better for Tableau
+  download('csv');
+  echo "Results saved for Map View!";
+ }
+ //---------------------------------------------------------------------------------
+ function showSpreadsheet(){
+    echo createOverviewTable();
+ }
+ //---------------------------------------------------------------------------------
 mysql_close();
 ?>
