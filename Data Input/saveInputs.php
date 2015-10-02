@@ -1,4 +1,4 @@
-<!--Copyright ©2015 Anouk Stein, MD-->
+<!--Copyright Â©2015 Anouk Stein, MD-->
 <html>
  <head>
 <link rel="stylesheet" type="text/css" href="pr.MyStylePlain.css" />
@@ -17,15 +17,30 @@ for ($i=0; $i<$maxCount; $i++){
 saveElectionResults($_POST['district'], $_POST['machine'], $candidateID, $votes);
 }
 
+if ($_POST['output'] == " Save and Download CSV "){
+    $filename = "electionResults.csv";
+    header('Content-type: application/csv');
+    header('Content-Disposition: attachment; filename='.$filename);
+    download();
+}
+ if  ($_POST['output'] == " Save and Download Json "){
+    $filename = "electionResults.json";
+    header('Content-type: application/json');
+    header('Content-Disposition: attachment; filename='.$filename);
+    getResultsOutputJsn();
+}
+
+
+
 echo "<br><br><br><center><h1>Results Saved!</h1></center>";
 
-echo "<form action = './output.php'  method ='post'>";
-echo "Download results:<br><br><input type='radio' name='output' value='csv' checked='true'/>Save results as csv file<br><br> or<br>";
-echo "<br><input type='radio' name='output' value='json' />Save results as Json";
-
+//echo "<form action = './output.php'  method ='post'>";
+//echo "Download results:<br><br><input type='radio' name='output' value='csv' checked='true'/>Save results as csv file<br><br> or<br>";
+//echo "<br><input type='radio' name='output' value='json' />Save results as Json";
+//echo "<br><br><input type=submit value=' Download '>"
 mysql_close();
 ?>
-<br><br><input type=submit value=' Download '>
+
 </form>
  </body>
 </html>
