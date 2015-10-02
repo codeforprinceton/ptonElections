@@ -1,11 +1,11 @@
-<!--Copyright ©2015 Anouk Stein, MD-->
+<!--Copyright ï¿½2015 Anouk Stein, MD-->
 <?php
 
 global $variables;
 $variables['pathForCSVandJson'] = "/Users/Guest/tmp";
 //Database
 $variables['username'] = "root"; //insert database username
-$variables['password'] = "mattmark123"; //insert database password
+$variables['password'] = "root"; //insert database password
 $variables['database'] = "elections"; //database name
 //Tables
 $variables['resultsTableName'] = 'results';
@@ -29,24 +29,24 @@ function saveElectionResults($district, $machine_number, $candidateID, $votes){
         return;
     }
     $votes = strip_tags($votes);
-    
+
     $table = $variables['resultsTableName'];
     $d = $variables['district_results'];
     $m = $variables['machine_results'];
     $c_id = $variables['candidateID_results'];
     $v = $variables['votes_results'] = 'votes';
-    
+
     $query = "SELECT * FROM $table WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";
        // echo $query;
     $result = mysql_query($query) or die(" Find saveElectionResults query Failed!".mysql_error());
     $rows = mysql_num_rows($result);
-    
+
     if ($rows == 0){
         $query = "INSERT INTO $table ($d, $m, $c_id, $v) VALUES ($district, $machine_number, $candidateID, $votes)";
     }else{
         $query = "UPDATE $table SET ";
         $query .= "$v = $votes ";
-        $query .= "WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";  											
+        $query .= "WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";
     }
     //echo $query;
     $result = mysql_query($query) or die("Save saveElectionResults query failed".mysql_error());
@@ -55,12 +55,12 @@ function saveElectionResults($district, $machine_number, $candidateID, $votes){
 function getElectionResults($district, $machine_number, $candidateID){
     global $variables;
     $table = $variables['resultsTableName'];
-    
+
     $d = $variables['district_results'];
     $m = $variables['machine_results'];
     $c_id = $variables['candidateID_results'];
     $v = $variables['votes_results'] = 'votes';
-    
+
     $query = "SELECT * FROM $table WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";
        // echo $query;
     $result = mysql_query($query) or die(" Find saveElectionResults query Failed!".mysql_error());
@@ -94,12 +94,12 @@ function createOverviewTableForCategory($category_id){
     $category = mysql_fetch_array($result);
     $text = "<table class='overviewOuter'>";
     $text .= createDistrictMachineHeader($category['category_name']);
-    
+
     //get each candidate
     $candidates = getCandidates($category_id);
     while ($candidate = mysql_fetch_array($candidates)){
         $text .= "<tr><td class='overviewNoWrap'>{$candidate['candidate_name']}</td>";
-        
+
 
 //TODO get machines and districts
 //data entered
@@ -124,7 +124,7 @@ function createDistrictMachineHeader($categoryName){
     foreach ($machineArray as $machineInfo){
         $district = $machineInfo[0];
         $machine = $machineInfo[1];
-        
+
         $header .= "<th  class='overview'>";
         $header .= "D{$district}  M{$machine}";
         $header .= "</th>";
@@ -133,7 +133,7 @@ function createDistrictMachineHeader($categoryName){
     return $header;
 }
 function getArrayOfMachines(){
-    
+
     //TODO get from db
     $number_of_districts = 22;
 $maximum_number_machines = 3;
@@ -152,19 +152,19 @@ function getCandidates($category_id)
 {
     global $variables;
     $table = $variables['candidatesTableName'];
-    
-    $query = "SELECT * FROM $table WHERE {$variables['category_id_categories']}  = {$category_id}"; 
+
+    $query = "SELECT * FROM $table WHERE {$variables['category_id_categories']}  = {$category_id}";
     $result = mysql_query($query) or die("Student getCandidates Failed!");
     return $result;
 }
 
 //--------------------------------------------------------------------------------------------------------------
  function connect()
-{    
+{
     global $variables;
 
-    $connection = mysql_connect("localhost", $variables['username'], $variables['password']) or die("Unable to connect to SQL server");
-    mysql_select_db($variables['database']) or die("Unable to select database from connect()"); 
+    $connection = mysql_connect("localhost:8888", $variables['username'], $variables['password']) or die("Unable to connect to SQL server"  . mysql_error());
+    mysql_select_db($variables['database']) or die("Unable to select database from connect()" . mysql_error());
 }
 
 //-------------------------------------------------------------------------------------------------------------
@@ -172,7 +172,7 @@ function getCategories(){
     global $variables;
     $table = $variables['categoriesTableName'];
     $query = "SELECT * FROM $table";
-    $result = mysql_query($query) or die(" getCategories query Failed!" . mysql_error()); 
+    $result = mysql_query($query) or die(" getCategories query Failed!" . mysql_error());
 
     return $result;
 }
@@ -186,7 +186,7 @@ function getJoinQuery(){
 
 function getResultsOutputCsv(){
      //connect();
-    
+
     $output = "";
     $query = getJoinQuery();
     $sql = mysql_query($query) or die(" Join query Failed!".mysql_error());
@@ -199,16 +199,16 @@ function getResultsOutputCsv(){
         $output .= '"'.$heading.'",';
     }
     $output .="\n";
-    
+
     // Get Records from the table
-    
+
     while ($row = mysql_fetch_array($sql)) {
         for ($i = 0; $i < $columns_total; $i++) {
             $output .='"'.$row["$i"].'",';
         }
         $output .="\n";
     }
-    
+
     //mysql_close();
     return $output;
 }
@@ -216,7 +216,7 @@ function getResultsOutputCsv(){
 //-------------------------------------------------------------------------------------------------------------
 function getResultsOutputJsn(){
     // connect();
-    
+
     $output = "{";
     $query = getJoinQuery();
     $sql = mysql_query($query) or die(" Join query Failed!".mysql_error()); ;
@@ -238,9 +238,9 @@ function download($type){
     global $variables;
     $year = 2015; //TODO getElectionYear
     $path = $variables['pathForCSVandJson'];
-    
+
     $output = "";
-    
+
     if ($type == 'csv'){
         $output .= getResultsOutputCsv();
     }elseif($type == 'json'){
@@ -263,13 +263,13 @@ function dataEntered($district, $machine){
     $votes = $variables['votes_results'];
     $d = $variables['district_results'];
     $m = $variables['machine_results'];
-    
+
     $query ="Select $votes from $table where $d = {$district} and $m = {$machine}";
     $result = mysql_query($query) or die("dataEntered failed".mysql_error());
     $rows = mysql_num_rows($result);
-    
+
     $categoryCount = getTotalCandidateCount();
-    
+
     //echo "Rows = $rows and count = $categoryCount";
     if ($rows >= $categoryCount)
         return true;
