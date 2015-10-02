@@ -1,4 +1,4 @@
-<!--Copyright ©2015 Anouk Stein, MD-->
+<!--Copyright Â©2015 Anouk Stein, MD-->
 <html>
  <head>
 <link rel="stylesheet" type="text/css" href="pr.MyStylePlain.css" />
@@ -29,7 +29,9 @@
   while ($candidate = mysql_fetch_array($candidates)){
     
     $hidden = "candidateID" . $count++;
-    echo "<tr><td width = 25px></td><td>{$candidate['candidate_name']}</td><td> <input type ='text' name = '{$candidate['candidate_id']}'></td></tr>";
+    echo "<tr><td width = 25px></td><td>{$candidate['candidate_name']}</td><td> <input type ='text' name = '{$candidate['candidate_id']}' value = ";
+    echo getElectionResults($_POST['district'], $_POST['machine'], $candidate['candidate_id']);
+    echo "></td></tr>";
     echo "<input type = hidden name = $hidden METHOD = 'POST' value = '{$candidate['candidate_id']}'>";
   }
   echo "</table>";
@@ -44,7 +46,9 @@
  echo "<INPUT type = hidden name = 'district' METHOD = 'POST' value = '{$_POST['district']}'>";
  echo "<INPUT type = hidden name = 'machine' METHOD = 'POST' value = '{$_POST['machine']}'>";
  echo "<input type = hidden name = 'maxCount' METHOD = 'POST' value = '{$count}'>";
- echo "<br><br><input type=submit value=' Save '>";
+ echo "<br><br><input type=submit name='output' value=' Save '>";
+ echo "<br><br><input type=submit name='output' value=' Save and Download CSV '>";
+ echo "<br><br><input type=submit name='output' value=' Save and Download Json '>";
  ?>
  
  </form>
