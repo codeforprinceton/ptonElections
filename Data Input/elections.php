@@ -1,12 +1,17 @@
 <?php
-//Copyright ©2015 Anouk Stein, M.D. 
+//Copyright �2015 Anouk Stein, M.D.
 $getq=$_GET["q"];
+
 include "SaveElection.php";
 echo '<script src="elections.js"></script>';
 connect();
+
 $parseQ = explode("-",$getq);
 $q = $parseQ[0];
 $functionName = $parseQ[1];
+
+//echo "Name is " . $functionName;
+
 switch ($functionName){
   case "showVoteInput":
     showVoteInput($q);
@@ -21,12 +26,14 @@ switch ($functionName){
     showSpreadsheet();
     break;
 }
+
 function showVoteInput($q){
 $info = explode(".", $q);
-  $district = $info[0];  
-  $machine = $info[1]; 
+  $district = $info[0];
+  $machine = $info[1];
  echo "<center><h1 class='title'>Enter Election Results for District: <span class='big'>$district</span>,  Machine: <span class='big'>$machine</span></h1></center>";
  echo "<form action = './saveInputs.php'  method ='post'>";
+
  //get categories
  $categoriesResult = getCategories();
  $count = 0;
@@ -34,38 +41,39 @@ $info = explode(".", $q);
  echo "<table><tr><td class='category'>";
  while ($category = mysql_fetch_array($categoriesResult)){
   //get candidates
-  $id = $category['category_id']; //echo " ID = {$id} ";
-  
+  $id = $category['id']; //echo " ID = {$id} ";
+
   $candidates = getCandidates($id);
-  echo "<h1> {$category['category_name']}</h1><table>";
-  
+  echo "<h1> {$category['question']}</h1><table>";
+
   while ($candidate = mysql_fetch_array($candidates)){
-    $info = "{$district},{$machine},{$candidate['candidate_id']},"; //echo $info;
-    
+  //  $info = "{$district},{$machine},{$candidate['candidate_id']},"; //echo $info;
+
     $hidden = "candidateID" . $count++;
-    echo "<tr><td width = 25px></td><td>{$candidate['candidate_name']}</td><td>";
-    echo "<input type ='number' id='{$candidate['candidate_id']}' name='{$candidate['candidate_id']}' value = ";
+    echo "<tr><td width = 25px></td><td>{$candidate['response']}</td><td>";
+    echo "<input type ='number' id='{$candidate['id']}' name='{$candidate['id']}' value = ";
     echo "'";
-    echo getElectionResults($district, $machine, $candidate['candidate_id']);
+    echo getElectionResults($district, $machine, $candidate['id']);
     echo "'";
-    //$functionStr = "ajaxGetInfo({$info}, this.value)"; // . $info . ")";
     echo " oninput='ajaxGetInfo(this.value, this.name)' min=0></td></tr>";
-    echo "<input type=hidden name = $hidden METHOD='POST' value='{$candidate['candidate_id']}'>";
+    echo "<input type=hidden name = $hidden METHOD='POST' value='{$candidate['id']}'>";
    // echo "<input type=hidden name = 'candidateID' METHOD='POST' value='{$candidate['candidate_id']}'>";
-    
-  
+
+
   }
   echo "</table>";
-  
+
   echo "<input type=hidden id = 'district' value='{$district}'>";
   echo "<input type=hidden id = 'machine' value='{$machine}'>";
+
   if ($categoryCount % 3 == 2){
    echo "</td><td style='padding-left:45px'>";
   }
   $categoryCount++;
  }
  echo "</td></tr></table>";
- 
+ echo "<input type=hidden name = 'maxCount' value='{$count}'>";
+// echo "<input type=hidden name = 'maxCategoryCount' value='{$categoryCount}'>";
 }
  //---------------------------------------------------------------------------------
  function saveVote($q){
@@ -74,12 +82,14 @@ $info = explode(".", $q);
   $m = $info[1];
   $c = $info[2];
   $v = $info[3];
+
   saveElectionResults($d,$m,$c,$v);
  }
  //---------------------------------------------------------------------------------
  function saveAllForMap(){
   //Can also save as json depending on which is better for Tableau
-  download('csv');
+  $date = date("m_Y");
+  download('csv', $date);
   echo "Results saved for Map View!";
  }
  //---------------------------------------------------------------------------------
@@ -87,5 +97,6 @@ $info = explode(".", $q);
     echo createOverviewTable();
  }
  //---------------------------------------------------------------------------------
+
 mysql_close();
 ?>
