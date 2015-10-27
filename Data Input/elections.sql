@@ -2,6 +2,11 @@ SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
+--  Create Database
+-- ----------------------------
+CREATE DATABASE IF NOT EXISTS ptonElections
+
+-- ----------------------------
 --  Table structure for districts
 -- ----------------------------
 DROP TABLE IF EXISTS districts;
@@ -36,6 +41,7 @@ CREATE TABLE election_districts (
   election_id bigint(20) NOT NULL,
   district_id bigint(20) NOT NULL,
   machine_count tinyint(4) NOT NULL,
+  reg_voters bigint(20) NOT NULL,
   PRIMARY KEY (id),
   KEY election_districts_elections_fk (election_id),
   KEY election_districts_districts_fk (district_id),
@@ -51,6 +57,7 @@ CREATE TABLE elections (
   id bigint(20) NOT NULL AUTO_INCREMENT,
   election_date datetime NOT NULL,
   location varchar(255) NOT NULL,
+  name varchar(255) NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

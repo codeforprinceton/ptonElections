@@ -54,6 +54,13 @@ while ($d = mysql_fetch_array($districts)){
   $m = $_POST[$index];
   saveMachineCount($d['district_id'], $m, $election_id);
 }
+//_districtVoters
+$districts = getAllDistricts($election_id);
+while ($d = mysql_fetch_array($districts)){
+  $index = $d['district_id'] . "_districtVoters";
+  $m = $_POST[$index];
+  saveRegVoters($d['district_id'], $m, $election_id);
+}
 echo "Saved.";
 
 mysql_close();

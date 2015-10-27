@@ -18,7 +18,7 @@ $result = getItemFromTable('elections', 'id', $election_id);
 $election = mysql_fetch_array($result);
 $date = date_create($election['election_date']);
 
-echo "<h3>Election Date: " . date_format($date,"m/Y") . " Location: " . $election['location'] . "</h3>";
+echo "<h3>Election: {$election['name']} " . date_format($date,"m/d/Y") . " (" . $election['location'] . ")</h3>";
 
 //list ballot items
 //get categories
@@ -57,7 +57,7 @@ $choiceCount = 1;
    $choiceCount++;
  }
  //Add More choices
- $limit = 1;
+ $limit = 4;
  while ($limit > 0){
    $hidden = "candidateID" . $count++;
    $candidate_id = $newCount--;
@@ -75,7 +75,7 @@ echo "</table>";
 }
 
 //Add more ballot items
-$ballotItemLimit = 1;
+$ballotItemLimit = 0;
 while ($ballotItemLimit > 0){
   echo "<table><tr><td class='category'>";
   $hiddenCategory = "category" . $categoryCount++;
@@ -106,8 +106,13 @@ echo "</table>";
   $ballotItemLimit--;
 }
 
-
-//districts
+//machines and reg voters
+echo "<table><tr><td>";
+echo createMachineCountColumn($election_id);
+echo "</td><td>";
+echo createRegVotersColumn($election_id);
+echo "</td></tr></table>";
+/*
 echo "<h4>Set Number of Machines per District</h4>";
 //get districts
 $query = "Select * from election_districts JOIN districts where election_districts.election_id = $election_id and ";
@@ -119,14 +124,14 @@ while ($district = mysql_fetch_array($result)){
   $district_id = $district['id'] . "_district";
   echo "District $name: <input type='number' name=$district_id value=$machineCount> <br>";
 }
-
+*/
 
 echo "<input type='hidden' name='election' value='{$election_id}'>";
 echo "<input type=hidden name = 'maxCount' value='{$count}'>";
 echo "<input type=hidden name = 'maxCategoryCount' value='{$categoryCount}'>";
 
 ?>
-<input type='submit' value='Submit'>
+<input type='submit' value='Save'>
 </form>
 <?php mysql_close(); ?>
 

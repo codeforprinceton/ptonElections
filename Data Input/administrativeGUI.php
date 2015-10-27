@@ -20,7 +20,7 @@ while ($election = mysql_fetch_array($result)){
   $d = new DateTime($election['election_date']);
   $id = $election['id'];
   echo '<input type="radio" name="election" value=' . $id . '> ';
-  echo date_format($d, "M Y");
+  echo $election['name'] . " " . date_format($d, "M d, Y");
   echo " <i>(" . $election['location'] . ")</i><br>";
 }
 echo "<br><input type='submit' value='Edit'></form>";
@@ -30,7 +30,9 @@ echo "<br><input type='submit' value='Edit'></form>";
 <h3>Or Add New Election</h3>
 <form action="add.php" method='POST'>
 Election Month: <input type='number' name='month' min="1" max="12"><br>
+Election Day: <input type='number' name='day' min="1" max="31"><br>
 Election Year: <input type='number' name='year' min="2015" max="3000"><br>
+Name: <input type='text' name='name' value='Primary'><br>
 Location: <input type='text' name='location' value='Princeton, NJ'>
 <br><br><input type="submit" value="Create">
 </form>
