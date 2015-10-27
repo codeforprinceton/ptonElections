@@ -1,4 +1,4 @@
-<!--Copyright ©2015 Anouk Stein, MD-->
+<!--Copyright �2015 Anouk Stein, MD-->
 
 <html>
  <head>
@@ -11,7 +11,7 @@
  <div class="sidebar">
   <br>
   <h2>Choose Districts and Machines:</h2>
-  
+
 <?php
 include "SaveElection.php";
 connect();
@@ -19,7 +19,7 @@ connect();
      foreach ($machineArray as $machineInfo){
             $d = $machineInfo[0];
             $m = $machineInfo[1];
-       $districtMachineString = "$d.$m";
+       $districtMachineString = "$d.$m";  //echo "$districtMachineString <br>";
        echo"<button class='link' onclick='showInfo($districtMachineString)'>";
         if (dataEntered($d,$m) == true){
           echo "<div class='highlight'>";
@@ -28,6 +28,7 @@ connect();
         }
         echo "District $d, Machine $m</div></button>";
     }
+
 ?>
   <hr>
   <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
@@ -36,12 +37,15 @@ connect();
  <input type=submit class='input' name='output' value=' Download CSV '><br>
  <input type=submit class='input' name='output' value=' Download Json '>
  </form>
+ <form action = 'administrativeGUI.php'method ='post'>
+<input type=submit class='input' value=' Edit/Create Election Template '>
+</form>
  <hr>
-  
+
  </div>
- 
+
  </td><td id="main">
- 
+
  <div class="mainBox">
     <br>
      <div id="input">
@@ -57,22 +61,12 @@ connect();
 <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fgreenbaywi.gov%2Fwp-content%2Fuploads%2F2013%2F05%2Felection-vote.jpg&f=1">
      </center>
      </div>
-     
+
      <div id="info"></div>
-        
+
  </div>
- 
- <!--<form action = './saveInputs.php' name='choices' method ='post'>
- <br><br><table class='buttons'><tr>
- <td><input type=submit name='output' value=' Download CSV '></td>
- <td><input type=submit name='output' value=' Download Json '></td>
- </tr></table>
- </form>-->
- 
   </td>
   </tr></table>
 <?php mysql_close(); ?>
-
-
  </body>
 </html>

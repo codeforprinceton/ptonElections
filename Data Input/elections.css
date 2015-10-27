@@ -10,7 +10,7 @@
     float:left;
     padding: 5px;
     }
-    
+
 .mainBox{
     padding:10px;
 }
@@ -21,18 +21,18 @@
 .input{
     background: transparent;
 }
-    
+
 .buttons{
     text-align: center;
-    
-    
+
+
 }
 .category{
     padding-left: 15px;
 }
 .big{
     font-size: x-large;
-   
+
 }
 .title{
     color: #606060;
@@ -54,6 +54,7 @@ button.link {
     border-collapse: collapse;
     white-space: nowrap;
     text-align: center;
+    color: DimGray;
     padding-left: 3px;
     padding-right: 3px;
     min-width: 200px;
@@ -62,6 +63,16 @@ button.link {
     border: 1px solid gray;
     border-collapse: collapse;
     text-align: center;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 4px;
+    color:DarkGray;
+    font-size:14px;
+    font-weight: lighter;
+}
+.tally{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding:3px;
+    color:DarkBlue;
+    font-size:16px;
 }
