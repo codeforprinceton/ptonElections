@@ -5,6 +5,7 @@ $getq=$_GET["q"];
 include "administrativeFunctions.php";
 echo '<script src="elections.js"></script>';
 connect();
+session_start();
 
 $parseQ = explode("-",$getq);
 $q = $parseQ[0];
@@ -40,7 +41,8 @@ $info = explode(".", $q);
  echo "<form action = './saveInputs.php'  method ='post'>";
 
  //get categories
- $categoriesResult = getCategories();
+ $election_id = getCurrentElectionID();
+ $categoriesResult = getCategories($election_id);
  $count = 0;
  $categoryCount = 0;
  echo "<table><tr><td class='category'>";
@@ -93,9 +95,9 @@ $info = explode(".", $q);
  //---------------------------------------------------------------------------------
  function saveAllForMap(){
   //Can also save as json depending on which is better for Tableau
-  $date = date("m_Y");
+  $date = date("m_d_Y");
   download('csv', $date);
-  echo "Results saved for Map View!";
+  echo "Results saved for Map View as ptonElections_{$date}.csv!";
  }
  //---------------------------------------------------------------------------------
  function showSpreadsheet(){
