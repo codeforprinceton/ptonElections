@@ -2,7 +2,7 @@
 //Copyright �2015 Anouk Stein, M.D.
 $getq=$_GET["q"];
 
-include "SaveElection.php";
+include "administrativeFunctions.php";
 echo '<script src="elections.js"></script>';
 connect();
 
@@ -31,7 +31,12 @@ function showVoteInput($q){
 $info = explode(".", $q);
   $district = $info[0];
   $machine = $info[1];
- echo "<center><h1 class='title'>Enter Election Results for District: <span class='big'>$district</span>,  Machine: <span class='big'>$machine</span></h1></center>";
+  //get name of district
+  $query = "Select * from districts where id = $district";
+  $result = mysql_query($query) or die("Query Failed!"  . $query);
+  $districtInfo = mysql_fetch_array($result);
+  $name = $districtInfo['name'];
+ echo "<center><h1 class='title'>Enter Election Results for District: <span class='big'>$name</span>,  Machine: <span class='big'>$machine</span></h1></center>";
  echo "<form action = './saveInputs.php'  method ='post'>";
 
  //get categories

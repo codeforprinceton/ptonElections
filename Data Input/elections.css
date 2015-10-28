@@ -9,6 +9,7 @@
     width:200px;
     float:left;
     padding: 5px;
+    text-align: left;
     }
 
 .mainBox{
@@ -53,11 +54,21 @@ button.link {
     border: 1px solid gray;
     border-collapse: collapse;
     white-space: nowrap;
-    text-align: center;
+    text-align: left;
     color: DimGray;
     padding-left: 3px;
     padding-right: 3px;
     min-width: 200px;
+}
+.overviewNoWrapRight{
+  border: 1px solid gray;
+  border-collapse: collapse;
+  white-space: nowrap;
+  text-align: right;
+  color: DimGray;
+  padding-left: 3px;
+  padding-right: 3px;
+  min-width: 200px;
 }
 .overview{
     border: 1px solid gray;

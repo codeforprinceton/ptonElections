@@ -13,13 +13,14 @@ connect();
 //New election
 //echo $_POST['month'] . " " . $_POST['year'];
 $m = $_POST['month'];
+$d = $_POST['day'];
 $y = $_POST['year'];
-if ($m<1 || $m>12 || $y<2015 || $y>3000){
+if ($m<1 || $m>12 || $y<2015 || $y>3000  || $d<1 || $d>31){
   echo "Invalid date. Hit back button on browser and reenter.";
 }else{
-  $date ="$y-$m-01 00:00:00";
+  $date ="$y-$m-$d 00:00:00";
   //2015-11-02 00:00:00
-  $election_id = createNewElection($date, $_POST['location']);
+  $election_id = createNewElection($date, $_POST['location'], $_POST['name']);
   //echo "id is $election_id";
 
   //get last election data
@@ -27,13 +28,13 @@ if ($m<1 || $m>12 || $y<2015 || $y>3000){
   $election = mysql_fetch_array($result);
   $election = mysql_fetch_array($result);
   $priorElection_id = $election['id'];
-  echo "priorElection_id is  $priorElection_id";
+  //echo "priorElection_id is  $priorElection_id";
 
 
   $count = 0;
   $categoryCount = 0;
   $newCount = -1;
-  echo "<h3>Election Date: $m/$y Location: {$_POST['location']}</h3>";
+  echo "<h3>Election: {$_POST['name']} $m/$d/$y Location: {$_POST['location']}</h3>";
   //Add more ballot items
   $ballotItemLimit = 8;
   while ($ballotItemLimit > 0){
@@ -64,21 +65,13 @@ if ($m<1 || $m>12 || $y<2015 || $y>3000){
   echo "</table>";
     $ballotItemLimit--;
   }
-  //machines
-  echo "<h4>Set Number of Machines per District</h4>";
-  //get districts
-  $query = "Select * from election_districts JOIN districts where election_districts.election_id = $priorElection_id and ";
-  $query .= "election_districts.district_id = districts.id";
-  $result = mysql_query($query) or die("Machine Query Failed!"  . $query);
-  while ($district = mysql_fetch_array($result)){
-    $machineCount = $district['machine_count'];
-    $name = $district['name'];
-    $district_id = $district['district_id'] . "_district";
-    //save first
-    saveMachineCount($district['district_id'], $machineCount, $election_id);
-    echo "District $name: <input type='number' name=$district_id value=$machineCount> <br>";
-  }
-
+  //machines and reg voters
+  echo "<table><tr><td>";
+  echo createMachineCountColumn($priorElection_id);
+  echo "</td><td>";
+  echo createRegVotersColumn($priorElection_id);
+  echo "</td></tr></table>";
+  
   echo "<input type=hidden name='election' value='{$election_id}'>";
   echo "<input type=hidden name = 'maxCount' value='{$count}'>";
   echo "<input type=hidden name = 'maxCategoryCount' value='{$categoryCount}'>";

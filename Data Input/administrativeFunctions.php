@@ -12,8 +12,8 @@ function getAllElections(){
   $result = mysql_query($query) or die("Current election id Query Failed!"  . $query);
   return $result;
 }
-function createNewElection($date, $location){
-  $query = "INSERT INTO elections (election_date,location) VALUES ('{$date}', '{$location}')";
+function createNewElection($date, $location, $name){
+  $query = "INSERT INTO elections (election_date,location, name) VALUES ('{$date}', '{$location}', '{$name}')";
   $result = mysql_query($query) or die("Query Failed!".mysql_error());
   return mysql_insert_id();
 }
@@ -79,6 +79,18 @@ function saveMachineCount($district_id, $machine_count, $electionID){
 }
   $result = mysql_query($query) or die("Query failed" . $query);  //echo $query;
 }
+function saveRegVoters($district_id, $reg_voters, $electionID){
+  $checkQuery = "Select * from election_districts where district_id = $district_id and election_id = $electionID";
+  $checkResult = mysql_query($checkQuery) or die("Query Failed!"  . $checkQuery);
+  $rows = mysql_num_rows($checkResult);
+  if ($rows > 0){
+  $query = "Update election_districts set reg_voters ='{$reg_voters}' where district_id = $district_id and election_id = $electionID";
+}else{
+  $query = "Insert into election_districts (election_id, district_id, reg_voters) values ($electionID, $district_id, $reg_voters)";
+}
+  $result = mysql_query($query) or die("Query failed" . $query);  //echo $query;
+}
+
 
 function getQuestionIDFromQuestion($question, $electionID){
   $query = "Select id from questions where question='{$question}' and election_id = $electionID";
@@ -100,9 +112,38 @@ function editChoice($choiceID, $itemName, $orderNumber){
 
 }
 function setPassword($password){
-
-
 }
 
-
+function createMachineCountColumn($electionID){
+  $text =  "<h4>Number of Machines per District</h4>";
+  //get districts
+  $query = "Select * from election_districts JOIN districts where election_districts.election_id = $electionID and ";
+  $query .= "election_districts.district_id = districts.id";
+  $result = mysql_query($query) or die("Machine Query Failed!"  . $query);
+  while ($district = mysql_fetch_array($result)){
+    $machineCount = $district['machine_count'];
+    $name = $district['name'];
+    $district_id = $district['district_id'] . "_district";
+    //save first
+    saveMachineCount($district['district_id'], $machineCount, $electionID);
+    $text .= "District $name: <input type='number' name=$district_id value=$machineCount> <br>";
+  }
+  return $text;
+}
+function createRegVotersColumn($electionID){
+  $text =  "<h4>Registered Voters per District</h4>";
+  //get districts
+  $query = "Select * from election_districts JOIN districts where election_districts.election_id = $electionID and ";
+  $query .= "election_districts.district_id = districts.id";
+  $result = mysql_query($query) or die("Query Failed!"  . $query);
+  while ($district = mysql_fetch_array($result)){
+    $voters = $district['reg_voters'];
+    $name = $district['name'];
+    $district_id = $district['district_id'] . "_districtVoters";
+    //save first
+    saveRegVoters($district['district_id'], $voters, $electionID);
+    $text .= "District $name: <input type='number' name=$district_id value=$voters> <br>";
+  }
+  return $text;
+}
 ?>
