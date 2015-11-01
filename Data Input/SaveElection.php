@@ -1,5 +1,5 @@
 <?php
-//Copyright �2015 Anouk Stein, MD
+//Copyright 2015 Anouk Stein, MD
 global $variables;
 $variables['pathForCSVandJson'] = "/Users/Guest/tmp";
 //Database
@@ -16,8 +16,6 @@ $variables['district_results'] = 'election_district_id';
 $variables['machine_results'] = 'machine_number';
 $variables['candidateID_results'] = 'response_id';
 $variables['category_id_categories'] = 'question_id';
-
-
 
 //---------------------------------------------------------------------------------
 function saveElectionResults($district, $machine_number, $candidateID, $votes){
@@ -78,7 +76,10 @@ function createOverviewTable(){
     $query = "SELECT * FROM $table";
     $result = mysql_query($query) or die(" Find createOverviewTable query Failed!".mysql_error());
 
-    $text = "<h1>Unofficial Results</h1>";
+    $election = getCurrentElectionInfo();
+    $date = new DateTime($election['election_date']);
+    $d = date_format($date, "M d, Y");
+    $text = "<h1>Unofficial Results -  {$election['name']} {$d} {$election['location']}</h1>";
     while ($category = mysql_fetch_array($result)){
         $text .= createOverviewTableForCategory($category['id']);
         $text .= "<br>";
@@ -242,18 +243,23 @@ while ($district = mysql_fetch_array($result)){
 }
 //-------------------------------------------------------------------------------------------------------------
 function getCurrentElectionID(){
-  //static $currentElectionID;
-//  if ($currentElectionID != NULL){
     // get most recent
-    $query = "Select id from elections order by election_date desc";
-    $result = mysql_query($query) or die("Current election id Query Failed!"  . $query);
-    $id = mysql_fetch_array($result);
-    $currentElectionID = $id[0];
-    //debug
-  //  echo "Election id generated";
-//  }
+    // $query = "Select id from elections order by election_date desc";
+    // $result = mysql_query($query) or die("Current election id Query Failed!"  . $query);
+    // $id = mysql_fetch_array($result);
+    // $currentElectionID = $id[0];
+//return $currentElectionID;
 
-  return $currentElectionID;
+  $id = $_SESSION['election_id'];
+  return $id;
+}
+
+function getCurrentElectionInfo(){
+  $id = getCurrentElectionID();
+  $query = "Select * from elections where id=$id";
+  $result = mysql_query($query) or die("Current election id Query Failed!"  . $query);
+  $election = mysql_fetch_array($result);
+  return $election;
 }
 
 //-------------------------------------------------------------------------------------------------------------
@@ -304,8 +310,8 @@ function getMachineTotal($category_id, $d, $m){
 
 //-------------------------------------------------------------------------------------------------------------
 //Questions
-function getCategories(){
-  $electionID = getCurrentElectionID();
+function getCategories($electionID){
+//  $electionID = getCurrentElectionID();
     global $variables;
     $table = $variables['categoriesTableName'];
     $query = "SELECT * FROM $table where election_id = $electionID order by question_order";
@@ -386,7 +392,6 @@ function download($type, $date){
     $path = $variables['pathForCSVandJson'];
 
     $output = "";
-
     if ($type == 'csv'){
         $output .= getResultsOutputCsv();
     }elseif($type == 'json'){
@@ -440,7 +445,8 @@ function districtComplete($districtID){
 function getTotalCandidateCount(){
     global $variables;
     //getCandidates
-    $categoryResult = getCategories();
+    $election_id = getCurrentElectionID();
+    $categoryResult = getCategories($election_id);
     $count = 0;
     while ($category = mysql_fetch_array($categoryResult)){
         $id = $category['id'];
@@ -456,12 +462,9 @@ $data = createOverviewTable();
 $myfile = fopen("Spreadsheet.html", "w") or die("Unable to open file!");
 
 fwrite($myfile, $data);
-
 fclose($myfile);
 
 }
-
-
 //-------------------------------------------------------------------------------------------------------------
 
 ?>

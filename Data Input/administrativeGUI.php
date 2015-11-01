@@ -32,8 +32,11 @@ echo "<br><input type='submit' value='Edit'></form>";
 Election Month: <input type='number' name='month' min="1" max="12"><br>
 Election Day: <input type='number' name='day' min="1" max="31"><br>
 Election Year: <input type='number' name='year' min="2015" max="3000"><br>
+<br>
 Name: <input type='text' name='name' value='Primary'><br>
-Location: <input type='text' name='location' value='Princeton, NJ'>
+Location: <input type='text' name='location' value='Princeton, NJ'><br>
+<br>
+Number of Ballot Items: <input type='number' name='items' value='0' min="0" max="25">
 <br><br><input type="submit" value="Create">
 </form>
 <?php

@@ -2,6 +2,7 @@
 //Copyright �2015 Anouk Stein, MD
 include "SaveElection.php";
 connect();
+session_start();
 if (isset($_POST['maxCount'])){
   $maxCount = $_POST['maxCount'];
   for ($i=0; $i<$maxCount; $i++){
@@ -26,7 +27,7 @@ if ($_POST['output'] == " Download CSV "){
     $date = date("m_d_Y");
     echo download('json', $date);
 }
-if  ($_POST['output'] == " Get Spreadsheet as PDF "){
+if  ($_POST['output'] == " Get Spreadsheet "){
   $filename = date("m_d_Y_") . "electionResults.html";
   header('Content-type: application/html');
   header('Content-Disposition: attachment; filename='.$filename);

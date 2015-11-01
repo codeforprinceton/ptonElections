@@ -1,110 +1,79 @@
-<!--Copyright �2015 Anouk Stein, MD-->
+<!--Copyright 2015 Anouk Stein, MD-->
 
 <html>
  <head>
   <title>Election</title>
  <link rel="stylesheet" type="text/css" href="./elections.css" />
  <script src="elections.js"></script>
+ <script src="http://code.jquery.com/jquery-latest.js"></script>
+ <?php
+ $signedIn = false;
+ include "SaveElection.php";
+ connect();
+  if (isset($_POST['username']) && isset($_POST['password'])){
+    if ($_POST['username'] == "w" && $_POST['password'] == "w"){
+      $signedIn = true;
+    }
+  }
+  if ($signedIn){
+    session_start();
+    $_SESSION['election_id'] = $_POST['election'];
+
+//echo $_SESSION['election_id'] . " !!!!!!!";
+    echo "<script>
+       $(document).ready(function() {
+         $('#districts').load('sidebar.php');
+         var auto_refresh = setInterval(
+             function ()
+             {
+                 $('#districts').load('sidebar.php').fadeIn('slow');
+             }, 5000); // refresh every 5000 milliseconds
+         $.ajaxSetup({ cache: true });
+   });
+   </script>";
+ }else{
+   echo "<br><br><br><h2>Invalid username or password. Hit back button on browser to try again.</h2>";
+ }
+
+ ?>
  </head>
  <body style="text-align: center; background-color: #F3E2A9">
   <table><tr><td id="main">
  <div class="sidebar">
-  <br>
-  <h2>Choose Districts and Machines:</h2>
 
-<?php
-include "SaveElection.php";
-connect();
-
-$election_id = getCurrentElectionID();
-  //get all districts
-  $query = "Select * from election_districts JOIN districts where election_districts.election_id = $election_id and ";
-  $query .= "election_districts.district_id = districts.id";
-  $result = mysql_query($query) or die("Query Failed!"  . $query);
-  while ($district = mysql_fetch_array($result)){
-    $machineCount = $district['machine_count'];
-    $name = $district['name'];
-    $district_id = $district['district_id'];
-    if(districtComplete($district_id)){
-      echo "<br><div class='highlight'>";
-    }else{
-      echo "<br><div class='lowlight'>";
-    }
-    echo "District $name</div>";
-
-    for ($m=1; $m<=$machineCount; $m++){
-      $districtMachineString = "$district_id.$m";  //echo "$districtMachineString <br>";
-      echo"<button class='link' onclick='showInfo($districtMachineString)'>";
-       if (dataEntered($district_id,$m) == true){
-         echo "<div class='highlight'>";
-       }else{
-         echo "<div class='lowlight'>";
-       }
-       if(is_numeric($name)){
-         echo " Machine $m";
-       }else{
-         echo " $name";
-       }
-       echo " </div></button><br>";
-    }
-}
-
-
-/*
-     $machineArray = getArrayOfMachines();
-     foreach ($machineArray as $machineInfo){
-            $d = $machineInfo[0];
-            $m = $machineInfo[1];
-       $districtMachineString = "$d.$m";  //echo "$districtMachineString <br>";
-       echo"<button class='link' onclick='showInfo($districtMachineString)'>";
-        if (dataEntered($d,$m) == true){
-          echo "<div class='highlight'>";
-        }else{
-          echo "<div class='lowlight'>";
-        }
-        echo "District $d, Machine $m</div></button>";
-    }
-*/
-?>
-  <hr>
-  <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
-  <button class='link' onclick='saveAllForMap()'>Save For Map</button>
-  <form action = './saveInputs.php' name='choices' method ='post'>
- <input type=submit class='input' name='output' value=' Download CSV '><br>
- <input type=submit class='input' name='output' value=' Download Json '><br>
-  <input type=submit class='input' name='output' value=' Get Spreadsheet as PDF '>
- 
- </form>
- <form action = 'administrativeGUI.php'method ='post'>
-<input type=submit class='input' value=' Edit/Create Election Template '>
-</form>
- <hr>
-
- </div>
-
- </td><td id="main">
-
- <div class="mainBox">
-    <br>
-     <div id="input">
-      <center>
-       <!--
-       <img src="http://www.princetonnj.gov/images/masthead-bw-seal-702.jpg">-->
-      <br>
-      <h1 class="title">Enter Election Data</h1>
-      Select a District and Machine to input Election data.
-      <br>
-       <br>
+ <?php
+ if($signedIn){
+   echo "  <h2>Choose Districts and Machines:</h2>
+     <div id='districts'></div>
+     <hr>
+     <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
+     <button class='link' onclick='saveAllForMap()'>Save For Map</button>
+     <form action = './saveInputs.php' name='choices' method ='post'>
+        <input type=submit class='input' name='output' value=' Download CSV '><br>
+        <input type=submit class='input' name='output' value=' Download Json '><br>
+        <input type=submit class='input' name='output' value=' Get Spreadsheet '>
+     </form>
+     <form action = 'administrativeGUI.php'method ='post'>
+        <input type=submit class='input' value=' Edit/Create Election Template '>
+     </form>
+    <hr>
+    </div></td>
+    <td id='main'>
+     <div class='mainBox'>
         <br>
-<img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fgreenbaywi.gov%2Fwp-content%2Fuploads%2F2013%2F05%2Felection-vote.jpg&f=1">
-     </center>
+         <div id='input'>
+          <center><!--<img src='http://www.princetonnj.gov/images/masthead-bw-seal-702.jpg'>-->
+          <br><h1 class='title'>Enter Election Data</h1>Select a District and Machine to input Election data.
+          <br><br><br>
+    <img src='https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fgreenbaywi.gov%2Fwp-content%2Fuploads%2F2013%2F05%2Felection-vote.jpg&f=1'>
+         </center>
+         </div>
+         <div id='info'></div>
      </div>
-
-     <div id="info"></div>
-
- </div>
-  </td>
-  </tr></table>
-<?php mysql_close(); ?>
+      </td>
+      </tr></table>";
+ }
+ mysql_close();
+ ?>
  </body>
 </html>

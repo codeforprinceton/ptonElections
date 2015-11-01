@@ -13,7 +13,6 @@ include "administrativeFunctions.php";
 connect();
 $election_id = $_POST['election'];
 
-
 $result = getItemFromTable('elections', 'id', $election_id);
 $election = mysql_fetch_array($result);
 $date = date_create($election['election_date']);
@@ -22,7 +21,7 @@ echo "<h3>Election: {$election['name']} " . date_format($date,"m/d/Y") . " (" . 
 
 //list ballot items
 //get categories
-$categoriesResult = getCategories();
+$categoriesResult = getCategories($election_id);
 $count = 0;
 $categoryCount = 0;
 $newCount = -1;

@@ -15,8 +15,11 @@ connect();
 $m = $_POST['month'];
 $d = $_POST['day'];
 $y = $_POST['year'];
+
 if ($m<1 || $m>12 || $y<2015 || $y>3000  || $d<1 || $d>31){
-  echo "Invalid date. Hit back button on browser and reenter.";
+  echo "<h3>Invalid date. Hit back button on browser and reenter.</h3>";
+}else if(!isset($_POST['items']) || $_POST['items'] < 1){
+    echo "<h3>Please set number of ballot items. Hit back button on browser and reenter.</h3>";
 }else{
   $date ="$y-$m-$d 00:00:00";
   //2015-11-02 00:00:00
@@ -36,7 +39,7 @@ if ($m<1 || $m>12 || $y<2015 || $y>3000  || $d<1 || $d>31){
   $newCount = -1;
   echo "<h3>Election: {$_POST['name']} $m/$d/$y Location: {$_POST['location']}</h3>";
   //Add more ballot items
-  $ballotItemLimit = 8;
+  $ballotItemLimit = $_POST['items'];
   while ($ballotItemLimit > 0){
     echo "<table><tr><td class='category'>";
     $hiddenCategory = "category" . $categoryCount++;
@@ -50,7 +53,7 @@ if ($m<1 || $m>12 || $y<2015 || $y>3000  || $d<1 || $d>31){
 
   $choiceCount = 1;
    //Add More choices
-   $limit = 8;
+   $limit = 10;
    while ($limit > 0){
      $hidden = "candidateID" . $count++;
      $candidate_id = $newCount--;
@@ -71,15 +74,16 @@ if ($m<1 || $m>12 || $y<2015 || $y>3000  || $d<1 || $d>31){
   echo "</td><td>";
   echo createRegVotersColumn($priorElection_id);
   echo "</td></tr></table>";
-  
+
   echo "<input type=hidden name='election' value='{$election_id}'>";
   echo "<input type=hidden name = 'maxCount' value='{$count}'>";
   echo "<input type=hidden name = 'maxCategoryCount' value='{$categoryCount}'>";
+  echo "<input type='submit' value='Save'>";
 }
 mysql_close();
  ?>
 
- <input type='submit' value='Submit'>
+
  </form>
  </body>
 </html>
