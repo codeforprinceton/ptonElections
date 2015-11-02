@@ -6,7 +6,7 @@ $variables['pathForCSVandJson'] = "/Users/Guest/tmp";
 $variables['username'] = "root"; //insert database username
 $variables['password'] = "mattmark123"; //insert database password
 $variables['database'] = "ptonElections"; //database name
-$variables['port'] = "localhost:3306; //port   (was 8888)
+$variables['port'] = "localhost:3306"; //port   (was 8888)
 //Tables
 $variables['resultsTableName'] = 'results';
 $variables['categoriesTableName'] = 'questions';

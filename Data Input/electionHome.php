@@ -10,14 +10,14 @@
  $signedIn = false;
  include "SaveElection.php";
  connect();
-  if (isset($_POST['username']) && isset($_POST['password'])){
-    if ($_POST['username'] == "w" && $_POST['password'] == "w"){
-      $signedIn = true;
-    }
-  }
-  if ($signedIn){
-    session_start();
-    $_SESSION['election_id'] = $_POST['election'];
+  // if (isset($_POST['username']) && isset($_POST['password'])){
+  //   if ($_POST['username'] == "w" && $_POST['password'] == "w"){
+  //     $signedIn = true;
+  //   }
+  // }
+  // if ($signedIn){
+  //   session_start();
+  //   $_SESSION['election_id'] = $_POST['election'];
 
 //echo $_SESSION['election_id'] . " !!!!!!!";
     echo "<script>
