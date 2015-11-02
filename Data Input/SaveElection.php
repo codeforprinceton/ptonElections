@@ -56,7 +56,7 @@ function saveElectionResults($district, $machine_number, $candidateID, $votes){
 
 function getElectionDistrictID($district){
   //TODO fix
-  if($district > 22){
+  if($district > 24){
     return $district;
   }
   $electionID = getCurrentElectionID();
