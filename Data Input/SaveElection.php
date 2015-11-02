@@ -346,23 +346,37 @@ function getJoinQuery(){
 //-------------------------------------------------------------------------------------------------------------
 
 function getResultsOutputCsv(){
+  return getResultsOutputWithDelimiter(",");
+}
+
+function getResultsOutputTsv(){
+  return getResultsOutputWithDelimiter("\t");
+}
+
+function getResultsOutputWithDelimiter($delimiter){
     $output = "";
     $query = getJoinQuery();
     $sql = mysql_query($query) or die(" Join query Failed!". $query);
     $columns_total = mysql_num_fields($sql);
 
+    //Election date
+    $election = getCurrentElectionInfo();
+    $date = new DateTime($election['election_date']);
+    $d = date_format($date, "M d, Y");
+    $output .= "Election Date" . $delimiter;
+
     // Get The Field Name
     for ($i = 0; $i < $columns_total; $i++) {
         $heading = mysql_field_name($sql, $i);
-        $output .= '"'.$heading.'",';
+        $output .= $heading . $delimiter;
     }
     $output .="\n";
 
     // Get Records from the table
-
     while ($row = mysql_fetch_array($sql)) {
+        $output .= $d  . $delimiter;
         for ($i = 0; $i < $columns_total; $i++) {
-            $output .='"'.$row["$i"].'",';
+            $output .= $row[$i] . $delimiter;
         }
         $output .="\n";
     }
@@ -393,7 +407,10 @@ function download($type, $date){
 
     $output = "";
     if ($type == 'csv'){
-        $output .= getResultsOutputCsv();
+        //$output .= getResultsOutputCsv();
+        $output .= getResultsOutputWithDelimiter("\t");
+    }elseif($type == 'tsv'){
+        $output .= getResultsOutputTsv();
     }elseif($type == 'json'){
         $output .= getResultsOutputJsn();
     }
