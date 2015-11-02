@@ -51,6 +51,7 @@ function saveCandidate($responseID, $election_id, $response, $questionID, $order
   $checkQuery = "Select * FROM responses where id=$responseID"; //echo $checkQuery;
   $checkResult = mysql_query($checkQuery) or die("Query Failed!"  . $checkQuery);
   $rows = mysql_num_rows($checkResult);
+  $query = "";
   if ($rows > 0){
     if (strlen($response) == 0){
       //delete
@@ -65,6 +66,8 @@ function saveCandidate($responseID, $election_id, $response, $questionID, $order
     $query = "Insert into responses (question_id, response, response_order) values ($questionID, '{$response}', $order)";
     $result = mysql_query($query) or die("Query failed" . $query);
   }
+  //echo $query . "<br>";
+
   //echo "$responseID, $election_id, $response, $questionID, $order<br>";
 }
 

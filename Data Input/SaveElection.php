@@ -1,12 +1,12 @@
 <?php
 //Copyright 2015 Anouk Stein, MD
 global $variables;
-$variables['pathForCSVandJson'] = "/Users/Guest/tmp";
+$variables['pathForCSVandJson'] = "";//"/Users/Guest/tmp/";
 //Database
 $variables['username'] = "root"; //insert database username
 $variables['password'] = "mattmark123"; //insert database password
 $variables['database'] = "ptonElections"; //database name
-$variables['port'] = "localhost:8888"; //port   (was 8888) or 3306
+$variables['port'] = "localhost:3306"; //port   (was 8888) or 3306
 //Tables
 $variables['resultsTableName'] = 'results';
 $variables['categoriesTableName'] = 'questions';
@@ -20,8 +20,8 @@ $variables['category_id_categories'] = 'question_id';
 
 //---------------------------------------------------------------------------------
 function saveElectionResults($district, $machine_number, $candidateID, $votes){
-    global $variables;
-    if (!$votes || !is_numeric($votes)){
+    global $variables;  //echo "Votes are $votes";
+    if ($votes == "" || !is_numeric($votes)){
         if (!is_numeric($votes) && $votes != ""){
             echo "Invalid data: " . $votes . " is not a number";
         }
@@ -55,9 +55,13 @@ function saveElectionResults($district, $machine_number, $candidateID, $votes){
 }
 
 function getElectionDistrictID($district){
+  //TODO fix
+  if($district > 24){
+    return $district;
+  }
   $electionID = getCurrentElectionID();
   $query = "Select * from election_districts where district_id = $district and election_id = $electionID";
-  $result = mysql_query($query) or die("Query failed".$query);
+  $result = mysql_query($query) or die("Query failed".$query); //echo $query;
   $district = mysql_fetch_array($result);
   return $district['id'];
 }
@@ -120,7 +124,7 @@ function createOverviewTableForCategory($category_id){
         // get machines and districts
         $machineArray = getArrayOfMachinesForElection($election_id);
         foreach ($machineArray as $machineInfo){
-            $district = $machineInfo[0];
+            $district = $machineInfo[0]; //echo "District $district <br>";
             $machine = $machineInfo[1];
             $text .= "<td  class='tally'>";
             $text .= getElectionResults($district, $machine, $candidate['id']);
@@ -431,7 +435,7 @@ function download($type, $date){
         $output .= getResultsOutputJsn();
     }
 
-    $file = fopen($path . "/ptonElections_".  $year. "." . $type,"w");
+    $file = fopen($path . "ptonElections_".  $year. "." . $type,"w");
     if($file){
         fwrite($file, $output);
         fclose($file);
