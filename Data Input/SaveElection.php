@@ -6,6 +6,7 @@ $variables['pathForCSVandJson'] = "/Users/Guest/tmp";
 $variables['username'] = "root"; //insert database username
 $variables['password'] = "mattmark123"; //insert database password
 $variables['database'] = "ptonElections"; //database name
+$variables['port'] = "localhost:8888"; //port   (was 8888) or 3306
 //Tables
 $variables['resultsTableName'] = 'results';
 $variables['categoriesTableName'] = 'questions';
@@ -29,25 +30,36 @@ function saveElectionResults($district, $machine_number, $candidateID, $votes){
     $votes = strip_tags($votes);
 
     $table = $variables['resultsTableName'];
-    $d = $variables['district_results'];
+    $d = $variables['district_results']; //election_district_id
     $m = $variables['machine_results'];
     $c_id = $variables['candidateID_results'];
     $v = $variables['votes_results'];
 
-    $query = "SELECT * FROM $table WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";
-       // echo $query;
+    //get id from district
+    $election_district_id = getElectionDistrictID($district);
+
+    $query = "SELECT * FROM $table WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
+        //echo $query;
     $result = mysql_query($query) or die(" Find saveElectionResults query Failed!".$query);
     $rows = mysql_num_rows($result);
 
     if ($rows == 0){
-        $query = "INSERT INTO $table ($d, $m, $c_id, $v) VALUES ($district, $machine_number, $candidateID, $votes)";
+        $query = "INSERT INTO $table ($d, $m, $c_id, $v) VALUES ($election_district_id, $machine_number, $candidateID, $votes)";
     }else{
         $query = "UPDATE $table SET ";
         $query .= "$v = $votes ";
-        $query .= "WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";
+        $query .= "WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
     }
     //echo $query;
     $result = mysql_query($query) or die("Save saveElectionResults query failed".$query);
+}
+
+function getElectionDistrictID($district){
+  $electionID = getCurrentElectionID();
+  $query = "Select * from election_districts where district_id = $district and election_id = $electionID";
+  $result = mysql_query($query) or die("Query failed".$query);
+  $district = mysql_fetch_array($result);
+  return $district['id'];
 }
 //---------------------------------------------------------------------------------
 function getElectionResults($district, $machine_number, $candidateID){
@@ -59,7 +71,10 @@ function getElectionResults($district, $machine_number, $candidateID){
     $c_id = $variables['candidateID_results'];
     $v = $variables['votes_results'];
 
-    $query = "SELECT * FROM $table WHERE $d = $district AND $m = $machine_number AND $c_id = $candidateID";
+    //get id from district
+    $election_district_id = getElectionDistrictID($district);
+
+    $query = "SELECT * FROM $table WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
        // echo $query;
     $result = mysql_query($query) or die(" getElectionResults query Failed!".$query);
     //echo $query;
@@ -303,8 +318,7 @@ function getMachineTotal($category_id, $d, $m){
  function connect()
 {
     global $variables;
-
-    $connection = mysql_connect("localhost:8888", $variables['username'], $variables['password']) or die("Unable to connect to SQL server"  . mysql_error());
+    $connection = mysql_connect("{$variables['port']}", "{$variables['username']}", "{$variables['password']}") or die("Unable to connect to SQL server"  . mysql_error());
     mysql_select_db($variables['database']) or die("Unable to select database from connect()" . mysql_error());
 }
 
@@ -370,6 +384,7 @@ function getResultsOutputWithDelimiter($delimiter){
         $heading = mysql_field_name($sql, $i);
         $output .= $heading . $delimiter;
     }
+    $output = trim($output);
     $output .="\n";
 
     // Get Records from the table
@@ -378,6 +393,7 @@ function getResultsOutputWithDelimiter($delimiter){
         for ($i = 0; $i < $columns_total; $i++) {
             $output .= $row[$i] . $delimiter;
         }
+        $output = trim($output);
         $output .="\n";
     }
     return $output;
