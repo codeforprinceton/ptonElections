@@ -6,6 +6,7 @@ $variables['pathForCSVandJson'] = "/Users/Guest/tmp";
 $variables['username'] = "root"; //insert database username
 $variables['password'] = "mattmark123"; //insert database password
 $variables['database'] = "ptonElections"; //database name
+$variables['port'] = "localhost:3306; //port   (was 8888)
 //Tables
 $variables['resultsTableName'] = 'results';
 $variables['categoriesTableName'] = 'questions';
@@ -303,8 +304,7 @@ function getMachineTotal($category_id, $d, $m){
  function connect()
 {
     global $variables;
-
-    $connection = mysql_connect("localhost:8888", $variables['username'], $variables['password']) or die("Unable to connect to SQL server"  . mysql_error());
+    $connection = mysql_connect($variables['port'], $variables['username'], $variables['password']) or die("Unable to connect to SQL server"  . mysql_error());
     mysql_select_db($variables['database']) or die("Unable to select database from connect()" . mysql_error());
 }
 
