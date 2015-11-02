@@ -18,6 +18,7 @@ connect();
 
 //choose election
 //get all election
+
 $result = getAllElections();
 $count = 0;
 while ($election = mysql_fetch_array($result)){
@@ -31,7 +32,9 @@ while ($election = mysql_fetch_array($result)){
   echo $election['name'] . " " . date_format($d, "M d, Y");
   echo " <i>(" . $election['location'] . ")</i><br>";
 }
+
 ?>
+
 <br><input type=submit value="LogIn">
 </center>
 </FORM>
