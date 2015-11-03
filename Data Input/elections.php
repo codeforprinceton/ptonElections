@@ -29,6 +29,7 @@ switch ($functionName){
 }
 
 function showVoteInput($q){
+  //TODO not editable if prior election
 $info = explode(".", $q);
   $district = $info[0];
   $machine = $info[1];

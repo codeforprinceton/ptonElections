@@ -25,7 +25,6 @@
     session_start();
     $_SESSION['election_id'] = $_POST['election'];
 
-//echo $_SESSION['election_id'] . " !!!!!!!";
     echo "<script>
        $(document).ready(function() {
          $('#districts').load('sidebar.php');
@@ -82,7 +81,10 @@
       </td>
       </tr></table>";
  }
+
  mysql_close();
  ?>
+
+ 
  </body>
 </html>

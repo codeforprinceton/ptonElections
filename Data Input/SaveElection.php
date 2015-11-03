@@ -372,10 +372,23 @@ function getJoinQuery(){
 
     $query = "Select responses.response, questions.question, district_id, machine_number, tally, election_districts.reg_voters";
     $query .= " from questions,responses, results, election_districts where results.response_id=responses.id and responses.question_id=questions.id ";
-    $query .= "and election_districts.id = results.election_district_id";
+    $query .= "and election_districts.id = results.election_district_id and election_districts.election_id = $election_id";
     if (strlen($completedDistricts) > 0){
       $query .= " IN ({$completedDistricts})";
     }
+    $query .= " ORDER BY questions.question, responses.response";
+
+    return $query;
+}
+function getJoinQueryPrior(){
+  //TODO
+  //only include districts completed
+  //get all districts
+  $election_id = 2;
+  $result = getAllDistricts($election_id);
+    $query = "Select responses.response, questions.question, district_id, machine_number, tally, election_districts.reg_voters";
+    $query .= " from questions,responses, results, election_districts where results.response_id=responses.id and responses.question_id=questions.id ";
+    $query .= "and election_districts.id = results.election_district_id and election_districts.election_id = $election_id";
     $query .= " ORDER BY questions.question, responses.response";
 
     return $query;
@@ -389,26 +402,28 @@ function getResultsOutputCsv(){
 function getResultsOutputTsv(){
   return getResultsOutputWithDelimiter("\t");
 }
-
-function getResultsOutputWithDelimiter($delimiter){
+function getResultsOutputWithDelimiterWithJoinQuery($delimiter, $joinQuery, $d, $needsHeader){
     $output = "";
-    $query = getJoinQuery();
+    $query = $joinQuery;
     $sql = mysql_query($query) or die(" Join query Failed!". $query);
     $columns_total = mysql_num_fields($sql);
 
     //Election date
     $election = getCurrentElectionInfo();
-    $date = new DateTime($election['election_date']);
-    $d = date_format($date, "M d, Y");
-    $output .= "Election Date" . $delimiter;
+    // $date = new DateTime($election['election_date']);
+    // $d = date_format($date, "M d, Y");
+    //headers
+    if ($needsHeader == "true"){
+      $output .= "Election Date" . $delimiter;
 
-    // Get The Field Name
-    for ($i = 0; $i < $columns_total; $i++) {
-        $heading = mysql_field_name($sql, $i);
-        $output .= $heading . $delimiter;
+      // Get The Field Name
+      for ($i = 0; $i < $columns_total; $i++) {
+          $heading = mysql_field_name($sql, $i);
+          $output .= $heading . $delimiter;
+      }
+      $output = trim($output);
+      $output .="\n";
     }
-    $output = trim($output);
-    $output .="\n";
 
     // Get Records from the table
     while ($row = mysql_fetch_array($sql)) {
@@ -419,6 +434,53 @@ function getResultsOutputWithDelimiter($delimiter){
         $output = trim($output);
         $output .="\n";
     }
+    return $output;
+}
+
+function getResultsOutputWithDelimiter($delimiter){
+  //Prior
+  $joinQueryPrior = getJoinQueryPrior();
+  //TODO
+  $dPrior = "Nov 04, 2014";
+  // $date = new DateTime($election['election_date']);
+  // $d = date_format($date, "M d, Y");
+
+  $output = getResultsOutputWithDelimiterWithJoinQuery($delimiter, $joinQueryPrior,$dPrior, "true");
+
+//Current
+  $joinQuery = getJoinQuery();
+  $election = getCurrentElectionInfo();
+  $date = new DateTime($election['election_date']);
+  $d = date_format($date, "M d, Y");
+  $output .= getResultsOutputWithDelimiterWithJoinQuery($delimiter, $joinQuery, $d, "false");
+    // $output = "";
+    // $query = getJoinQuery();
+    // $sql = mysql_query($query) or die(" Join query Failed!". $query);
+    // $columns_total = mysql_num_fields($sql);
+    //
+    // //Election date
+    // $election = getCurrentElectionInfo();
+    // $date = new DateTime($election['election_date']);
+    // $d = date_format($date, "M d, Y");
+    // $output .= "Election Date" . $delimiter;
+    //
+    // // Get The Field Name
+    // for ($i = 0; $i < $columns_total; $i++) {
+    //     $heading = mysql_field_name($sql, $i);
+    //     $output .= $heading . $delimiter;
+    // }
+    // $output = trim($output);
+    // $output .="\n";
+    //
+    // // Get Records from the table
+    // while ($row = mysql_fetch_array($sql)) {
+    //     $output .= $d  . $delimiter;
+    //     for ($i = 0; $i < $columns_total; $i++) {
+    //         $output .= $row[$i] . $delimiter;
+    //     }
+    //     $output = trim($output);
+    //     $output .="\n";
+    // }
     return $output;
 }
 
