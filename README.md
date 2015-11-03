@@ -3,7 +3,7 @@ Princeton Elections
 
 ## Data Viz on Princeton Municipality page
 The new data visualization can currently be found on the home page:
-(www.princetonnj.gov) and will be moved to the elections page of municipality afterwards!
+www.princetonnj.gov and will be moved to the elections page of municipality afterwards!
 
 ## Goals
 
