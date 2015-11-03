@@ -1,6 +1,10 @@
 # ptonElections
 Princeton Elections
 
+## Data Viz on Princeton Municipality page
+The new data visualization can currently be found on the home page:
+(www.princetonnj.gov) and will be moved to the elections page of municipality afterwards!
+
 ## Goals
 
 Create an app for district vote counters to quickly upload their counts to the muni website. This will allow for quick unofficial vote counts to get out to the public.
@@ -18,5 +22,5 @@ Related to being able to have semi-live updates to data viz as data is getting e
 
 ## Tableau Public
 
-Data visualization and Tableau workbook file are available on:
+Old Data visualization and Tableau workbook file are available on:
 [Princeton Elections 2014 Unofficial Results](https://public.tableau.com/profile/code.for.princeton#!/vizhome/PrincetonMunicipalityMaptest_0/PerPersonShadedMap)
