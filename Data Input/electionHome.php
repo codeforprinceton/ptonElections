@@ -47,16 +47,18 @@
  <div class="sidebar">
 
  <?php
+ //   <button class='link' onclick='saveAllForMap()'>Save For Map</button>
+
  if($signedIn){
    echo "  <h2>Choose Districts and Machines:</h2>
      <div id='districts'></div>
      <hr>
      <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
-     <button class='link' onclick='saveAllForMap()'>Save For Map</button>
+
      <form action = './saveInputs.php' name='choices' method ='post'>
         <input type=submit class='input' name='output' value=' Download CSV '><br>
         <input type=submit class='input' name='output' value=' Download Json '><br>
-        <input type=submit class='input' name='output' value=' Get Spreadsheet '>
+        <input type=submit class='input' name='output' value=' Get Spreadsheet '><br>
      </form>
      <form action = 'administrativeGUI.php'method ='post'>
         <input type=submit class='input' value=' Edit/Create Election Template '>
@@ -85,6 +87,6 @@
  mysql_close();
  ?>
 
- 
+
  </body>
 </html>

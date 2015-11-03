@@ -43,6 +43,11 @@ $info = explode(".", $q);
 
  //get categories
  $election_id = getCurrentElectionID();
+ //TODO Refine
+ $active = "true";
+ if ($election_id != 1){
+   $active = "false";
+ }
  $categoriesResult = getCategories($election_id);
  $count = 0;
  $categoryCount = 0;
@@ -63,7 +68,14 @@ $info = explode(".", $q);
     echo "'";
     echo getElectionResults($district, $machine, $candidate['id']);
     echo "'";
-    echo " oninput='ajaxGetInfo(this.value, this.name)' min=0></td></tr>";
+
+    if ($active == "true"){
+      echo " oninput='ajaxGetInfo(this.value, this.name)' min=0>";
+    }else{
+      //READONLY
+      echo " READONLY>";
+    }
+    echo "</td></tr>";
     echo "<input type=hidden name = $hidden METHOD='POST' value='{$candidate['id']}'>";
    // echo "<input type=hidden name = 'candidateID' METHOD='POST' value='{$candidate['candidate_id']}'>";
 
