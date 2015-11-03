@@ -10,6 +10,12 @@
  $signedIn = false;
  include "SaveElection.php";
  connect();
+
+ if (isset($_POST['signIn'])){
+   if ($_POST['signIn'] == "yes"){
+     $signedIn = true;
+   }
+ }
   if (isset($_POST['username']) && isset($_POST['password'])){
     if ($_POST['username'] == "w" && $_POST['password'] == "w"){
       $signedIn = true;
@@ -55,6 +61,9 @@
      </form>
      <form action = 'administrativeGUI.php'method ='post'>
         <input type=submit class='input' value=' Edit/Create Election Template '>
+     </form>
+     <form action = 'start.php'method ='post'>
+        <input type=submit class='signout' value=' Sign Out '>
      </form>
     <hr>
     </div></td>

@@ -370,7 +370,7 @@ function getJoinQuery(){
   }
   $completedDistricts = strstr($completedDistricts, 0, -1);
 
-    $query = "Select responses.response, questions.question, election_district_id, machine_number, tally, election_districts.reg_voters";
+    $query = "Select responses.response, questions.question, district_id, machine_number, tally, election_districts.reg_voters";
     $query .= " from questions,responses, results, election_districts where results.response_id=responses.id and responses.question_id=questions.id ";
     $query .= "and election_districts.id = results.election_district_id";
     if (strlen($completedDistricts) > 0){
@@ -454,7 +454,7 @@ function download($type, $date){
         $output .= getResultsOutputJsn();
     }
 
-    $file = @fopen($path . "ptonElections_".  $year . "." . $type, "w");
+    $file = @fopen($path . "electionResults" . "." . $type, "w");
     if($file){
         fwrite($file, $output);
         fclose($file);
