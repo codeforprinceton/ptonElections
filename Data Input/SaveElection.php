@@ -134,6 +134,7 @@ function createOverviewTableForCategory($category_id){
         $text .= "</tr>";
     }
     $text .= createMachineSumRow($category_id);
+    $text .= createDistrictVotesRow($category_id);
     $text .= createRegisteredVotersRow($category_id);
     $text .= createPercentageRow($category_id);
     $text .= "</table>";
@@ -199,7 +200,24 @@ function getRegisteredVoters($election_district_id){
   $info = mysql_fetch_array($result);
   return $info['reg_voters'];
 }
+function createDistrictVotesRow($category_id){
+    $row = "<tr><td class='overviewNoWrapRight'>(Total Voted)</td>";
+    $election_id = getCurrentElectionID();
+    $result = getAllDistricts($election_id);
+    while($district = mysql_fetch_array($result)){
+      $machineCount = $district['machine_count'];
+      $districtVotes = 0;
+      for($m=1; $m<= $machineCount;$m++){
+        $districtVotes += getMachineTotal($category_id, $district['id'], $m);
+      }
 
+      $row .= "<td  class='overview' colspan = {$machineCount}>";
+      $row .= $districtVotes;
+      $row .= "</td>";
+    }
+    $row .= "<td class='overview'></td></tr>";
+    return $row;
+}
 function createPercentageRow($category_id){
     $row = "<tr><td class='overviewNoWrapRight'>(Percent)</td>";
     $election_id = getCurrentElectionID();
@@ -352,8 +370,9 @@ function getJoinQuery(){
   }
   $completedDistricts = strstr($completedDistricts, 0, -1);
 
-    $query = "Select responses.response, questions.question, election_district_id, machine_number, tally";
-    $query .= " from questions,responses, results where results.response_id=responses.id and responses.question_id=questions.id ";
+    $query = "Select responses.response, questions.question, election_district_id, machine_number, tally, election_districts.reg_voters";
+    $query .= " from questions,responses, results, election_districts where results.response_id=responses.id and responses.question_id=questions.id ";
+    $query .= "and election_districts.id = results.election_district_id";
     if (strlen($completedDistricts) > 0){
       $query .= " IN ({$completedDistricts})";
     }
@@ -422,7 +441,7 @@ function getResultsOutputJsn(){
 //-------------------------------------------------------------------------------------------------------------
 function download($type, $date){
     global $variables;
-    $year = $date; //2015; //TODO getElectionYear
+    $year = $date;
     $path = $variables['pathForCSVandJson'];
 
     $output = "";
@@ -435,7 +454,7 @@ function download($type, $date){
         $output .= getResultsOutputJsn();
     }
 
-    $file = fopen($path . "ptonElections_".  $year. "." . $type,"w");
+    $file = @fopen($path . "ptonElections_".  $year . "." . $type, "w");
     if($file){
         fwrite($file, $output);
         fclose($file);
