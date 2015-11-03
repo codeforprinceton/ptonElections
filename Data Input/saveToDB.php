@@ -10,6 +10,7 @@
 //include "SaveElection.php";
 include "administrativeFunctions.php";
 connect();
+session_start();
 //var_dump($_POST);
 $election_id = $_POST['election'];
 //get ballotItem
@@ -61,9 +62,23 @@ while ($d = mysql_fetch_array($districts)){
   $m = $_POST[$index];
   saveRegVoters($d['district_id'], $m, $election_id);
 }
-echo "Saved.";
+echo "<br><h1>Done. Your results have been successfully saved.</h1>";
+
 
 mysql_close();
  ?>
+ <br>
+ <form action = "electionHome.php" method="POST">
+   <input type=submit class='input' value=' Go Back to Election Home '>
+   <input type=hidden name = "signIn" method = 'POST' value="yes">
+  <input type=hidden name = "election" method = 'POST' value=<?php echo $_SESSION['election_id']; ?> >
+</form>
+<br><br>
+<form action = "start.php" method="POST">
+  <input type=submit class='home' value=' Sign Out '>
+</form>
+
+
+
  </body>
 </html>

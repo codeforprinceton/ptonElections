@@ -8,6 +8,11 @@ Create an app for district vote counters to quickly upload their counts to the m
 ##Usage
 Home page is: start.php
 
+TODO:
+Separate user accounts with encrypted password.
+Show time and user for each election save.
+Finalize election to make readonly.
+
 Done:
 Get machines from db including mailin and provisional
 Only completed districts added to .csv for mapping
@@ -21,4 +26,5 @@ $variables['pathForCSVandJson'] = "/Users/Guest/tmp";
 //Database
 $variables['username'] = "root"; //insert database username
 $variables['password'] = ""; //insert database password
+$variables['port'] = "";
 $variables['database'] = "ptonElections"; //database name

@@ -10,6 +10,12 @@
  $signedIn = false;
  include "SaveElection.php";
  connect();
+
+ if (isset($_POST['signIn'])){
+   if ($_POST['signIn'] == "yes"){
+     $signedIn = true;
+   }
+ }
   if (isset($_POST['username']) && isset($_POST['password'])){
     if ($_POST['username'] == "w" && $_POST['password'] == "w"){
       $signedIn = true;
@@ -19,7 +25,6 @@
     session_start();
     $_SESSION['election_id'] = $_POST['election'];
 
-//echo $_SESSION['election_id'] . " !!!!!!!";
     echo "<script>
        $(document).ready(function() {
          $('#districts').load('sidebar.php');
@@ -42,19 +47,24 @@
  <div class="sidebar">
 
  <?php
+ //   <button class='link' onclick='saveAllForMap()'>Save For Map</button>
+
  if($signedIn){
    echo "  <h2>Choose Districts and Machines:</h2>
      <div id='districts'></div>
      <hr>
      <button class='link' onclick='showSpreadsheet()'>Spreadsheet Overview</button>
-     <button class='link' onclick='saveAllForMap()'>Save For Map</button>
+
      <form action = './saveInputs.php' name='choices' method ='post'>
         <input type=submit class='input' name='output' value=' Download CSV '><br>
         <input type=submit class='input' name='output' value=' Download Json '><br>
-        <input type=submit class='input' name='output' value=' Get Spreadsheet '>
+        <input type=submit class='input' name='output' value=' Get Spreadsheet '><br>
      </form>
      <form action = 'administrativeGUI.php'method ='post'>
         <input type=submit class='input' value=' Edit/Create Election Template '>
+     </form>
+     <form action = 'start.php'method ='post'>
+        <input type=submit class='signout' value=' Sign Out '>
      </form>
     <hr>
     </div></td>
@@ -73,7 +83,10 @@
       </td>
       </tr></table>";
  }
+
  mysql_close();
  ?>
+
+
  </body>
 </html>

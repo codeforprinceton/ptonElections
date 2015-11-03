@@ -11,7 +11,7 @@ $election_id = getCurrentElectionID();
    $machineCount = $district['machine_count'];
    $name = $district['name'];
    $district_id = $district['district_id'];
-   if(districtComplete($district_id)){
+   if(districtComplete($district_id) == true){
      echo "<br><div class='highlight'>";
    }else{
      echo "<br><div class='lowlight'>";
