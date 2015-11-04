@@ -463,12 +463,11 @@ function getResultsOutputWithDelimiter($delimiter){
 function getResultsOutputJsn(){
     $output = "{";
     $query = getJoinQuery();
-    $sql = mysql_query($query) or die(" Join query Failed!".mysql_error()); ;
-    $columns_total = mysql_num_fields($sql);
+    $result = mysql_query($query) or die(" Join query Failed!".mysql_error()); ;
 
     // Get Records FROM the table
-    while ($row = mysql_fetch_array($sql, MYsql_ASSOC)) {
-        $output.= "item:" . json_encode($row) . ",";
+    while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+        $output.= "item:" . json_encode($row) . ",\n";
     }
     $output = rtrim($output, ",");
     $output.= "}";
