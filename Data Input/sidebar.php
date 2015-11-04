@@ -10,7 +10,7 @@ $election_id = getCurrentElectionID();
  while ($district = mysql_fetch_array($result)){
    $machineCount = $district['machine_count'];
    $name = $district['name'];
-   $district_id = $district['district_id'];
+   $district_id = $district['id'];
    if(districtComplete($district_id) == true){
      echo "<br><div class='highlight'>";
    }else{

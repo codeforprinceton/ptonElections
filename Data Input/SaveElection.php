@@ -1,22 +1,6 @@
 <?php
 //Copyright 2015 Anouk Stein, MD
-global $variables;
-$variables['pathForCSVandJson'] = "";//"/Users/Guest/tmp/";
-//Database
-$variables['username'] = "root"; //insert database username
-$variables['password'] = "mattmark123"; //insert database password
-$variables['database'] = "ptonElections"; //database name
-$variables['port'] = "localhost:3306"; //port   (was 8888) or 3306
-//Tables
-$variables['resultsTableName'] = 'results';
-$variables['categoriesTableName'] = 'questions';
-$variables['candidatesTableName'] = 'responses';
-//Columns
-$variables['votes_results'] = 'tally';
-$variables['district_results'] = 'election_district_id';
-$variables['machine_results'] = 'machine_number';
-$variables['candidateID_results'] = 'response_id';
-$variables['category_id_categories'] = 'question_id';
+include "variables.php";
 
 //---------------------------------------------------------------------------------
 function saveElectionResults($district, $machine_number, $candidateID, $votes){
@@ -68,18 +52,13 @@ function getElectionDistrictID($district){
 //---------------------------------------------------------------------------------
 function getElectionResults($district, $machine_number, $candidateID){
     global $variables;
-    $table = $variables['resultsTableName'];
 
-    $d = $variables['district_results'];
-    $m = $variables['machine_results'];
-    $c_id = $variables['candidateID_results'];
     $v = $variables['votes_results'];
 
     //get id from district
     $election_district_id = getElectionDistrictID($district);
 
-    $query = "SELECT * FROM $table WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
-       // echo $query;
+    $query = "SELECT * FROM results WHERE election_district_id = $election_district_id AND machine_number = $machine_number AND response_id = $candidateID";
     $result = mysql_query($query) or die(" getElectionResults query Failed!".$query);
     //echo $query;
     $votesArray = mysql_fetch_array($result);
@@ -134,10 +113,17 @@ function createOverviewTableForCategory($category_id){
         $text .= "<td class='tally'>" . getTotalTally($category_id, $candidate['response'], $election_id) . "</td>";
         $text .= "</tr>";
     }
-    $text .= createMachineSumRow($category_id);
-    $text .= createDistrictVotesRow($category_id);
-    $text .= createRegisteredVotersRow($category_id);
-    $text .= createPercentageRow($category_id);
+    //echo $category['question'] . stripos($category['question'], "Machine");
+    if(is_numeric(stripos($category['question'], "Machine"))){
+      //$text .= createMachineSumRow($category_id);
+       $text .= createDistrictVotesRow($category_id);
+       $text .= createRegisteredVotersRow($category_id);
+       $text .= createPercentageRow($category_id);
+    }
+    // $text .= createMachineSumRow($category_id);
+    // $text .= createDistrictVotesRow($category_id);
+    // $text .= createRegisteredVotersRow($category_id);
+    // $text .= createPercentageRow($category_id);
     $text .= "</table>";
     return $text;
 }
@@ -202,7 +188,7 @@ function getRegisteredVoters($election_district_id){
   return $info['reg_voters'];
 }
 function createDistrictVotesRow($category_id){
-    $row = "<tr><td class='overviewNoWrapRight'>(Total Voted)</td>";
+    $row = "<tr><td class='overviewNoWrapRight'>(District Total Voted)</td>";
     $election_id = getCurrentElectionID();
     $result = getAllDistricts($election_id);
     while($district = mysql_fetch_array($result)){
@@ -229,10 +215,12 @@ function createPercentageRow($category_id){
       for($m=1; $m<= $machineCount;$m++){
         $districtVotes += getMachineTotal($category_id, $district['id'], $m);
       }
+
       $reg_voters = getRegisteredVoters($district['id']);
+
       $percent = 0;
       if($reg_voters > 0){
-        $percent = $districtVotes/$reg_voters;
+        $percent = round(100 * $districtVotes/$reg_voters);
       }
 
       $row .= "<td  class='overview' colspan = {$machineCount}>";
@@ -269,10 +257,6 @@ function getArrayOfMachinesForElection($electionID){
 $result = getAllDistricts($electionID);
 while ($district = mysql_fetch_array($result)){
   $machineCount = $district['machine_count'];
-  // get district name from districts table
-  // $machinequery = "Select name from districts where id = {$district['district_id']}";
-  // $machineresult = mysql_query($machinequery) or die("Query Failed!"  . mysql_error());
-  // $d = mysql_fetch_array($machineresult);
   for ($m=1; $m<= $machineCount; $m++){
     $machines[] = [$district['id'],$m]; //election_district_id
   }
@@ -281,12 +265,7 @@ while ($district = mysql_fetch_array($result)){
 }
 //-------------------------------------------------------------------------------------------------------------
 function getCurrentElectionID(){
-    // get most recent
-    // $query = "Select id from elections order by election_date desc";
-    // $result = mysql_query($query) or die("Current election id Query Failed!"  . $query);
-    // $id = mysql_fetch_array($result);
-    // $currentElectionID = $id[0];
-//return $currentElectionID;
+    // get election chosen
 
   $id = $_SESSION['election_id'];
   return $id;
@@ -365,21 +344,20 @@ function getJoinQuery(){
   $result = getAllDistricts($election_id);
   $completedDistricts = "";
   while ($district = mysql_fetch_array($result)){
-    if (districtComplete($district['id'])){
+    if (districtComplete($district['id']) == true){
       $completedDistricts .= $district['id'] . ",";
     }
   }
+  $completedDistricts = substr($completedDistricts, 0, -1);
 
-  $completedDistricts = strstr($completedDistricts, 0, -1);
 if (strlen($completedDistricts) > 0){
     $query = "Select responses.response, questions.question, district_id, machine_number, tally, election_districts.reg_voters";
     $query .= " from questions,responses, results, election_districts where results.response_id=responses.id and responses.question_id=questions.id ";
     $query .= "and election_districts.id = results.election_district_id and election_districts.election_id = $election_id";
-    //if (strlen($completedDistricts) > 0){
+    if (strlen($completedDistricts) > 0){
       $query .= " IN ({$completedDistricts})";
-    //}
+    }
     $query .= " ORDER BY questions.question, responses.response";
-
     return $query;
   }else {
     return "";
@@ -389,7 +367,7 @@ function getJoinQueryPrior(){
   //TODO
   //only include districts completed
   //get all districts
-  $election_id = 2;
+  $election_id = getPriorElectionID();
   $result = getAllDistricts($election_id);
     $query = "Select responses.response, questions.question, district_id, machine_number, tally, election_districts.reg_voters";
     $query .= " from questions,responses, results, election_districts where results.response_id=responses.id and responses.question_id=questions.id ";
@@ -397,6 +375,10 @@ function getJoinQueryPrior(){
     $query .= " ORDER BY questions.question, responses.response";
 
     return $query;
+}
+function getPriorElectionID(){
+  //TODO
+  return 2;
 }
 //-------------------------------------------------------------------------------------------------------------
 
@@ -461,34 +443,6 @@ function getResultsOutputWithDelimiter($delimiter){
   $date = new DateTime($election['election_date']);
   $d = date_format($date, "M d, Y");
   $output .= getResultsOutputWithDelimiterWithJoinQuery($delimiter, $joinQuery, $d, "false");
-    // $output = "";
-    // $query = getJoinQuery();
-    // $sql = mysql_query($query) or die(" Join query Failed!". $query);
-    // $columns_total = mysql_num_fields($sql);
-    //
-    // //Election date
-    // $election = getCurrentElectionInfo();
-    // $date = new DateTime($election['election_date']);
-    // $d = date_format($date, "M d, Y");
-    // $output .= "Election Date" . $delimiter;
-    //
-    // // Get The Field Name
-    // for ($i = 0; $i < $columns_total; $i++) {
-    //     $heading = mysql_field_name($sql, $i);
-    //     $output .= $heading . $delimiter;
-    // }
-    // $output = trim($output);
-    // $output .="\n";
-    //
-    // // Get Records from the table
-    // while ($row = mysql_fetch_array($sql)) {
-    //     $output .= $d  . $delimiter;
-    //     for ($i = 0; $i < $columns_total; $i++) {
-    //         $output .= $row[$i] . $delimiter;
-    //     }
-    //     $output = trim($output);
-    //     $output .="\n";
-    // }
     return $output;
 }
 
@@ -508,16 +462,6 @@ function getResultsOutputJsn(){
     echo stripcslashes(json_encode($output));
 
 }
-
-// function getResultsOutputXls($election_id){
-//   //Current election Only?
-//   $joinQuery = getJoinQuery();
-//   $election = getCurrentElectionInfo();
-//   $date = new DateTime($election['election_date']);
-//   $d = date_format($date, "M d, Y");
-//   $output .= getResultsOutputWithDelimiterWithJoinQuery($delimiter, $joinQuery, $d, "true");
-//
-// }
 //-------------------------------------------------------------------------------------------------------------
 function download($type, $date){
     global $variables;
@@ -549,15 +493,15 @@ function download($type, $date){
 function dataEntered($district, $machine){
     global $variables;
 
-    $table = $variables['resultsTableName']; //results
-    $votes = $variables['votes_results']; //tally
-    $d = $variables['district_results']; //election_district_id
-    $m = $variables['machine_results']; //machine_number
+    // $table = $variables['resultsTableName']; //results
+    // $votes = $variables['votes_results']; //tally
+    // $d = $variables['district_results']; //election_district_id
+    // $m = $variables['machine_results']; //machine_number
 
     $query ="Select tally from results where election_district_id = {$district} and machine_number = {$machine}";
     $result = mysql_query($query) or die("dataEntered failed".$query);
     $rows = mysql_num_rows($result);
-
+//echo $query;
     $categoryCount = getTotalCandidateCount();
 
     //echo "Rows = $rows and count = $categoryCount";
@@ -575,15 +519,14 @@ function districtComplete($districtID){
   $query = "Select machine_count from election_districts where id = $election_district_id"; //echo $query;
   $result = mysql_query($query) or die("Query failed".$query);
   $district = mysql_fetch_array($result);
-  $m = $district['machine_count']; //echo "Machine number $m<br>";
+  $m = $district['machine_count'];
   while ($m > 0){
-    $isDone = dataEntered($districtID, $m);
+    $isDone = dataEntered($election_district_id, $m);
     if($isDone == false){
       return false;
     }
     $m--;
   }
-  //echo "is done true $districtID machine: $m <br>";
   return true;
 }
 //-------------------------------------------------------------------------------------------------------------
