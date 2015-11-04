@@ -18,10 +18,11 @@ $election_id = getCurrentElectionID();
    }
    echo "District $name</div>";
 
+ $election_district_id = getElectionDistrictID($district_id);
    for ($m=1; $m<=$machineCount; $m++){
      $districtMachineString = "$district_id.$m";  //echo "$districtMachineString <br>";
      echo"<button class='link' onclick='showInfo($districtMachineString)'>";
-      if (dataEntered($district_id,$m) == true){
+      if (dataEntered($election_district_id, $m) == true){
         echo "<div class='highlight'>";
       }else{
         echo "<div class='lowlight'>";

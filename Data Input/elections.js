@@ -2,6 +2,7 @@ var xmlHttp
 
 function showInfo(str)
 {
+  $(window).scrollTop(0);
 xmlHttp=GetXmlHttpObject();
 
 if (xmlHttp==null)

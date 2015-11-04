@@ -113,17 +113,17 @@ function createOverviewTableForCategory($category_id){
         $text .= "<td class='tally'>" . getTotalTally($category_id, $candidate['response'], $election_id) . "</td>";
         $text .= "</tr>";
     }
-    //echo $category['question'] . stripos($category['question'], "Machine");
+    /*
     if(is_numeric(stripos($category['question'], "Machine"))){
-      //$text .= createMachineSumRow($category_id);
        $text .= createDistrictVotesRow($category_id);
        $text .= createRegisteredVotersRow($category_id);
        $text .= createPercentageRow($category_id);
     }
-    // $text .= createMachineSumRow($category_id);
-    // $text .= createDistrictVotesRow($category_id);
-    // $text .= createRegisteredVotersRow($category_id);
-    // $text .= createPercentageRow($category_id);
+    */
+    $text .= createMachineSumRow($category_id);
+    $text .= createDistrictVotesRow($category_id);
+    $text .= createRegisteredVotersRow($category_id);
+    $text .= createPercentageRow($category_id);
     $text .= "</table>";
     return $text;
 }
@@ -514,7 +514,7 @@ function dataEntered($district, $machine){
     $query ="SELECT tally FROM results WHERE election_district_id = {$district} AND machine_number = {$machine}";
     $result = mysql_query($query) or die("dataEntered failed".$query);
     $rows = mysql_num_rows($result);
-//echo $query;
+          //echo $query;
     $categoryCount = getTotalCandidateCount();
 
     //echo "Rows = $rows and count = $categoryCount";
