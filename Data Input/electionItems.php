@@ -74,7 +74,7 @@ echo "</table>";
 }
 
 //Add more ballot items
-$ballotItemLimit = 0;
+$ballotItemLimit = 1;
 while ($ballotItemLimit > 0){
   echo "<table><tr><td class='category'>";
   $hiddenCategory = "category" . $categoryCount++;

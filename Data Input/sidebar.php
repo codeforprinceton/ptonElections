@@ -10,7 +10,7 @@ $election_id = getCurrentElectionID();
  while ($district = mysql_fetch_array($result)){
    $machineCount = $district['machine_count'];
    $name = $district['name'];
-   $district_id = $district['district_id'];
+   $district_id = $district['id'];
    if(districtComplete($district_id) == true){
      echo "<br><div class='highlight'>";
    }else{
@@ -18,10 +18,11 @@ $election_id = getCurrentElectionID();
    }
    echo "District $name</div>";
 
+ $election_district_id = getElectionDistrictID($district_id);
    for ($m=1; $m<=$machineCount; $m++){
      $districtMachineString = "$district_id.$m";  //echo "$districtMachineString <br>";
      echo"<button class='link' onclick='showInfo($districtMachineString)'>";
-      if (dataEntered($district_id,$m) == true){
+      if (dataEntered($election_district_id, $m) == true){
         echo "<div class='highlight'>";
       }else{
         echo "<div class='lowlight'>";

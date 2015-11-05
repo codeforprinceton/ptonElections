@@ -13,6 +13,8 @@ Separate user accounts with encrypted password.
 Show time and user for each election save.
 Finalize election to make readonly.
 
+
+
 Done:
 Get machines from db including mailin and provisional
 Only completed districts added to .csv for mapping
@@ -20,8 +22,9 @@ GUI for database setup
 Spreadsheet view with totals
 Sign in
 Auto refresh and auto csv creation
+Total votes entry.
 
-### Note: These variables need to be set in SaveElection.php
+### Note: These variables need to be set in variables.php
 $variables['pathForCSVandJson'] = "/Users/Guest/tmp";
 //Database
 $variables['username'] = "root"; //insert database username

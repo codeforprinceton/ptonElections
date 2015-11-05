@@ -58,6 +58,7 @@ CREATE TABLE elections (
   election_date datetime NOT NULL,
   location varchar(255) NOT NULL,
   name varchar(255) NOT NULL,
+  active boolean NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -99,11 +100,29 @@ CREATE TABLE results (
   response_id bigint(20) NOT NULL,
   machine_number tinyint(4) NOT NULL,
   tally bigint(20) NOT NULL,
+  user_id bigint(20) NOT NULL,
+  time_changed datetime NOT NULL,
   PRIMARY KEY (id),
   KEY results_election_districts_fk (election_district_id),
   KEY results_responses_fk (response_id),
+
+  CONSTRAINT results_user_id_fk FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE
   CONSTRAINT results_election_districts_fk FOREIGN KEY (election_district_id) REFERENCES election_districts (id) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT results_responses_fk FOREIGN KEY (response_id) REFERENCES responses (id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Table structure for users
+-- ----------------------------
+DROP TABLE IF EXISTS users;
+CREATE TABLE users (
+  id bigint(20) NOT NULL AUTO_INCREMENT,
+  first varchar(255) NOT NULL,
+  last varchar(255) NOT NULL,
+  username varchar(255) NOT NULL,
+  password varchar(255) NOT NULL,
+  privilege varchar(255) NOT NULL,
+  PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 SET FOREIGN_KEY_CHECKS = 1;
