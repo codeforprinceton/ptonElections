@@ -74,7 +74,6 @@ $choiceCount = 1;
 
 echo "</table>";
 }
-
 //Add more ballot items
 $ballotItemLimit = 1;
 while ($ballotItemLimit > 0){
@@ -113,19 +112,7 @@ echo createMachineCountColumn($election_id);
 echo "</td><td>";
 echo createRegVotersColumn($election_id);
 echo "</td></tr></table>";
-/*
-echo "<h4>Set Number of Machines per District</h4>";
-//get districts
-$query = "Select * from election_districts JOIN districts where election_districts.election_id = $election_id and ";
-$query .= "election_districts.district_id = districts.id";
-$result = mysql_query($query) or die("Machine Query Failed!"  . $query);
-while ($district = mysql_fetch_array($result)){
-  $machineCount = $district['machine_count'];
-  $name = $district['name'];
-  $district_id = $district['id'] . "_district";
-  echo "District $name: <input type='number' name=$district_id value=$machineCount> <br>";
-}
-*/
+
 
 echo "<input type='hidden' name='election' value='{$election_id}'>";
 echo "<input type=hidden name = 'maxCount' value='{$count}'>";
@@ -134,7 +121,6 @@ echo "<input type=hidden name = 'maxCategoryCount' value='{$categoryCount}'>";
 ?>
 <input type='submit' value='Save'>
 </form>
-<?php mysql_close(); ?>
 
  </body>
 </html>
