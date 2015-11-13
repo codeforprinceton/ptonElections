@@ -36,7 +36,7 @@ function saveElectionResults($district, $machine_number, $candidateID, $votes){
     $c_id = $variables['candidateID_results'];
     $v = $variables['votes_results'];
 
-    $user_id = getUserID();
+    $username = getUsername();
     // add timestamp
     $datetime = date_create()->format('Y-m-d H:i:s');
 
@@ -52,10 +52,10 @@ $query = "";
     if ($rows == 0){
 
 
-      $query = "INSERT INTO results ($d, $m, $c_id, $v,user_id,time_changed) VALUES ($election_district_id, $machine_number, $candidateID, $votes, $user_id, '{$datetime}')";
+      $query = "INSERT INTO results ($d, $m, $c_id, $v,username_changed,time_changed) VALUES ($election_district_id, $machine_number, $candidateID, $votes, $username, '{$datetime}')";
     }else{
         $query .= " UPDATE results SET ";
-        $query .= "$v = $votes, user_id = $user_id, time_changed ='{$datetime}' ";
+        $query .= "$v = $votes, username_changed = $username, time_changed ='{$datetime}' ";
         $query .= "WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
     }
     $result = runQuery($query);
