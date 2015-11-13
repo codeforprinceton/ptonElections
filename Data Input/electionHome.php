@@ -17,13 +17,15 @@
    }
  }
   if (isset($_POST['username']) && isset($_POST['password'])){
-    if ($_POST['username'] == "w" && $_POST['password'] == "w"){
-      $signedIn = true;
-    }
+
+  //  if ($_POST['username'] == "w" && $_POST['password'] == "w"){
+      $signedIn = checkUser($_POST['username'], $_POST['password']);
+  //  }
   }
   if ($signedIn){
     session_start();
     $_SESSION['election_id'] = $_POST['election'];
+    $_SESSION['username'] = $_POST['username'];
 
     echo "<script>
        $(document).ready(function() {
@@ -85,6 +87,15 @@
  }
 
  //mysql_close();
+
+ function checkUser($username, $password){
+   $query = "SELECT * FROM users WHERE username = '{$username}' and password = '{$password}'";
+   $result = runQuery($query);
+   if ($result->num_rows > 0){
+     return true;
+   }
+   return false;
+ }
  ?>
 
 

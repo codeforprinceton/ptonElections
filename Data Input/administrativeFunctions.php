@@ -182,8 +182,8 @@ function createRegVotersColumn($electionID){
   return $text;
 }
 
-function getUserID(){
-  //TODO
-  return 1;
+function getUsername(){
+
+  return $_SESSION['username'];
 }
 ?>
