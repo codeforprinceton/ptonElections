@@ -5,7 +5,7 @@ include "SaveElection.php";
 
 function getItemFromTable($table, $item, $id){
 
-  $query = "Select * from $table where $item = $id";
+  $query = "Select * FROM $table WHERE $item = $id";
   //$result = mysql_query($query) or die("Query Failed!"  . $query);
   $result = runQuery($query);
   return $result;
@@ -13,7 +13,7 @@ function getItemFromTable($table, $item, $id){
 //create/edit elections
 function getAllElections(){
 
-  $query = "Select * from elections order by election_date desc";
+  $query = "Select * FROM elections order by election_date desc";
   //$result = mysql_query($query) or die("Current election id Query Failed!"  . $query);
   $result = runQuery($query);
   return $result;
@@ -36,7 +36,7 @@ function editElection($date, $electionID, $location){
 function saveQuestion($ballotItemID, $election_id, $ballotItem, $order){
 
   //check
-  // $checkQuery = "Select * FROM questions where id=$ballotItemID";
+  // $checkQuery = "Select * FROM questions WHERE id=$ballotItemID";
   // //$checkResult = mysql_query($checkQuery) or die("Query Failed!"  . $checkQuery);
   // $checkResult = $conn->query($checkQuery);
   // if($checkResult === false) {
@@ -46,16 +46,16 @@ function saveQuestion($ballotItemID, $election_id, $ballotItem, $order){
   // if ($rows > 0){
     if (strlen($ballotItem) == 0){
       //delete
-      $query = "DELETE from questions where id = $ballotItemID";
+      $query = "DELETE FROM questions WHERE id = $ballotItemID";
     }else{
-      $query = "Insert into questions (election_id, question, question_order) values ($election_id, '{$ballotItem}', $order)";
-      $query .= " ON DUPLICATE KEY Update questions set question ='{$ballotItem}' where id = $ballotItemID";
+      $query = "INSERT INTO questions (election_id, question, question_order) VALUES ($election_id, '{$ballotItem}', $order)";
+      $query .= " ON DUPLICATE KEY UPDATE SET question ='{$ballotItem}' WHERE id = $ballotItemID";
     }
     $result = runQuery($query);
   //   $result = mysql_query($query) or die("Query failed" .$query);
   // }else if(strlen($ballotItem) > 0){
   //   //insert
-  //   $query = "Insert into questions (election_id, question, question_order) values ($election_id, '{$ballotItem}', $order)";
+  //   $query = "Insert into questions (election_id, question, question_order) VALUES ($election_id, '{$ballotItem}', $order)";
   //   $result = mysql_query($query) or die("Query failed" .$query);
   // }
   //echo $query;
@@ -65,24 +65,24 @@ function saveQuestion($ballotItemID, $election_id, $ballotItem, $order){
 function saveCandidate($responseID, $election_id, $response, $questionID, $order){
 
   //check
-  // $checkQuery = "Select * FROM responses where id=$responseID"; //echo $checkQuery;
+  // $checkQuery = "Select * FROM responses WHERE id=$responseID"; //echo $checkQuery;
   // $checkResult = mysql_query($checkQuery) or die("Query Failed!"  . $checkQuery);
   // $rows = mysql_num_rows($checkResult);
   // $query = "";
   // if ($rows > 0){
     if (strlen($response) == 0){
       //delete
-      $query = "DELETE from responses where id = $responseID"; //echo $query;
+      $query = "DELETE FROM responses WHERE id = $responseID"; //echo $query;
     }else{
-      $query = "Insert into responses (question_id, response, response_order) values ($questionID, '{$response}', $order)";
-      $query .= " ON DUPLICATE KEY Update responses set response ='{$response}' where id = $responseID";
+      $query = "INSERT INTO responses (question_id, response, response_order) VALUES ($questionID, '{$response}', $order)";
+      $query .= " ON DUPLICATE KEY UPDATE responses SET response ='{$response}' WHERE id = $responseID";
     }
     $result = runQuery($query);
 
   //   $result = mysql_query($query) or die("Query failed" . $query);
   // }else if(strlen($response) > 0){
   //   //insert
-  //   $query = "Insert into responses (question_id, response, response_order) values ($questionID, '{$response}', $order)";
+  //   $query = "Insert into responses (question_id, response, response_order) VALUES ($questionID, '{$response}', $order)";
   //   //$result = mysql_query($query) or die("Query failed" . $query);
   //
   // }
@@ -93,36 +93,36 @@ function saveCandidate($responseID, $election_id, $response, $questionID, $order
 
 function saveMachineCount($district_id, $machine_count, $electionID){
 
-  // $checkQuery = "Select * from election_districts where district_id = $district_id and election_id = $electionID";
+  // $checkQuery = "Select * FROM election_districts WHERE district_id = $district_id AND election_id = $electionID";
   // $checkResult = mysql_query($checkQuery) or die("Query Failed!"  . $checkQuery);
   // $rows = mysql_num_rows($checkResult);
   // if ($rows > 0){
-  $query = "Insert into election_districts (election_id, district_id, machine_count) values ($electionID, $district_id, $machine_count)";
-  $query .= " ON DUPLICATE KEY Update election_districts set machine_count ='{$machine_count}' where district_id = $district_id and election_id = $electionID";
+  $query = "INSERT INTO  election_districts (election_id, district_id, machine_count) VALUES ($electionID, $district_id, $machine_count)";
+  $query .= " ON DUPLICATE KEY UPDATE SET machine_count ='{$machine_count}' WHERE district_id = $district_id  AND  election_id = $electionID";
 // }else{
-//   $query = "Insert into election_districts (election_id, district_id, machine_count) values ($electionID, $district_id, $machine_count)";
+//   $query = "Insert into election_districts (election_id, district_id, machine_count) VALUES ($electionID, $district_id, $machine_count)";
 // }
   //$result = mysql_query($query) or die("Query failed" . $query);  //echo $query;
   $result = runQuery($query);
 }
 function saveRegVoters($district_id, $reg_voters, $electionID){
-  // $checkQuery = "Select * from election_districts where district_id = $district_id and election_id = $electionID";
+  // $checkQuery = "Select * FROM election_districts WHERE district_id = $district_id AND election_id = $electionID";
   // $checkResult = mysql_query($checkQuery) or die("Query Failed!"  . $checkQuery);
   // $rows = mysql_num_rows($checkResult);
   // if ($rows > 0){
-  $query = "Insert into election_districts (election_id, district_id, reg_voters) values ($electionID, $district_id, $reg_voters)";
-  $query .= " ON DUPLICATE KEY Update election_districts set reg_voters ='{$reg_voters}' where district_id = $district_id and election_id = $electionID";
+  $query = "INSERT INTO  election_districts (election_id, district_id, reg_voters) VALUES ($electionID, $district_id, $reg_voters)";
+  $query .= " ON DUPLICATE KEY UPDATE  SET reg_voters ='{$reg_voters}' WHERE district_id = $district_id AND election_id = $electionID";
 // }else{
-//   $query = "Insert into election_districts (election_id, district_id, reg_voters) values ($electionID, $district_id, $reg_voters)";
+//   $query = "Insert into election_districts (election_id, district_id, reg_voters) VALUES ($electionID, $district_id, $reg_voters)";
 // }
   //$result = mysql_query($query) or die("Query failed" . $query);  //echo $query;
   $result = runQuery($query);
 }
 
 
-function getQuestionIDFromQuestion($question, $electionID){
+function getQuestionIDFROMQuestion($question, $electionID){
   global $conn;
-  $query = "Select id from questions where question='{$question}' and election_id = $electionID";
+  $query = "SELECT id FROM questions WHERE question='{$question}' SET election_id = $electionID";
   //$result = mysql_query($query) or die("Query failed" . $query);
   $result = runQuery($query);
   $id = $result->fetch_assoc(); //mysql_fetch_array($result);
@@ -148,7 +148,7 @@ function createMachineCountColumn($electionID){
 
   $text =  "<h4>Number of Machines per District</h4>";
   //get districts
-  $query = "Select * from election_districts JOIN districts where election_districts.election_id = $electionID and ";
+  $query = "Select * FROM election_districts JOIN districts WHERE election_districts.election_id = $electionID AND ";
   $query .= "election_districts.district_id = districts.id";
   $result = runQuery($query);
 
@@ -166,7 +166,7 @@ function createMachineCountColumn($electionID){
 function createRegVotersColumn($electionID){
   $text =  "<h4>Registered Voters per District</h4>";
   //get districts
-  $query = "Select * from election_districts JOIN districts where election_districts.election_id = $electionID and ";
+  $query = "SELECT * FROM election_districts JOIN districts WHERE election_districts.election_id = $electionID and ";
   $query .= "election_districts.district_id = districts.id";
   $result = runQuery($query);
 
@@ -180,5 +180,10 @@ function createRegVotersColumn($electionID){
     $text .= "District $name: <input type='number' name=$district_id value=$voters> <br>";
   }
   return $text;
+}
+
+function getUserID(){
+  //TODO
+  return 1;
 }
 ?>

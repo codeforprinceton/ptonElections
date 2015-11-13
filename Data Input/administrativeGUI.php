@@ -16,7 +16,7 @@ $result = getAllElections();
 <br><h3>Choose Election</h3>
 <?php
 echo "<form action='./electionItems.php' method='POST'>";
-while ($election = mysql_fetch_array($result)){
+while ($election = $result->fetch_assoc()){
   $d = new DateTime($election['election_date']);
   $id = $election['id'];
   echo '<input type="radio" name="election" value=' . $id . '> ';

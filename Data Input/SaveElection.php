@@ -30,27 +30,34 @@ function saveElectionResults($district, $machine_number, $candidateID, $votes){
     }
     $votes = strip_tags($votes);
 
-    $table = $variables['resultsTableName'];
+    //$table = $variables['resultsTableName'];
     $d = $variables['district_results']; //election_district_id
     $m = $variables['machine_results'];
     $c_id = $variables['candidateID_results'];
     $v = $variables['votes_results'];
 
+    $user_id = getUserID();
+    // add timestamp
+    $datetime = date_create()->format('Y-m-d H:i:s');
+
     //get id FROM district
     $election_district_id = getElectionDistrictID($district);
 
-    // $query = "SELECT * FROM $table WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
-    //     //echo $query;
-    // $result = $conn->$query; //mysql_query($query) or die(" Find saveElectionResults query Failed!".$query);
-    // $rows = $result->num_rows; //mysql_num_rows($result);
+    $query = "SELECT id FROM results WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
+        //echo $query;
+    $result = runQuery($query);
+    $rows = $result->num_rows;
 //ON DUPLICATE KEY
-  //  if ($rows == 0){
-        $query = "INSERT INTO $table ($d, $m, $c_id, $v) VALUES ($election_district_id, $machine_number, $candidateID, $votes)";
-    //}else{
-        $query .= " ON DUPLICATE KEY UPDATE $table SET ";
-        $query .= "$v = $votes ";
+$query = "";
+    if ($rows == 0){
+
+
+      $query = "INSERT INTO results ($d, $m, $c_id, $v,user_id,time_changed) VALUES ($election_district_id, $machine_number, $candidateID, $votes, $user_id, '{$datetime}')";
+    }else{
+        $query .= " UPDATE results SET ";
+        $query .= "$v = $votes, user_id = $user_id, time_changed ='{$datetime}' ";
         $query .= "WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
-  //  }
+    }
     $result = runQuery($query);
   }
 
@@ -213,7 +220,7 @@ function getRegisteredVoters($election_district_id){
 
   $query = "SELECT reg_voters FROM election_districts WHERE id = $election_district_id";
   $result = runQuery($query);
-  $info = mysql_fetch_array($result);
+  $info = $result->fetch_assoc(); //mysql_fetch_array($result);
   return $info['reg_voters'];
 }
 function createDistrictVotesRow($category_id){
@@ -289,7 +296,7 @@ function getArrayOfMachinesForElection($electionID){
   $machines = Array();
 //get districts
 $result = getAllDistricts($electionID);
-while ($district = mysql_fetch_array($result)){
+while ($district = $result->fetch_assoc()){
   $machineCount = $district['machine_count'];
   for ($m=1; $m<= $machineCount; $m++){
     $machines[] = [$district['id'],$m]; //election_district_id
@@ -408,7 +415,7 @@ if (strlen($completedDistricts) > 0){
     $query .= " FROM questions,responses, results, election_districts WHERE results.response_id=responses.id AND responses.question_id=questions.id ";
     $query .= " AND election_districts.id = results.election_district_id AND election_districts.election_id = $election_id";
     if (strlen($completedDistricts) > 0){
-      $query .= " IN ({$completedDistricts})";
+      $query .= " AND election_districts.id IN ({$completedDistricts})";
     }
     $query .= " ORDER BY questions.question, responses.response";
     return $query;
@@ -449,8 +456,11 @@ function getResultsOutputWithDelimiterWithJoinQuery($delimiter, $joinQuery, $d, 
     if(strlen($joinQuery) == 0){
       return "";
     }
+
+    //$output .= $query . "\n"; //debug
+
     $result = runQuery($query);
-    $columns_total = $result->num_fields();//mysql_num_fields($result);
+    $columns_total = mysqli_num_fields($result);//$result->num_fields;//mysql_num_fields($result);
 
     //Election date
     $election = getCurrentElectionInfo();
@@ -463,14 +473,15 @@ function getResultsOutputWithDelimiterWithJoinQuery($delimiter, $joinQuery, $d, 
       // Get The Field Name
       for ($i = 0; $i < $columns_total; $i++) {
           $heading = mysqli_fetch_field_direct($result, $i);
-          $output .= $heading . $delimiter;
+          $output .= $heading->name . $delimiter;
       }
       $output = trim($output);
       $output .="\n";
     }
 
     // Get Records FROM the table
-    while ($row = $result->fetch_assoc()){
+    $result->data_seek(0);
+    while ($row = $result->fetch_row()){
     //mysql_fetch_array($result)) {
         $output .= $d  . $delimiter;
         for ($i = 0; $i < $columns_total; $i++) {
@@ -550,7 +561,7 @@ function dataEntered($district, $machine){
 
     $query ="SELECT tally FROM results WHERE election_district_id = {$district} AND machine_number = {$machine}";
     $result = runQuery($query);
-    $rows = mysql_num_rows($result);
+    $rows = $result->num_rows;//mysql_num_rows($result);
           //echo $query;
     $categoryCount = getTotalCandidateCount();
 
@@ -593,7 +604,7 @@ function getTotalCandidateCount(){
     //mysql_fetch_array($categoryResult)){
         $id = $category['id'];
         $result = getCandidates($id);
-        $count += mysql_numrows($result);
+        $count += $result->num_rows; //mysql_numrows($result);
     }
     return $count;
 }

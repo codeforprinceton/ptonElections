@@ -2,9 +2,8 @@ SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
---  Create Database
+--  Create Database CREATE DATABASE IF NOT EXISTS ptonElections
 -- ----------------------------
-CREATE DATABASE IF NOT EXISTS ptonElections
 
 -- ----------------------------
 --  Table structure for districts
@@ -107,7 +106,7 @@ CREATE TABLE results (
   KEY results_responses_fk (response_id),
   KEY results_users_fk(user_id),
 
-  CONSTRAINT results_users_fk FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT results_users_fk FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT results_election_districts_fk FOREIGN KEY (election_district_id) REFERENCES election_districts (id) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT results_responses_fk FOREIGN KEY (response_id) REFERENCES responses (id) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

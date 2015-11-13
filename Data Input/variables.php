@@ -6,7 +6,7 @@ $variables['username'] = "root"; //insert database username
 $variables['password'] = "mattmark123"; //insert database password
 $variables['database'] = "ptonElections"; //database name
 //$variables['server'] = "localhost"; //server name
-$variables['port'] = "localhost:3306"; //port   (was 8888) or 3306
+$variables['port'] = "localhost"; //port   (was 8888) or 3306
 //Tables
 $variables['resultsTableName'] = 'results';
 $variables['categoriesTableName'] = 'questions';
