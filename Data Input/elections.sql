@@ -105,8 +105,9 @@ CREATE TABLE results (
   PRIMARY KEY (id),
   KEY results_election_districts_fk (election_district_id),
   KEY results_responses_fk (response_id),
+  KEY results_users_fk(user_id),
 
-  CONSTRAINT results_user_id_fk FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT results_users_fk FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE
   CONSTRAINT results_election_districts_fk FOREIGN KEY (election_district_id) REFERENCES election_districts (id) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT results_responses_fk FOREIGN KEY (response_id) REFERENCES responses (id) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -7,7 +7,7 @@
  <body style="background-color: #F3E2A9; margin-left: 20px;">
   <?php
   include "administrativeFunctions.php";
-  connect();
+  //connect();
 //create/edit elections
 //get all election
 $result = getAllElections();

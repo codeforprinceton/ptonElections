@@ -4,7 +4,7 @@ $getq=$_GET["q"];
 
 include "administrativeFunctions.php";
 echo '<script src="elections.js"></script>';
-connect();
+//connect();
 session_start();
 
 $parseQ = explode("-",$getq);
@@ -35,8 +35,9 @@ $info = explode(".", $q);
   $machine = $info[1];
   //get name of district
   $query = "Select * from districts where id = $district";
-  $result = mysql_query($query) or die("Query Failed!"  . $query);
-  $districtInfo = mysql_fetch_array($result);
+  //$result = mysql_query($query) or die("Query Failed!"  . $query);
+  $result = runQuery($query);
+  $districtInfo = $result->fetch_assoc();//mysql_fetch_array($result);
   $name = $districtInfo['name'];
  echo "<center><h1 class='title'>Enter Election Results for District: <span class='big'>$name</span>,  Machine: <span class='big'>$machine</span></h1></center>";
  echo "<form action = './saveInputs.php'  method ='post'>";
@@ -52,14 +53,16 @@ $info = explode(".", $q);
  $count = 0;
  $categoryCount = 0;
  echo "<table><tr><td class='category'>";
- while ($category = mysql_fetch_array($categoriesResult)){
+ while ($category = $categoriesResult->fetch_assoc()){
+   //mysql_fetch_array($categoriesResult)){
   //get candidates
   $id = $category['id']; //echo " ID = {$id} ";
 
   $candidates = getCandidates($id);
   echo "<h1> {$category['question']}</h1><table>";
 
-  while ($candidate = mysql_fetch_array($candidates)){
+  while ($candidate = $candidates->fetch_assoc()){
+    //mysql_fetch_array($candidates)){
   //  $info = "{$district},{$machine},{$candidate['candidate_id']},"; //echo $info;
 
     $hidden = "candidateID" . $count++;

@@ -9,7 +9,7 @@
  <?php
  $signedIn = false;
  include "SaveElection.php";
- connect();
+ //connect();
 
  if (isset($_POST['signIn'])){
    if ($_POST['signIn'] == "yes"){
@@ -84,7 +84,7 @@
       </tr></table>";
  }
 
- mysql_close();
+ //mysql_close();
  ?>
 
 

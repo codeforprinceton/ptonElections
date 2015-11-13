@@ -9,7 +9,6 @@
 
 //include "SaveElection.php";
 include "administrativeFunctions.php";
-connect();
 session_start();
 //var_dump($_POST);
 $election_id = $_POST['election'];
@@ -50,14 +49,16 @@ saveCandidate($responseID, $election_id, $candidateName, $questionID, $order);
 //Machine count
 //get all districts
 $districts = getAllDistricts($election_id);
-while ($d = mysql_fetch_array($districts)){
+while ($d = $districts->fetch_assoc()){
+  //mysql_fetch_array($districts)){
   $index = $d['district_id'] . "_district";
   $m = $_POST[$index];
   saveMachineCount($d['district_id'], $m, $election_id);
 }
 //_districtVoters
 $districts = getAllDistricts($election_id);
-while ($d = mysql_fetch_array($districts)){
+while ($d = $districts->fetch_assoc()){
+  //mysql_fetch_array($districts)){
   $index = $d['district_id'] . "_districtVoters";
   $m = $_POST[$index];
   saveRegVoters($d['district_id'], $m, $election_id);
@@ -65,7 +66,6 @@ while ($d = mysql_fetch_array($districts)){
 echo "<br><h1>Done. Your results have been successfully saved.</h1>";
 
 
-mysql_close();
  ?>
  <br>
  <form action = "electionHome.php" method="POST">

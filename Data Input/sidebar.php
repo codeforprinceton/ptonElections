@@ -1,13 +1,14 @@
 <?php
 include "SaveElection.php";
-connect();
+
 session_start();
 $election_id = getCurrentElectionID();
  //get all districts
  $query = "Select * from election_districts JOIN districts where election_districts.election_id = $election_id and ";
  $query .= "election_districts.district_id = districts.id";
- $result = mysql_query($query) or die("Query Failed!"  . $query);
- while ($district = mysql_fetch_array($result)){
+ $result = runQuery($query);
+ while ($district = $result->fetch_assoc()){
+   //mysql_fetch_array($result)){
    $machineCount = $district['machine_count'];
    $name = $district['name'];
    $district_id = $district['id'];
