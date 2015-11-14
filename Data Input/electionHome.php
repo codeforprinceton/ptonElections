@@ -66,14 +66,18 @@
         <input type=submit class='input' name='output' value=' Download CSV '><br>
         <input type=submit class='input' name='output' value=' Download Json '><br>
         <input type=submit class='input' name='output' value=' Get Spreadsheet '><br>
-     </form>
+     </form>";
+     if (!(strpos($_SESSION['privilege'], 'admin') === false)){
+     echo "
      <form action = 'administrativeGUI.php'method ='post'>
         <input type=submit class='input' value=' Edit/Create Election Template '>
      </form>
      <form action = 'start.php'method ='post'>
         <input type=submit class='signout' value=' Sign Out '>
      </form>
-    <hr>
+    <hr>";
+  }
+    echo "
     </div></td>
     <td id='main'>
      <div class='mainBox'>
@@ -95,11 +99,12 @@
 
  function checkUser($username, $password){
    $password = md5($password);
-   
    $query = "SELECT * FROM users WHERE username = '{$username}' and password = '{$password}'";
    $result = runQuery($query);
    if ($result->num_rows > 0){
      $_SESSION['username'] = $username;
+     $user = $result->fetch_assoc();
+     $_SESSION['privilege'] = $user['privilege'];
      return true;
    }else{
      $_SESSION['username'] = "";

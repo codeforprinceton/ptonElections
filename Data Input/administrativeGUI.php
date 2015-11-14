@@ -44,6 +44,7 @@ if(isset($_POST['submit'])){
     }
 }
 if(isset($_POST['submitUser'])){
+  var_dump($_POST);
   $f=$_POST['first'];
   $l=$_POST['last'];
   $u=$_POST['usr'];
@@ -101,19 +102,19 @@ while ($election = $result->fetch_assoc()){
 <form class="form-inline" role="form" action= '<?php echo $_SERVER['PHP_SELF']; ?>' method='POST'>
    <div class="form-group">
      <label for="first">First:</label>
-     <input type="text" class="form-control" id="first">
+     <input type="text" class="form-control" name="first">
    </div>
    <div class="form-group">
      <label for="last"> Last:</label>
-     <input type="text" class="form-control" id="last">
+     <input type="text" class="form-control" name="last">
    </div>
    <div class="form-group">
      <label for="usr"> Username:</label>
-     <input type="text" class="form-control" id="usr">
+     <input type="text" class="form-control" name="usr">
    </div>
    <div class="form-group">
      <label for="pwd"> Password:</label>
-     <input type="password" class="form-control" id="pwd">
+     <input type="password" class="form-control" name="pwd">
    </div>
    <br>
    <label class="radio-inline">
@@ -126,7 +127,7 @@ while ($election = $result->fetch_assoc()){
      <input type="radio" name="access" value="readonly">Read Only access
    </label>
    <br><br>
- <input type='hidden' name = "addUser" method='POST' value="yes">
+
 <input type="submit" value="Add New User" name="submitUser">
 </form>
 <br><br>
