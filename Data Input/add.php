@@ -8,7 +8,7 @@
    <form action="saveToDB.php" method="POST">
 <?php
 include "administrativeFunctions.php";
-connect();
+//connect();
 //var_dump($_POST);
 //New election
 //echo $_POST['month'] . " " . $_POST['year'];
@@ -28,8 +28,8 @@ if ($m<1 || $m>12 || $y<2015 || $y>3000  || $d<1 || $d>31){
 
   //get last election data
   $result = getAllElections();
-  $election = mysql_fetch_array($result);
-  $election = mysql_fetch_array($result);
+  $election = $result->fetch_assoc();//mysql_fetch_array($result);
+  //$election = mysql_fetch_array($result);
   $priorElection_id = $election['id'];
   //echo "priorElection_id is  $priorElection_id";
 
@@ -80,10 +80,7 @@ if ($m<1 || $m>12 || $y<2015 || $y>3000  || $d<1 || $d>31){
   echo "<input type=hidden name = 'maxCategoryCount' value='{$categoryCount}'>";
   echo "<input type='submit' value='Save'>";
 }
-mysql_close();
  ?>
-
-
  </form>
  </body>
 </html>

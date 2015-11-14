@@ -9,9 +9,7 @@ Create an app for district vote counters to quickly upload their counts to the m
 Home page is: start.php
 
 TODO:
-Separate user accounts with encrypted password.
-Show time and user for each election save.
-Finalize election to make readonly.
+
 
 
 
@@ -23,6 +21,9 @@ Spreadsheet view with totals
 Sign in
 Auto refresh and auto csv creation
 Total votes entry.
+Separate user accounts with encrypted password.
+Show time and user for each election save.
+Finalize election to make readonly.
 
 ### Note: These variables need to be set in variables.php
 $variables['pathForCSVandJson'] = "/Users/Guest/tmp";

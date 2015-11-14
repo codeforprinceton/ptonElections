@@ -6,24 +6,29 @@
  <link rel="stylesheet" type="text/css" href="./elections.css" />
  <script src="elections.js"></script>
  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+  <div id='debug'></div>
+
  <?php
  $signedIn = false;
  include "SaveElection.php";
- connect();
 
+ session_start();
  if (isset($_POST['signIn'])){
    if ($_POST['signIn'] == "yes"){
      $signedIn = true;
    }
  }
   if (isset($_POST['username']) && isset($_POST['password'])){
-    if ($_POST['username'] == "w" && $_POST['password'] == "w"){
-      $signedIn = true;
-    }
+      $signedIn = checkUser($_POST['username'], $_POST['password']);
   }
   if ($signedIn){
-    session_start();
     $_SESSION['election_id'] = $_POST['election'];
+
+    //set editable status of election
+    $result = getCurrentElectionInfo();
+    $_SESSION['is_active'] = $result['is_active'];
+
 
     echo "<script>
        $(document).ready(function() {
@@ -59,10 +64,14 @@
         <input type=submit class='input' name='output' value=' Download CSV '><br>
         <input type=submit class='input' name='output' value=' Download Json '><br>
         <input type=submit class='input' name='output' value=' Get Spreadsheet '><br>
-     </form>
+     </form>";
+     if (!(stripos($_SESSION['privilege'], 'admin') === false)){
+     echo "
      <form action = 'administrativeGUI.php'method ='post'>
         <input type=submit class='input' value=' Edit/Create Election Template '>
-     </form>
+     </form>";
+   }
+   echo "
      <form action = 'start.php'method ='post'>
         <input type=submit class='signout' value=' Sign Out '>
      </form>
@@ -84,9 +93,21 @@
       </tr></table>";
  }
 
- mysql_close();
+ function checkUser($username, $password){
+   $password = md5($password);
+   $query = "SELECT * FROM users WHERE username = '{$username}' and password = '{$password}'";
+   $result = runQuery($query);
+   if ($result->num_rows > 0){
+     $_SESSION['username'] = $username;
+     $user = $result->fetch_assoc();
+     $_SESSION['privilege'] = $user['privilege'];
+     return true;
+   }else{
+     $_SESSION['username'] = "";
+     return false;
+   }
+ }
  ?>
-
 
  </body>
 </html>

@@ -14,14 +14,15 @@
 
 <?php
 include "administrativeFunctions.php";
-connect();
+
 
 //choose election
 //get all election
 
 $result = getAllElections();
 $count = 0;
-while ($election = mysql_fetch_array($result)){
+while ($election =  $result->fetch_assoc()){
+  //mysql_fetch_array($result)){
   $d = new DateTime($election['election_date']);
   $id = $election['id'];
   echo '<input type="radio" name="election" value=' . $id;

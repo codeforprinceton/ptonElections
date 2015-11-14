@@ -1,10 +1,10 @@
 <?php
-//Copyright �2015 Anouk Stein, M.D.
+//Copyright 2015 Anouk Stein, M.D.
 $getq=$_GET["q"];
 
 include "administrativeFunctions.php";
 echo '<script src="elections.js"></script>';
-connect();
+
 session_start();
 
 $parseQ = explode("-",$getq);
@@ -26,41 +26,45 @@ switch ($functionName){
   case "showSpreadsheet";
     showSpreadsheet();
     break;
+  case "getActiveStatus";
+    setActiveStatus($q);
+    break;
 }
 
 function showVoteInput($q){
-  //TODO not editable if prior election
-$info = explode(".", $q);
+  //Not editable if prior election
+  $canEdit = $_SESSION['is_active'];
+  //Can't edit if readonly user
+  if (!(stripos($_SESSION['privilege'], 'read') === false)){
+    $canEdit = false;
+  }
+  $info = explode(".", $q);
   $district = $info[0];
   $machine = $info[1];
   //get name of district
   $query = "Select * from districts where id = $district";
-  $result = mysql_query($query) or die("Query Failed!"  . $query);
-  $districtInfo = mysql_fetch_array($result);
+  //$result = mysql_query($query) or die("Query Failed!"  . $query);
+  $result = runQuery($query);
+  $districtInfo = $result->fetch_assoc();//mysql_fetch_array($result);
   $name = $districtInfo['name'];
  echo "<center><h1 class='title'>Enter Election Results for District: <span class='big'>$name</span>,  Machine: <span class='big'>$machine</span></h1></center>";
  echo "<form action = './saveInputs.php'  method ='post'>";
 
  //get categories
  $election_id = getCurrentElectionID();
- //TODO Refine
- $active = "true";
- if ($election_id != 1){
-   $active = "false";
- }
+
  $categoriesResult = getCategories($election_id);
  $count = 0;
  $categoryCount = 0;
  echo "<table><tr><td class='category'>";
- while ($category = mysql_fetch_array($categoriesResult)){
+ while ($category = $categoriesResult->fetch_assoc()){
   //get candidates
   $id = $category['id']; //echo " ID = {$id} ";
 
   $candidates = getCandidates($id);
   echo "<h1> {$category['question']}</h1><table>";
 
-  while ($candidate = mysql_fetch_array($candidates)){
-  //  $info = "{$district},{$machine},{$candidate['candidate_id']},"; //echo $info;
+  while ($candidate = $candidates->fetch_assoc()){
 
     $hidden = "candidateID" . $count++;
     echo "<tr><td width = 25px></td><td>{$candidate['response']}</td><td>";
@@ -69,7 +73,7 @@ $info = explode(".", $q);
     echo getElectionResults($district, $machine, $candidate['id']);
     echo "'";
 
-    if ($active == "true"){
+    if ($canEdit){
       echo " oninput='ajaxGetInfo(this.value, this.name)' min=0>";
     }else{
       //READONLY
@@ -117,6 +121,11 @@ $info = explode(".", $q);
     echo createOverviewTable();
  }
  //---------------------------------------------------------------------------------
-
-mysql_close();
+// function setActiveStatus($q){
+//   $info = explode(",", $q);
+//   $is_active = $info[0];
+//   $id = $info[1];
+//   setActiveElection($id, $is_active);
+// }
+//---------------------------------------------------------------------------------
 ?>

@@ -9,9 +9,10 @@
 
 //include "SaveElection.php";
 include "administrativeFunctions.php";
-connect();
 session_start();
 //var_dump($_POST);
+if(isset($_POST['election'] && isset($_POST['maxCategoryCount'] && isset($_POST['maxCount'])){
+
 $election_id = $_POST['election'];
 //get ballotItem
 $maxCategoryCount = $_POST['maxCategoryCount'];
@@ -46,26 +47,26 @@ for ($i=0; $i<$maxCount; $i++){
     }
 saveCandidate($responseID, $election_id, $candidateName, $questionID, $order);
 }
-
 //Machine count
 //get all districts
 $districts = getAllDistricts($election_id);
-while ($d = mysql_fetch_array($districts)){
+while ($d = $districts->fetch_assoc()){
+  //mysql_fetch_array($districts)){
   $index = $d['district_id'] . "_district";
   $m = $_POST[$index];
   saveMachineCount($d['district_id'], $m, $election_id);
 }
 //_districtVoters
 $districts = getAllDistricts($election_id);
-while ($d = mysql_fetch_array($districts)){
+while ($d = $districts->fetch_assoc()){
+  //mysql_fetch_array($districts)){
   $index = $d['district_id'] . "_districtVoters";
   $m = $_POST[$index];
   saveRegVoters($d['district_id'], $m, $election_id);
 }
 echo "<br><h1>Done. Your results have been successfully saved.</h1>";
 
-
-mysql_close();
+}
  ?>
  <br>
  <form action = "electionHome.php" method="POST">
@@ -77,7 +78,6 @@ mysql_close();
 <form action = "start.php" method="POST">
   <input type=submit class='home' value=' Sign Out '>
 </form>
-
 
 
  </body>
