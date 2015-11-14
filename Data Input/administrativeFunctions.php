@@ -52,44 +52,42 @@ function saveQuestion($ballotItemID, $election_id, $ballotItem, $order){
       //$query = "INSERT INTO questions (election_id, question, question_order) VALUES ($election_id, '{$ballotItem}', $order)";
       $query = "UPDATE questions SET question ='{$ballotItem}' WHERE id = $ballotItemID";
     }
-  //   $result = mysql_query($query) or die("Query failed" .$query);
+    $result = runQuery($query);
   }else if(strlen($ballotItem) > 0){
     //insert
     $query = "Insert into questions (election_id, question, question_order) VALUES ($election_id, '{$ballotItem}', $order)";
+    $result = runQuery($query);
   }
-  $result = runQuery($query);
+
 
 }
 
 function saveCandidate($responseID, $election_id, $response, $questionID, $order){
 
   //check
-  // $checkQuery = "Select * FROM responses WHERE id=$responseID"; //echo $checkQuery;
-  // $checkResult = mysql_query($checkQuery) or die("Query Failed!"  . $checkQuery);
-  // $rows = mysql_num_rows($checkResult);
-  // $query = "";
-  // if ($rows > 0){
+  $checkQuery = "Select * FROM responses WHERE id=$responseID"; //echo $checkQuery;
+  $checkResult = runQuery($checkQuery);
+  $rows = $checkResult->num_rows; //($checkResult);
+  $query = "";
+  if ($rows > 0){
     if (strlen($response) == 0){
       //delete
       $query = "DELETE FROM responses WHERE id = $responseID"; //echo $query;
     }else{
-      $query = "INSERT INTO responses (question_id, response, response_order) VALUES ($questionID, '{$response}', $order)";
+      //$query = "INSERT INTO responses (question_id, response, response_order) VALUES ($questionID, '{$response}', $order)";
       if ($responseID >= 0){
-      $query .= " ON DUPLICATE KEY UPDATE responses SET response ='{$response}' WHERE id = $responseID";
+      $query = "UPDATE responses SET response ='{$response}' WHERE id = $responseID";
       }
     }
     $result = runQuery($query);
 
   //   $result = mysql_query($query) or die("Query failed" . $query);
-  // }else if(strlen($response) > 0){
-  //   //insert
-  //   $query = "Insert into responses (question_id, response, response_order) VALUES ($questionID, '{$response}', $order)";
-  //   //$result = mysql_query($query) or die("Query failed" . $query);
-  //
-  // }
-  //echo $query . "<br>";
+  }else if(strlen($response) > 0){
+    //insert
+    $query = "INSERT INTO responses (question_id, response, response_order) VALUES ($questionID, '{$response}', $order)";
+    $result = runQuery($query);
 
-  //echo "$responseID, $election_id, $response, $questionID, $order<br>";
+  }
 }
 
 function saveMachineCount($district_id, $machine_count, $electionID){

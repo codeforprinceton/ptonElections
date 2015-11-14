@@ -11,6 +11,8 @@
 include "administrativeFunctions.php";
 session_start();
 //var_dump($_POST);
+if(isset($_POST['election'] && isset($_POST['maxCategoryCount'] && isset($_POST['maxCount'])){
+
 $election_id = $_POST['election'];
 //get ballotItem
 $maxCategoryCount = $_POST['maxCategoryCount'];
@@ -45,7 +47,6 @@ for ($i=0; $i<$maxCount; $i++){
     }
 saveCandidate($responseID, $election_id, $candidateName, $questionID, $order);
 }
-
 //Machine count
 //get all districts
 $districts = getAllDistricts($election_id);
@@ -65,7 +66,7 @@ while ($d = $districts->fetch_assoc()){
 }
 echo "<br><h1>Done. Your results have been successfully saved.</h1>";
 
-
+}
  ?>
  <br>
  <form action = "electionHome.php" method="POST">
@@ -77,7 +78,6 @@ echo "<br><h1>Done. Your results have been successfully saved.</h1>";
 <form action = "start.php" method="POST">
   <input type=submit class='home' value=' Sign Out '>
 </form>
-
 
 
  </body>

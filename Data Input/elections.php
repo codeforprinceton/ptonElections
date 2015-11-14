@@ -26,11 +26,15 @@ switch ($functionName){
   case "showSpreadsheet";
     showSpreadsheet();
     break;
+  case "getActiveStatus";
+    setActiveStatus($q);
+    break;
 }
 
 function showVoteInput($q){
-  //TODO not editable if prior election
-$info = explode(".", $q);
+  //Not editable if prior election
+  $canEdit = $_SESSION['is_active'];
+  $info = explode(".", $q);
   $district = $info[0];
   $machine = $info[1];
   //get name of district
@@ -44,17 +48,12 @@ $info = explode(".", $q);
 
  //get categories
  $election_id = getCurrentElectionID();
- //TODO Refine
- $active = "true";
- if ($election_id != 1){
-   $active = "false";
- }
+
  $categoriesResult = getCategories($election_id);
  $count = 0;
  $categoryCount = 0;
  echo "<table><tr><td class='category'>";
  while ($category = $categoriesResult->fetch_assoc()){
-   //mysql_fetch_array($categoriesResult)){
   //get candidates
   $id = $category['id']; //echo " ID = {$id} ";
 
@@ -62,8 +61,6 @@ $info = explode(".", $q);
   echo "<h1> {$category['question']}</h1><table>";
 
   while ($candidate = $candidates->fetch_assoc()){
-    //mysql_fetch_array($candidates)){
-  //  $info = "{$district},{$machine},{$candidate['candidate_id']},"; //echo $info;
 
     $hidden = "candidateID" . $count++;
     echo "<tr><td width = 25px></td><td>{$candidate['response']}</td><td>";
@@ -72,7 +69,7 @@ $info = explode(".", $q);
     echo getElectionResults($district, $machine, $candidate['id']);
     echo "'";
 
-    if ($active == "true"){
+    if ($canEdit){
       echo " oninput='ajaxGetInfo(this.value, this.name)' min=0>";
     }else{
       //READONLY
@@ -120,6 +117,11 @@ $info = explode(".", $q);
     echo createOverviewTable();
  }
  //---------------------------------------------------------------------------------
-
-
+// function setActiveStatus($q){
+//   $info = explode(",", $q);
+//   $is_active = $info[0];
+//   $id = $info[1];
+//   setActiveElection($id, $is_active);
+// }
+//---------------------------------------------------------------------------------
 ?>

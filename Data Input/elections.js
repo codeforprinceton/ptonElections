@@ -48,6 +48,8 @@ function ajaxGetInfo(votes, candidateID)
    var d = document.getElementById("district").value;
    var m = document.getElementById("machine").value;
 
+   //document.getElementById('debug').innerHTML = "Hi!";
+
    var info = d + "," + m + "," + candidateID + "," + votes;
    info = info.toString();
 
@@ -98,40 +100,22 @@ function saveAllForMap(){
       document.getElementById('input').value = "Error retrieving data!";
 }
 //----------------------//----------------------//----------------------//----------------------
-
 /*
-function jsBallotItem(ballotItem, ballotItemID)
+function getActiveStatus(is_checked, id)
   {
      xmlHttp = GetXmlHttpObject();
 
-   var info = ballotItem + "," + ballotItemID;
+    document.getElementById('debug').innerHTML = "Info is ...";
+
+   var info = is_checked.checked + "," + id;
    info = info.toString();
+
+
 
    if(xmlHttp!=null)
    {
     var url = "elections.php";
-    url=url+"?q="+info+"-saveBallotItem";
-    url=url+"&sid="+Math.random();
-    xmlHttp.onreadystatechange=stateChanged;
-    xmlHttp.open("GET",url,true);
-    xmlHttp.send(null);
-   }
-   else document.getElementById('input').value = "Error retrieving data!";
-  }
-
-//----------------------//----------------------//----------------------//----------------------
-
-function jsCandidate(name, id, order, ballotItemID)
-  {
-     xmlHttp = GetXmlHttpObject();
-
-   var info = name + "," + id  + "," + order + "," + ballotItemID;
-   info = info.toString();
-
-   if(xmlHttp!=null)
-   {
-    var url = "elections.php";
-    url=url+"?q="+info+"-saveCandidate";
+    url=url+"?q="+info+"-getActiveStatus";
     url=url+"&sid="+Math.random();
     xmlHttp.onreadystatechange=stateChanged;
     xmlHttp.open("GET",url,true);
@@ -140,3 +124,4 @@ function jsCandidate(name, id, order, ballotItemID)
    else document.getElementById('input').value = "Error retrieving data!";
   }
 */
+//----------------------//----------------------//----------------------//----------------------

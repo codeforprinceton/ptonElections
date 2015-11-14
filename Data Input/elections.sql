@@ -57,7 +57,7 @@ CREATE TABLE elections (
   election_date datetime NOT NULL,
   location varchar(255) NOT NULL,
   name varchar(255) NOT NULL,
-  active boolean NOT NULL,
+  is_active tinyint(1) NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

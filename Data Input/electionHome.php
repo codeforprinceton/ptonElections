@@ -6,11 +6,14 @@
  <link rel="stylesheet" type="text/css" href="./elections.css" />
  <script src="elections.js"></script>
  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+  <div id='debug'></div>
+
  <?php
  $signedIn = false;
  include "SaveElection.php";
- //connect();
 
+ session_start();
  if (isset($_POST['signIn'])){
    if ($_POST['signIn'] == "yes"){
      $signedIn = true;
@@ -23,9 +26,11 @@
   //  }
   }
   if ($signedIn){
-    session_start();
     $_SESSION['election_id'] = $_POST['election'];
-    $_SESSION['username'] = $_POST['username'];
+
+    //set editable status of election
+    $result = getCurrentElectionInfo();
+    $_SESSION['is_active'] = $result['is_active'];
 
     echo "<script>
        $(document).ready(function() {
@@ -92,9 +97,13 @@
    $query = "SELECT * FROM users WHERE username = '{$username}' and password = '{$password}'";
    $result = runQuery($query);
    if ($result->num_rows > 0){
+     $_SESSION['username'] = $username;
      return true;
+   }else{
+     $_SESSION['username'] = "";
+     return false;
    }
-   return false;
+
  }
  ?>
 

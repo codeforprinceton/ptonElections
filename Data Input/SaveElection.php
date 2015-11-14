@@ -313,14 +313,15 @@ function getCurrentElectionID(){
 }
 function getActiveElectionID(){
 
-  $query = "SELECT id FROM elections WHERE active='true'";
+  $query = "SELECT id FROM elections WHERE is_active='true'";
   $result = runQuery($query);
   $election = $result->fetch_assoc();//mysql_fetch_array($result);
   return $election['id'];
 }
 
 function setActiveElection($election_id, $isActive){
-  $query = "UPDATE elections SET active = $isActive WHERE id = $election_id";
+  $query = "UPDATE elections SET is_active = $isActive WHERE id = $election_id";
+  //echo $query; //debug
   $result = runQuery($query);
 }
 
