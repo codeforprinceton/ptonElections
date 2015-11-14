@@ -148,7 +148,7 @@ function createMachineCountColumn($electionID){
 
   $text =  "<h4>Number of Machines per District</h4>";
   //get districts
-  $query = "Select * FROM election_districts JOIN districts WHERE election_districts.election_id = $electionID AND ";
+  $query = "SELECT * FROM election_districts JOIN districts WHERE election_districts.election_id = $electionID AND ";
   $query .= "election_districts.district_id = districts.id";
   $result = runQuery($query); //echo $query;
 
@@ -185,5 +185,20 @@ function createRegVotersColumn($electionID){
 function getUsername(){
 
   return $_SESSION['username'];
+}
+function addUser($first, $last, $username, $password, $privilege, $is_active){
+  $query = "SELECT $username FROM users WHERE first = '{$first}' and last = '{$last}'";
+  $result = runQuery($query);
+  if ($result->num_rows == 0){
+    //insert
+    $query = "INSERT INTO users (first,last, username, password, privilege, is_active) ";
+    $query .= "VALUES ('{$first}', '{$last}', '{$username}', '{$password}', '{$privilege}', '{$is_active}')";
+
+  }else{
+    //update
+    $query = "UPDATE users SET first='{$first}',last='{$last}', username='{$username}', ";
+    $query .= "password='{$password}', privilege='{$privilege}', is_active='{$is_active}'";
+  }
+  $result = runQuery($query);
 }
 ?>

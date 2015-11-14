@@ -52,10 +52,10 @@ $query = "";
     if ($rows == 0){
 
 
-      $query = "INSERT INTO results ($d, $m, $c_id, $v,username_changed,time_changed) VALUES ($election_district_id, $machine_number, $candidateID, $votes, $username, '{$datetime}')";
+    $query = "INSERT INTO results ($d, $m, $c_id, $v,username_changed,time_changed) VALUES ($election_district_id, $machine_number, $candidateID, $votes, '{$username}', '{$datetime}')";
     }else{
         $query .= " UPDATE results SET ";
-        $query .= "$v = $votes, username_changed = $username, time_changed ='{$datetime}' ";
+        $query .= "$v = $votes, username_changed = '{$username}', time_changed ='{$datetime}' ";
         $query .= "WHERE $d = $election_district_id AND $m = $machine_number AND $c_id = $candidateID";
     }
     $result = runQuery($query);
