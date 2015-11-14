@@ -4,11 +4,14 @@
  <head>
 <link rel="stylesheet" type="text/css" href="./elections.css" />
 <script src="elections.js"></script>
-
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <title>Election</title>
  </head>
  <body style="background-color: #F3E2A9; margin-left: 20px;">
    <div id="debug"></div>
+   <div class="container">
   <?php
   include "administrativeFunctions.php";
   //connect();
@@ -18,30 +21,38 @@
 ?>
 <h1>Edit/Create Election</h1>
 <br>
+<div class="row">
+    <div class="col-sm-6">
+      <h3>Set Editable Status of Elections</h3>
 <?php
 //Set editable
 ////TODO set active state of elections
-echo "<h3>Set Editable Status of Elections</h3>";
 echo "<form action= '{$_SERVER['PHP_SELF']}' method='POST'>";
 echo "<table><th>Election</th><th>Can Edit</th></tr>";
 
 
-if(isset($_POST['submit']))
-{
+if(isset($_POST['submit'])){
   //var_dump($_POST);
-  // foreach($_POST['election'] as $check) {
-  //           //echo $check;
-  //           setActiveElection($check, true);
-  //         }
-          $result = getAllElections();
-          while ($election = $result->fetch_assoc()){
-            $id = $election['id'];
-            if(in_array($id, $_POST['election'])){
-              setActiveElection($id, 1);
-            }else{
-              setActiveElection($id, 0);
-            }
-          }
+    $result = getAllElections();
+    while ($election = $result->fetch_assoc()){
+      $id = $election['id'];
+      if(in_array($id, $_POST['election'])){
+        setActiveElection($id, 1);
+      }else{
+        setActiveElection($id, 0);
+      }
+    }
+}
+if(isset($_POST['submitUser'])){
+  $f=$_POST['first'];
+  $l=$_POST['last'];
+  $u=$_POST['usr'];
+  $p=$_POST['pwd'];
+  $a=$_POST['access'];
+
+  if($f && $l && $u && $p && $a){
+    addUser($f, $l, $u, $p, $a, true);
+  }
 }
 
 $result = getAllElections();
@@ -61,12 +72,16 @@ while ($election = $result->fetch_assoc()){
   //echo " oninput ='getActiveStatus(this, this.name)'> </td></tr>";
 echo "> </td></tr>";
 }
-echo "</table>";
-echo "<br><input type='submit' name='submit' value='Save'>";
+?>
+</table>
+<br><input type='submit' name='submit' value='Save'>
+</form>
+</div>
+<div class="col-sm-6">
+<h3>Choose Election</h3>
+<form action='./electionItems.php' method='POST'>
 
-echo "<br><hr>";
-echo "<h3>Choose Election</h3>";
-echo "<form action='./electionItems.php' method='POST'>";
+  <?php
 $result->data_seek(0);
 while ($election = $result->fetch_assoc()){
   $d = new DateTime($election['election_date']);
@@ -75,11 +90,46 @@ while ($election = $result->fetch_assoc()){
   echo $election['name'] . " " . date_format($d, "M d, Y");
   echo " <i>(" . $election['location'] . ")</i><br>";
 }
-echo "<br><input type='submit' value='Edit'></form>";
-
-//echo "<br><input type='submit' value='Save'></form>";
-//add election
 ?>
+<br><input type='submit' value='Edit'>
+</form>
+</div></div>
+<br>
+<hr>
+<h3>Add New User</h3>
+<br>
+<form class="form-inline" role="form" action= '<?php echo $_SERVER['PHP_SELF']; ?>' method='POST'>
+   <div class="form-group">
+     <label for="first">First:</label>
+     <input type="text" class="form-control" id="first">
+   </div>
+   <div class="form-group">
+     <label for="last"> Last:</label>
+     <input type="text" class="form-control" id="last">
+   </div>
+   <div class="form-group">
+     <label for="usr"> Username:</label>
+     <input type="text" class="form-control" id="usr">
+   </div>
+   <div class="form-group">
+     <label for="pwd"> Password:</label>
+     <input type="password" class="form-control" id="pwd">
+   </div>
+   <br>
+   <label class="radio-inline">
+     <input type="radio" name="access" value="admin">Administrator
+   </label>
+   <label class="radio-inline">
+     <input type="radio" name="access" value="user" checked>User
+   </label>
+   <label class="radio-inline">
+     <input type="radio" name="access" value="readonly">Read Only access
+   </label>
+   <br><br>
+ <input type='hidden' name = "addUser" method='POST' value="yes">
+<input type="submit" value="Add New User" name="submitUser">
+</form>
+<br><br>
 <hr>
 <h3>Or Add New Election</h3>
 <form action="add.php" method='POST'>
@@ -94,4 +144,6 @@ Number of Ballot Items: <input type='number' name='items' value='0' min="0" max=
 <br><br><input type="submit" value="Create">
 </form>
 <div id="input"></div>
-</body></html>
+</div>
+</body>
+</html>

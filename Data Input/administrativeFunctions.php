@@ -185,6 +185,9 @@ function getUsername(){
   return $_SESSION['username'];
 }
 function addUser($first, $last, $username, $password, $privilege, $is_active){
+  //encrypt Password
+  $password = md5($password);
+
   $query = "SELECT $username FROM users WHERE first = '{$first}' and last = '{$last}'";
   $result = runQuery($query);
   if ($result->num_rows == 0){

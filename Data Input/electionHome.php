@@ -94,6 +94,8 @@
  //mysql_close();
 
  function checkUser($username, $password){
+   $password = md5($password);
+   
    $query = "SELECT * FROM users WHERE username = '{$username}' and password = '{$password}'";
    $result = runQuery($query);
    if ($result->num_rows > 0){
