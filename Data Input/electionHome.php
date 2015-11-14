@@ -20,10 +20,7 @@
    }
  }
   if (isset($_POST['username']) && isset($_POST['password'])){
-
-  //  if ($_POST['username'] == "w" && $_POST['password'] == "w"){
       $signedIn = checkUser($_POST['username'], $_POST['password']);
-  //  }
   }
   if ($signedIn){
     $_SESSION['election_id'] = $_POST['election'];
@@ -31,6 +28,7 @@
     //set editable status of election
     $result = getCurrentElectionInfo();
     $_SESSION['is_active'] = $result['is_active'];
+
 
     echo "<script>
        $(document).ready(function() {
@@ -67,17 +65,17 @@
         <input type=submit class='input' name='output' value=' Download Json '><br>
         <input type=submit class='input' name='output' value=' Get Spreadsheet '><br>
      </form>";
-     if (!(strpos($_SESSION['privilege'], 'admin') === false)){
+     if (!(stripos($_SESSION['privilege'], 'admin') === false)){
      echo "
      <form action = 'administrativeGUI.php'method ='post'>
         <input type=submit class='input' value=' Edit/Create Election Template '>
-     </form>
+     </form>";
+   }
+   echo "
      <form action = 'start.php'method ='post'>
         <input type=submit class='signout' value=' Sign Out '>
      </form>
-    <hr>";
-  }
-    echo "
+    <hr>
     </div></td>
     <td id='main'>
      <div class='mainBox'>
@@ -95,8 +93,6 @@
       </tr></table>";
  }
 
- //mysql_close();
-
  function checkUser($username, $password){
    $password = md5($password);
    $query = "SELECT * FROM users WHERE username = '{$username}' and password = '{$password}'";
@@ -110,10 +106,8 @@
      $_SESSION['username'] = "";
      return false;
    }
-
  }
  ?>
-
 
  </body>
 </html>

@@ -44,7 +44,7 @@ if(isset($_POST['submit'])){
     }
 }
 if(isset($_POST['submitUser'])){
-  var_dump($_POST);
+  //var_dump($_POST);
   $f=$_POST['first'];
   $l=$_POST['last'];
   $u=$_POST['usr'];

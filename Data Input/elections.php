@@ -1,10 +1,10 @@
 <?php
-//Copyright �2015 Anouk Stein, M.D.
+//Copyright 2015 Anouk Stein, M.D.
 $getq=$_GET["q"];
 
 include "administrativeFunctions.php";
 echo '<script src="elections.js"></script>';
-//connect();
+
 session_start();
 
 $parseQ = explode("-",$getq);
@@ -34,6 +34,10 @@ switch ($functionName){
 function showVoteInput($q){
   //Not editable if prior election
   $canEdit = $_SESSION['is_active'];
+  //Can't edit if readonly user
+  if (!(stripos($_SESSION['privilege'], 'read') === false)){
+    $canEdit = false;
+  }
   $info = explode(".", $q);
   $district = $info[0];
   $machine = $info[1];
